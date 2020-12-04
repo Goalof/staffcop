@@ -124,7 +124,7 @@ const Item = ({
 	let iconProps = override('Icon', `Icon-${pageUrl}`, match && 'Icon :active');
 	let subProps = override('Sub', `Sub-${pageUrl}`);
 	let onSubOpen, onSubClose, onSubToggle;
-	const isMobile = window ? window.screen.width * window.devicePixelRatio < 992 : false;
+	const isMobile = typeof window !== 'undefined' ? window.screen.width * window.devicePixelRatio < 992 : false;
 
 	if (hasSub) {
 		const [isOpen, setOpen] = useState({
