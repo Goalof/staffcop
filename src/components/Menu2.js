@@ -85,6 +85,29 @@ const getParent = (pages, pageId) => {
 	}) => children && Array.isArray(children) && children.includes(pageId));
 };
 
+const getOS = () => {
+	const userAgent = typeof window !== 'undefined' ? window.navigator.userAgent : 'SSR',
+	      platform = typeof window !== 'undefined' ? window.navigator.platform : 'SSR',
+	      macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+	      windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+	      iosPlatforms = ['iPhone', 'iPad', 'iPod'];
+	let os = null;
+
+	if (macosPlatforms.indexOf(platform) !== -1) {
+		os = 'Mac OS';
+	} else if (iosPlatforms.indexOf(platform) !== -1) {
+		os = 'iOS';
+	} else if (windowsPlatforms.indexOf(platform) !== -1) {
+		os = 'Windows';
+	} else if (/Android/.test(userAgent)) {
+		os = 'Android';
+	} else if (!os && /Linux/.test(platform)) {
+		os = 'Linux';
+	}
+
+	return os;
+};
+
 const Ul = atomize.ul();
 const Li = atomize.li();
 
@@ -123,8 +146,9 @@ const Item = ({
 	let linkProps = override('Link', `Link-${pageUrl}`, match && 'Link :active');
 	let iconProps = override('Icon', `Icon-${pageUrl}`, match && 'Icon :active');
 	let subProps = override('Sub', `Sub-${pageUrl}`);
-	let onSubOpen, onSubClose, onSubToggle;
-	const isMobile = typeof window !== 'undefined' ? window.screen.width * window.devicePixelRatio < 992 : false;
+	let onSubOpen, onSubClose, onSubToggleMobile, onSubToggleDesktop;
+	const os = getOS();
+	const isMobile = os === 'Android' || os === 'iOS';
 
 	if (hasSub) {
 		const [isOpen, setOpen] = useState({
@@ -148,7 +172,15 @@ const Item = ({
 			});
 		};
 
-		onSubToggle = useCallback(() => {
+		onSubToggleMobile = useCallback(() => {
+			if (!isMobile) return;
+			setOpen({
+				open: !isOpen.open,
+				touch: true
+			});
+		}, [isOpen]);
+		onSubToggleDesktop = useCallback(() => {
+			if (isMobile) return;
 			setOpen({
 				open: !isOpen.open,
 				touch: true
@@ -166,8 +198,8 @@ const Item = ({
 		position="relative"
 		onMouseEnter={hasSub && onSubOpen}
 		onMouseLeave={hasSub && onSubClose}
-		onTouchStart={hasSub && onSubToggle}
-		onClick={hasSub && onSubToggle}
+		onTouchStart={hasSub && onSubToggleMobile}
+		onClick={hasSub && onSubToggleDesktop}
 		{...itemProps}
 	>
 		      
