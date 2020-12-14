@@ -115,6 +115,7 @@ const overrides = {
 	"image": {
 		"kind": "Image",
 		"props": {
+			"loading": "lazy",
 			"src": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Group12311111111.svg?v=2020-10-21T21:21:17.189Z"
 		}
 	},
@@ -152,6 +153,7 @@ const overrides = {
 	"image1": {
 		"kind": "Image",
 		"props": {
+			"loading": "lazy",
 			"src": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Group222666.svg?v=2020-10-21T21:22:08.743Z"
 		}
 	},
@@ -189,6 +191,7 @@ const overrides = {
 	"image2": {
 		"kind": "Image",
 		"props": {
+			"loading": "lazy",
 			"src": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Grou333385.svg?v=2020-10-21T21:22:37.813Z"
 		}
 	}

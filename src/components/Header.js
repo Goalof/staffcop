@@ -51,6 +51,7 @@ const overrides = {
 	"image": {
 		"kind": "Image",
 		"props": {
+			"loading": "lazy",
 			"width": "100%",
 			"src": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/staffcop_logo%20(2)%201.svg?v=2020-10-15T10:37:02.579Z",
 			"padding": "2px 0px 0px 0px"

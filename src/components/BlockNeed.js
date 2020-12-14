@@ -66,6 +66,7 @@ const overrides = {
 	"image": {
 		"kind": "Image",
 		"props": {
+			"loading": "lazy",
 			"src": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Frame.png.svg?v=2020-11-16T21:22:42.974Z",
 			"object-position": "0% 0%",
 			"margin": "0px 0px 47px -10px",
@@ -156,6 +157,7 @@ const overrides = {
 	"image1": {
 		"kind": "Image",
 		"props": {
+			"loading": "lazy",
 			"src": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Frame2.png.svg?v=2020-11-16T21:22:42.967Z",
 			"object-position": "0% 0%",
 			"margin": "0px 0px 47px -10px",
@@ -266,6 +268,7 @@ const overrides = {
 	"image2": {
 		"kind": "Image",
 		"props": {
+			"loading": "lazy",
 			"src": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/treriya3.svg?v=2020-11-16T21:37:12.931Z",
 			"object-position": "0% 0%",
 			"margin": "0px 0px 20px -10px",

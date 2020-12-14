@@ -74,6 +74,7 @@ export default (() => {
 				Free trial 30 days
 			</Link>
 			<Image
+				loading="lazy"
 				width="90%"
 				src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/migalkiauf.svg?v=2020-10-20T11:13:38.372Z"
 				position="absolute"
@@ -84,6 +85,7 @@ export default (() => {
 				bottom="-15px"
 			/>
 			<Image
+				loading="lazy"
 				src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/newposteres.png?v=2020-11-16T16:35:47.281Z"
 				md-width="80%"
 				position="relative"
@@ -155,7 +157,13 @@ export default (() => {
 						flex-direction="column"
 					>
 						<Link href="/features/productivity-monitoring" padding="20px 36px 20px 36px" height="100%">
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icons1.svg?v=2020-11-30T14:42:32.054Z" object-position="0% 0%" margin="10px 0px 20px -9px" filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))" />
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icons1.svg?v=2020-11-30T14:42:32.054Z"
+								object-position="0% 0%"
+								margin="10px 0px 20px -9px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
 							<Text
 								font="--headline3"
 								margin="0px 0px 18px 0px"
@@ -199,7 +207,13 @@ export default (() => {
 						flex-direction="column"
 					>
 						<Link href="/features/app-usageapplication-monitoring" padding="20px 36px 20px 36px" height="100%">
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icoasd2.svg?v=2020-11-30T14:43:23.306Z" object-position="0% 0%" margin="10px 0px 20px -3px" filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))" />
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icoasd2.svg?v=2020-11-30T14:43:23.306Z"
+								object-position="0% 0%"
+								margin="10px 0px 20px -3px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
 							<Text
 								font="--headline3"
 								margin="0px 0px 18px 0px"
@@ -207,7 +221,7 @@ export default (() => {
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								User Behavior Analytics{"\n\n"}
+								User Behavior Analytics
 							</Text>
 							<Text
 								font="--lead"
@@ -216,7 +230,7 @@ export default (() => {
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Identify behavior anomalies and uncover potential threats in real time. Get fully customizable alerts with full audit trail and video recording of all user actions{"\n\n"}
+								Identify behavior anomalies and uncover potential threats in real time. Get fully customizable alerts with full audit trail and video recording of all user actions
 							</Text>
 						</Link>
 					</Box>
@@ -242,7 +256,13 @@ export default (() => {
 						flex-direction="column"
 					>
 						<Link href="/features/employee-monitoring-software" padding="20px 36px 20px 36px" height="100%">
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icosdasd3.svg?v=2020-11-30T14:43:48.102Z" object-position="0% 0%" margin="10px 0px 20px -1px" filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))" />
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icosdasd3.svg?v=2020-11-30T14:43:48.102Z"
+								object-position="0% 0%"
+								margin="10px 0px 20px -1px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
 							<Text
 								font="--headline3"
 								margin="0px 0px 18px 0px"
@@ -250,7 +270,7 @@ export default (() => {
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Employee Monitoring{"\n\n"}
+								Employee Monitoring
 							</Text>
 							<Text
 								font="--lead"
@@ -262,7 +282,6 @@ export default (() => {
 								Monitor employee activity with customizable reports to identify team, department, individual level productivity, social media use, time spent on projects, apps, and more.
 								<br />
 								<br />
-								{"\n\n"}
 							</Text>
 						</Link>
 					</Box>
@@ -288,7 +307,13 @@ export default (() => {
 						flex-direction="column"
 					>
 						<Link href="/privileged-user-monitoring" padding="20px 36px 20px 36px" height="100%">
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icoasdas4.svg?v=2020-11-30T14:44:23.174Z" object-position="0% 0%" margin="10px 0px 20px -1px" filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))" />
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icoasdas4.svg?v=2020-11-30T14:44:23.174Z"
+								object-position="0% 0%"
+								margin="10px 0px 20px -1px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
 							<Text
 								font="--headline3"
 								margin="0px 0px 18px 0px"
@@ -296,7 +321,7 @@ export default (() => {
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Data Loss Prevention{"\n\n"}
+								Data Loss Prevention
 							</Text>
 							<Text
 								font="--lead"
@@ -307,9 +332,7 @@ export default (() => {
 							>
 								Identify behavior anomalies and uncover potential threats in real time. Get fully customizable alerts with full audit trail and video recording of all user actions
 								<br />
-								{"\n\n"}
 								<br />
-								{"\n\n"}
 							</Text>
 						</Link>
 					</Box>
@@ -335,7 +358,13 @@ export default (() => {
 						flex-direction="column"
 					>
 						<Link href="/compliance-management-auditing-and-monitoring" padding="20px 36px 20px 36px" height="100%">
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icosna5.svg?v=2020-11-30T14:45:02.994Z" object-position="0% 0%" margin="10px 0px 20px -1px" filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))" />
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icosna5.svg?v=2020-11-30T14:45:02.994Z"
+								object-position="0% 0%"
+								margin="10px 0px 20px -1px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
 							<Text
 								font="--headline3"
 								margin="0px 0px 18px 0px"
@@ -343,7 +372,7 @@ export default (() => {
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Compliance & Audit{"\n\n"}
+								Compliance & Audit
 							</Text>
 							<Text
 								font="--lead"
@@ -354,7 +383,6 @@ export default (() => {
 							>
 								Ensure ongoing compliance for GDPR, HIPAA, PCI and much more by identifying and alerting user to non-compliant actions with real time alerts
 								<br />
-								{"\n\n"}
 							</Text>
 						</Link>
 					</Box>
@@ -380,7 +408,13 @@ export default (() => {
 						flex-direction="column"
 					>
 						<Link href="/insider-threat-detection-and-prevention" padding="20px 36px 20px 36px" height="100%">
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icosadf6.svg?v=2020-11-30T14:45:13.084Z" object-position="0% 0%" margin="10px 0px 20px -1px" filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))" />
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icosadf6.svg?v=2020-11-30T14:45:13.084Z"
+								object-position="0% 0%"
+								margin="10px 0px 20px -1px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
 							<Text
 								font="--headline3"
 								margin="0px 0px 18px 0px"
@@ -388,7 +422,7 @@ export default (() => {
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Insider Threat Prevention{"\n\n\n\n"}
+								Insider Threat Prevention
 							</Text>
 							<Text
 								font="--lead"
@@ -397,7 +431,7 @@ export default (() => {
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Automate risk detection and block unwanted employee behavior. Teramind uses smart rules & alerts to always keep your organization safe{"\n\n"}
+								Automate risk detection and block unwanted employee behavior. Teramind uses smart rules & alerts to always keep your organization safe
 							</Text>
 						</Link>
 					</Box>
@@ -779,7 +813,7 @@ export default (() => {
 						border-color="#161616"
 					/>
 					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/vtorya2.svg?v=2020-11-16T21:37:03.195Z" object-position="0% 0%" margin="0px 0px 10px -10px" />
+					<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/vtorya2.svg?v=2020-11-16T21:37:03.195Z" object-position="0% 0%" margin="0px 0px 10px -10px" />
 					<Box lg-display="flex" lg-flex-direction="column" lg-align-items="center">
 						<Text
 							font="--headline3"
@@ -833,7 +867,7 @@ export default (() => {
 						border-color="#161616"
 					/>
 					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/pervaya1.svg?v=2020-11-16T21:36:47.681Z" object-position="0% 0%" margin="0px 0px 10px -10px" />
+					<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/pervaya1.svg?v=2020-11-16T21:36:47.681Z" object-position="0% 0%" margin="0px 0px 10px -10px" />
 					<Text font="--headline3" margin="0px 0px 18px 0px" display="inline-block" color="#ffffff">
 						UAM
 					</Text>
@@ -897,7 +931,7 @@ export default (() => {
 					>
 						Recommend
 					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/treriya3.svg?v=2020-11-16T21:37:12.931Z" object-position="0% 0%" margin="0px 0px 10px -10px" />
+					<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/treriya3.svg?v=2020-11-16T21:37:12.931Z" object-position="0% 0%" margin="0px 0px 10px -10px" />
 					<Text font="--headline3" margin="0px 0px 18px 0px" display="inline-block" color="#ffffff">
 						DLP
 					</Text>
@@ -985,7 +1019,7 @@ export default (() => {
 						md-align-items="center"
 					/>
 					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/022222202%201.png?v=2020-10-15T22:52:40.753Z" md-width="80%" />
+					<Image loading="lazy" width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/022222202%201.png?v=2020-10-15T22:52:40.753Z" md-width="80%" />
 					{"    "}
 				</StackItem>
 				<StackItem width="50%" display="flex" md-width="100%">
@@ -1103,7 +1137,13 @@ export default (() => {
 						md-align-items="center"
 					/>
 					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/3213123123.png?v=2020-10-15T23:20:36.211Z" md-width="80%" margin="0px 0px 0px 0px" />
+					<Image
+						loading="lazy"
+						width="90%"
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/3213123123.png?v=2020-10-15T23:20:36.211Z"
+						md-width="80%"
+						margin="0px 0px 0px 0px"
+					/>
 					{"    "}
 				</StackItem>
 				{"        "}
@@ -1128,7 +1168,7 @@ export default (() => {
 						md-align-items="center"
 					/>
 					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/45654645.png?v=2020-10-15T23:21:36.301Z" md-width="80%" />
+					<Image loading="lazy" width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/45654645.png?v=2020-10-15T23:21:36.301Z" md-width="80%" />
 					{"    "}
 				</StackItem>
 				<StackItem width="50%" display="flex" md-width="100%">
@@ -1254,6 +1294,7 @@ export default (() => {
 								transition=" all .3s;  transition: all .3s"
 							>
 								<Image
+									loading="lazy"
 									src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/pershildik.svg?v=2020-10-21T00:30:19.423Z"
 									object-position="0% 0%"
 									margin="25px 0px 25px 0px"
@@ -1283,6 +1324,7 @@ export default (() => {
 								transition=" all .3s;  transition: all .3s"
 							>
 								<Image
+									loading="lazy"
 									src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/dvashildik.svg?v=2020-10-21T00:31:29.773Z"
 									object-position="0% 0%"
 									margin="25px 0px 25px 0px"
@@ -1312,6 +1354,7 @@ export default (() => {
 								transition=" all .3s;  transition: all .3s"
 							>
 								<Image
+									loading="lazy"
 									src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/treeshildik.svg?v=2020-10-21T00:31:37.419Z"
 									object-position="0% 0%"
 									margin="25px 0px 25px 0px"
@@ -1647,7 +1690,7 @@ export default (() => {
 							z-index="2"
 							background="#020202"
 						>
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Laptop%201.svg?v=2020-11-16T15:16:18.655Z" object-fit="contain" margin="20px 0px 0px 0px" />
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Laptop%201.svg?v=2020-11-16T15:16:18.655Z" object-fit="contain" margin="20px 0px 0px 0px" />
 						</Box>
 						<Text
 							font="--headline3"
@@ -1688,7 +1731,7 @@ export default (() => {
 							z-index="2"
 							background="#020202"
 						>
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Server,%20Databases,%20Download%201.svg?v=2020-11-16T15:16:18.649Z" object-fit="contain" margin="0px 0px 0px 0px" />
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Server,%20Databases,%20Download%201.svg?v=2020-11-16T15:16:18.649Z" object-fit="contain" margin="0px 0px 0px 0px" />
 						</Box>
 						<Text
 							font="--headline3"
@@ -1728,7 +1771,13 @@ export default (() => {
 							position="relative"
 							z-index="2"
 						>
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/settings.4%201.svg?v=2020-11-16T15:16:18.648Z" object-fit="contain" background="#020202" margin="25px 0px 0px 0px" />
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/settings.4%201.svg?v=2020-11-16T15:16:18.648Z"
+								object-fit="contain"
+								background="#020202"
+								margin="25px 0px 0px 0px"
+							/>
 						</Box>
 						<Text
 							font="--headline3"
@@ -1769,7 +1818,13 @@ export default (() => {
 							position="relative"
 							z-index="2"
 						>
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/settings.4%202.svg?v=2020-11-16T15:16:18.649Z" object-fit="contain" margin="10px 0px 0px 0px" background="#020202" />
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/settings.4%202.svg?v=2020-11-16T15:16:18.649Z"
+								object-fit="contain"
+								margin="10px 0px 0px 0px"
+								background="#020202"
+							/>
 						</Box>
 						<Text
 							font="--headline3"
@@ -1911,7 +1966,7 @@ export default (() => {
 								Pricing
 							</Link>
 						</Box>
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/rezhevmasdas.png?v=2020-10-21T15:09:40.369Z" width="736px" nout-width="70%" />
+						<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/rezhevmasdas.png?v=2020-10-21T15:09:40.369Z" width="736px" nout-width="70%" />
 						{"    "}
 					</StackItem>
 					{"    "}
@@ -1930,7 +1985,7 @@ export default (() => {
 					>
 						<Override slot="StackItemContent" flex-direction="column" lg-align-items="center" />
 						{"        "}
-						<Image width="250px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/blackilogo.svg?v=2020-10-20T20:25:32.090Z" />
+						<Image loading="lazy" width="250px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/blackilogo.svg?v=2020-10-20T20:25:32.090Z" />
 						<Text
 							font="normal 300 18px/160% --fontFamily-googleInter"
 							margin="31px 0px 24px 0px"
@@ -2149,7 +2204,13 @@ export default (() => {
 						border-color="--color-primary"
 						md-padding="0px 0px 0px 0px"
 					>
-						<Image width="18px" height="18px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Icon.svg?v=2020-10-21T00:34:26.772Z" padding="12px 13px 14px 13px" />
+						<Image
+							loading="lazy"
+							width="18px"
+							height="18px"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Icon.svg?v=2020-10-21T00:34:26.772Z"
+							padding="12px 13px 14px 13px"
+						/>
 					</Link>
 					{"    "}
 				</StackItem>
