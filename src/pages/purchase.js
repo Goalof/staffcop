@@ -259,95 +259,22 @@ export default (() => {
 							lg-display="flex"
 							lg-padding="9px 9px 9px 9px"
 						/>
-						<Components.Menu2
-							md-flex-direction="column"
-							md-align-items="center"
-							md-width="100%"
-							lg-flex-direction="column"
-							lg-align-items="center"
-							lg-width="100%"
-							lg-margin="10px 0px 0px 0px"
-							collapse
-							depth="10"
-							display="none"
-							lg-display="flex"
-							lg-justify-content="center"
-							lg-padding="6px 0px 40px 0px"
-							lg-background="#ffffff"
-						>
-							<Override
-								slot="Item"
-								md-padding="12px 12px 12px 0px"
-								lg-padding="12px 0px 12px 0px"
-								lg-font="500 20px/24px --fontFamily-googleInter"
-								lg-width="100%"
-								lg-text-align="center"
-								lg-align-items="center"
-								lg-margin="6px 0px 6px 0px"
-								sm-padding="12px 0px 12px 0px"
-							/>
-							<Override slot="Item-404" md-display="none" lg-display="none" />
+						<Components.NestedMenu lg-flex-direction="column" lg-align-items="center" lg-margin="16px 0px 0px 0px">
+							<Override slot="Item-404" lg-display="none" />
 							<Override slot="Link-index">
 								Home
 							</Override>
+							<Override slot="Item" lg-padding="14px 12px 14px 12px" lg-box-shadow="none" />
 							<Override
 								slot="Link"
+								lg-box-shadow="none"
+								lg-font="--menu"
+								lg-color="--darkL1"
 								lg-text-decoration-line="initial"
-								lg-color="--darkL2"
-								lg-text-align="center"
-								lg-justify-content="center"
+								lg-padding="5px 5px 5px 5px"
 							/>
-							<Override
-								slot="Sub"
-								z-index="5"
-								lg-position="static"
-								lg-width="100%"
-								lg-flex-direction="column"
-								lg-align-items="center"
-								lg-justify-content="center"
-								lg-padding="2px 0px 4px 0px"
-							/>
-							<Override slot="Icon" lg-padding="4px 3px 0px 3px" />
-							<Override slot="Item-request-demo" lg-display="none" />
-							<Override slot="Item-leadership" lg-display="none" />
-							<Override slot="Item-retail-and-ecommerce-cyber-security" lg-display="none" />
-							<Override slot="Item-for-financial-sector" lg-display="none" />
-							<Override slot="Item-energy-and-utilities-sector-cyber-security" lg-display="none" />
-							<Override slot="Item-iso-27001-compliance" lg-display="none" />
-							<Override slot="Item-for-legal" lg-display="none" />
-							<Override slot="Item-government-and-public-sector-cyber-security" lg-display="none" />
-							<Override slot="Item-pci-dss-compliance-and-certification" lg-display="none" />
-							<Override slot="Item-for-hipaa" lg-display="none" />
-							<Override slot="Item-gdpr-compliance" lg-display="none" />
-							<Override slot="Item-compliance-management-auditing-and-monitoring" lg-display="none" />
-							<Override slot="Item-third-party-vendor-management" lg-display="none" />
-							<Override slot="Item-productivity-optimization" lg-display="none" />
-							<Override slot="Item-privileged-user-monitoring" lg-display="none" />
-							<Override slot="Item-remote-employee-monitoring" lg-display="none" />
-							<Override slot="Item-insider-threat-detection-and-prevention" lg-display="none" />
-							<Override slot="Item-live-employee-desktop" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-e-mail-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-employee-internet-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-keystroke-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-file-activity-monitoring-software" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-printed-document-tracking" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-optical-character-recognition-ocr" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-smart-rules-and-alerts" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-productivity-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-app-usageapplication-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-network-user-activitymonitoring" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-instant-message-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-social-media-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-remote-desktop-control" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-active-vs-idle-time-analysis" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-employee-productivity-tracking" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-citrix-session-recording" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-employee-monitoring-software" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-nonproductive-activity-reporting" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-configurable-monitoring-profiles" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-template-based-scheduling" lg-font="500 16px/19px Inter, sans-serif" />
-							<Override slot="Item-session-recording-and-metadata" lg-font="500 16px/19px Inter, sans-serif" />
-						</Components.Menu2>
+							<Override slot="Icon" lg-box-shadow="none" lg-padding="4px 0px 0px 4px" />
+						</Components.NestedMenu>
 						<Menu
 							flex="1 1 auto"
 							display="none"
