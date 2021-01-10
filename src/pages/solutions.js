@@ -48,7 +48,7 @@ export default (() => {
 					/>
 					{"        "}
 					<Link
-						href="/app-usageapplication-monitoring/"
+						href="features/app-usageapplication-monitoring/"
 						width="100%"
 						height="100%"
 						text-decoration-line="initial"
@@ -156,7 +156,7 @@ export default (() => {
 					/>
 					{"        "}
 					<Link
-						href="/app-usageapplication-monitoring/"
+						href="/insider-threat-detection-and-prevention/"
 						width="100%"
 						height="100%"
 						text-decoration-line="initial"
@@ -211,7 +211,7 @@ export default (() => {
 					/>
 					{"        "}
 					<Link
-						href="/employee-monitoring-software/"
+						href="features/employee-monitoring-software/"
 						width="100%"
 						height="100%"
 						text-decoration-line="initial"
