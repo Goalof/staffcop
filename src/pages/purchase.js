@@ -413,7 +413,7 @@ export default (() => {
 						sm-text-align="center"
 						md-text-align="center"
 					>
-						StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity{"\n\n"}
+						StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity
 					</Text>
 					<Text
 						font="normal 400 18px/160% --fontFamily-googleInter"

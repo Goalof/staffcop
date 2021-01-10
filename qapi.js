@@ -41,7 +41,10 @@ export default {
 		"5f844e532e3a2a001faf55bb": {
 			"id": "5f844e532e3a2a001faf55bb",
 			"name": "404",
-			"pageUrl": "404"
+			"pageUrl": "404",
+			"seo": {
+				"title": "404 - Not page"
+			}
 		},
 		"5f844e532e3a2a001faf55bd": {
 			"id": "5f844e532e3a2a001faf55bd",
