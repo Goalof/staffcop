@@ -293,6 +293,8 @@ export default (() => {
 								lg-text-decoration-line="initial"
 								lg-padding="5px 0px 5px 0px"
 								lg-text-align="center"
+								sm-padding="5px 5px 5px 5px"
+								white-space="pre-wrap"
 							/>
 							<Override slot="Icon" lg-box-shadow="none" lg-padding="4px 0px 0px 4px" />
 							<Override
