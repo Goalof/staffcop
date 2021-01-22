@@ -3,12 +3,12 @@ import { useOverrides, Override, StackItem, Menu, Stack, Section } from "@quarkl
 import { Image, Link } from "@quarkly/widgets";
 import MyNav from "./MyNav";
 import MyNav2 from "./MyNav2";
-import Menu2 from "./Menu2";
+import NestedMenu from "./NestedMenu";
 import MobileSide2 from "./MobileSide2";
 const defaultProps = {
 	"background": "#ffffff",
 	"padding": "0px 0 0px 0",
-	"sm-padding": "10px 0 10px 0",
+	"sm-padding": "12px 0 12px 0",
 	"lg-padding": "15px 0 15px 0",
 	"border-width": "0px 0px 1px 0px",
 	"border-style": "solid",
@@ -31,7 +31,7 @@ const overrides = {
 			"display": "flex",
 			"nout-width": "18%",
 			"lg-width": "40%",
-			"sm-width": "50%"
+			"sm-width": "70%"
 		}
 	},
 	"stackItemOverride": {
@@ -39,19 +39,21 @@ const overrides = {
 		"props": {
 			"slot": "StackItemContent",
 			"align-items": "center",
-			"justify-content": "center"
+			"justify-content": "center",
+			"sm-align-items": "center",
+			"sm-justify-content": "flex-start"
 		}
 	},
 	"link": {
 		"kind": "Link",
 		"props": {
-			"href": "/"
+			"href": "/",
+			"sm-margin": "4px 0px 0px 0px"
 		}
 	},
 	"image": {
 		"kind": "Image",
 		"props": {
-			"loading": "lazy",
 			"width": "100%",
 			"src": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/staffcop_logo%20(2)%201.svg?v=2020-10-15T10:37:02.579Z",
 			"padding": "2px 0px 0px 0px"
@@ -63,7 +65,8 @@ const overrides = {
 			"width": "60%",
 			"display": "flex",
 			"nout-width": "64%",
-			"lg-display": "none"
+			"lg-display": "none",
+			"sm-width": "32%"
 		}
 	},
 	"stackItemOverride1": {
@@ -143,7 +146,7 @@ const overrides = {
 			"width": "100%",
 			"nout-width": "18%",
 			"lg-width": "10%",
-			"sm-width": "50%",
+			"sm-width": "30%",
 			"lg-display": "flex",
 			"display": "none"
 		}
@@ -153,7 +156,8 @@ const overrides = {
 		"props": {
 			"slot": "StackItemContent",
 			"justify-content": "flex-end",
-			"align-items": "center"
+			"align-items": "center",
+			"lg-justify-content": "center"
 		}
 	},
 	"mobileSide2": {
@@ -163,8 +167,10 @@ const overrides = {
 			"lg-position": "relative",
 			"lg-z-index": "5",
 			"lg-display": "flex",
-			"lg-justify-content": "flex-end",
-			"lg-align-items": "center"
+			"lg-justify-content": "center",
+			"lg-align-items": "center",
+			"sm-align-items": "center",
+			"sm-justify-content": "flex-end"
 		}
 	},
 	"mobileSide2Override": {
@@ -180,7 +186,8 @@ const overrides = {
 			"lg-width": "100%",
 			"lg-height": "100%",
 			"lg-background": "white",
-			"lg-flex-direction": "column"
+			"lg-flex-direction": "column",
+			"lg-overflow-y": "scroll"
 		}
 	},
 	"mobileSide2Override1": {
@@ -189,20 +196,27 @@ const overrides = {
 			"slot": "Button",
 			"display": "none",
 			"lg-display": "block",
-			"lg-width": "44px",
+			"lg-width": "28px",
 			"lg-height": "28px",
 			"lg-position": "relative",
 			"lg-z-index": "6",
-			"lg-box-shadow": "inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+			"lg-box-shadow": "inset 0px 5px 17px rgba(255, 255, 255, 0.23)",
+			"lg-background": "--color-primary",
+			"lg-padding": "9px 10px 10px 10px",
+			"lg-top": "4px",
+			"lg-border-radius": "1000%"
 		}
 	},
 	"mobileSide2Override2": {
 		"kind": "Override",
 		"props": {
 			"slot": "Button Line",
-			"lg-background": "black",
-			"lg-min-height": "4px",
-			"lg-position": "absolute"
+			"lg-width": "100%",
+			"lg-left": "auto",
+			"lg-right": "auto",
+			"lg-bottom": "auto",
+			"lg-top": "22px",
+			"lg-background": "rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/palki.svg?v=2020-12-01T12:31:09.963Z) center center/cover no-repeat scroll padding-box"
 		}
 	},
 	"mobileSide2Override3": {
@@ -227,28 +241,46 @@ const overrides = {
 		"props": {
 			"slot": "Button Line3",
 			"lg-top": "24px",
-			"lg-right": "0px"
+			"lg-right": "0px",
+			"lg-width": "100%"
 		}
 	},
 	"mobileSide2Override6": {
 		"kind": "Override",
 		"props": {
 			"slot": "Button Line1 :closed",
-			"lg-width": "44px"
+			"lg-width": "80%",
+			"lg-top": "12px",
+			"lg-bottom": "auto",
+			"lg-left": "auto",
+			"lg-right": "auto",
+			"lg-height": "30.99px"
 		}
 	},
 	"mobileSide2Override7": {
 		"kind": "Override",
 		"props": {
 			"slot": "Button Line2 :closed",
-			"lg-width": "32px"
+			"lg-width": "50%",
+			"lg-background": "#ffffff",
+			"lg-left": "auto",
+			"lg-right": "auto",
+			"lg-bottom": "auto",
+			"lg-top": "21px",
+			"lg-display": "none"
 		}
 	},
 	"mobileSide2Override8": {
 		"kind": "Override",
 		"props": {
 			"slot": "Button Line3 :closed",
-			"lg-width": "20px"
+			"lg-width": "50%",
+			"lg-background": "#ffffff",
+			"lg-left": "auto",
+			"lg-right": "auto",
+			"lg-bottom": "auto",
+			"lg-top": "30px",
+			"lg-display": "none"
 		}
 	},
 	"mobileSide2Override9": {
@@ -256,15 +288,21 @@ const overrides = {
 		"props": {
 			"slot": "Button Line2 :open",
 			"lg-opacity": "0",
-			"lg-width": "32px"
+			"lg-width": "32px",
+			"lg-display": "none"
 		}
 	},
 	"mobileSide2Override10": {
 		"kind": "Override",
 		"props": {
 			"slot": "Button Line1 :open",
-			"lg-width": "36px",
-			"lg-transform": "translateY(12px) rotate(225deg)"
+			"lg-width": "70%",
+			"lg-left": "auto",
+			"lg-right": "auto",
+			"lg-bottom": "auto",
+			"lg-top": "9px",
+			"lg-background": "rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/krestiiki.svg?v=2020-12-01T12:34:09.363Z) center center/cover no-repeat scroll padding-box",
+			"lg-height": "80%"
 		}
 	},
 	"mobileSide2Override11": {
@@ -272,7 +310,12 @@ const overrides = {
 		"props": {
 			"slot": "Button Line3 :open",
 			"lg-width": "36px",
-			"lg-transform": "translateY(-12px) rotate(135deg)"
+			"lg-transform": "translateY(-12px) rotate(135deg)",
+			"lg-left": "auto",
+			"lg-right": "auto",
+			"lg-top": "35px",
+			"lg-bottom": "auto",
+			"lg-display": "none"
 		}
 	},
 	"mobileSide2Override12": {
@@ -298,353 +341,99 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "Button :open",
-			"lg-position": "fixed"
-		}
-	},
-	"menu2": {
-		"kind": "Menu2",
-		"props": {
-			"md-flex-direction": "column",
-			"md-align-items": "center",
-			"md-width": "100%",
-			"lg-flex-direction": "column",
-			"lg-align-items": "center",
-			"lg-width": "100%",
-			"lg-margin": "10px 0px 0px 0px",
-			"collapse": true,
-			"depth": "10",
-			"display": "none",
+			"lg-position": "fixed",
+			"lg-top": "18px",
+			"lg-width": "32.99px",
 			"lg-display": "flex",
+			"lg-align-items": "center",
 			"lg-justify-content": "center",
-			"lg-padding": "6px 0px 40px 0px",
-			"lg-background": "#ffffff"
+			"lg-padding": "10px 6px 9px 6px",
+			"lg-height": "25.986px"
 		}
 	},
-	"menu2Override": {
+	"mobileSide2Override15": {
 		"kind": "Override",
 		"props": {
-			"slot": "Item",
-			"md-padding": "12px 12px 12px 12px",
-			"lg-padding": "12px 0px 12px 0px",
-			"lg-font": "500 20px/24px --fontFamily-googleInter",
-			"lg-width": "100%",
-			"lg-text-align": "center",
+			"slot": "Button :closed",
 			"lg-align-items": "center",
-			"lg-margin": "6px 0px 6px 0px"
+			"lg-justify-content": "center",
+			"md-top": "0px",
+			"lg-top": "0px",
+			"lg-display": "flex",
+			"lg-padding": "9px 9px 9px 9px"
 		}
 	},
-	"menu2Override1": {
+	"nestedMenu": {
+		"kind": "NestedMenu",
+		"props": {
+			"lg-flex-direction": "column",
+			"lg-align-items": "center",
+			"lg-margin": "16px 0px 0px 0px",
+			"collapse": true,
+			"depth": "2",
+			"lg-width": "100%",
+			"lg-right": "auto",
+			"lg-left": "auto"
+		}
+	},
+	"nestedMenuOverride": {
 		"kind": "Override",
 		"props": {
 			"slot": "Item-404",
-			"md-display": "none",
 			"lg-display": "none"
 		}
 	},
-	"menu2Override2": {
+	"nestedMenuOverride1": {
 		"kind": "Override",
 		"props": {
 			"slot": "Link-index",
 			"children": "Home"
 		}
 	},
-	"menu2Override3": {
+	"nestedMenuOverride2": {
 		"kind": "Override",
 		"props": {
-			"slot": "Link",
-			"lg-text-decoration-line": "initial",
-			"lg-color": "--darkL2",
-			"lg-text-align": "right",
+			"slot": "Item",
+			"lg-padding": "14px 0px 14px 0px",
+			"lg-box-shadow": "none",
+			"lg-width": "100%",
+			"lg-text-align": "center",
+			"lg-display": "flex",
+			"lg-align-items": "center",
 			"lg-justify-content": "center"
 		}
 	},
-	"menu2Override4": {
+	"nestedMenuOverride3": {
 		"kind": "Override",
 		"props": {
-			"slot": "Sub",
-			"z-index": "5",
-			"lg-position": "static",
-			"lg-width": "100%"
+			"slot": "Link",
+			"lg-box-shadow": "none",
+			"lg-font": "--menu",
+			"lg-color": "--darkL1",
+			"lg-text-decoration-line": "initial",
+			"lg-padding": "5px 0px 5px 0px",
+			"lg-text-align": "center",
+			"sm-padding": "5px 5px 5px 5px",
+			"white-space": "pre-wrap"
 		}
 	},
-	"menu2Override5": {
+	"nestedMenuOverride4": {
 		"kind": "Override",
 		"props": {
 			"slot": "Icon",
-			"lg-padding": "4px 3px 0px 3px"
+			"lg-box-shadow": "none",
+			"lg-padding": "4px 0px 0px 4px"
 		}
 	},
-	"menu2Override6": {
+	"nestedMenuOverride5": {
 		"kind": "Override",
 		"props": {
-			"slot": "Item-request-demo",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override7": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-leadership",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override8": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-retail-and-ecommerce-cyber-security",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override9": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-for-financial-sector",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override10": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-energy-and-utilities-sector-cyber-security",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override11": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-iso-27001-compliance",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override12": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-for-legal",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override13": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-government-and-public-sector-cyber-security",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override14": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-pci-dss-compliance-and-certification",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override15": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-for-hipaa",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override16": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-gdpr-compliance",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override17": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-compliance-management-auditing-and-monitoring",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override18": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-third-party-vendor-management",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override19": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-productivity-optimization",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override20": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-privileged-user-monitoring",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override21": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-remote-employee-monitoring",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override22": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-insider-threat-detection-and-prevention",
-			"lg-display": "none"
-		}
-	},
-	"menu2Override23": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-live-employee-desktop",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override24": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-e-mail-monitoring",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override25": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-employee-internet-monitoring",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override26": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-keystroke-monitoring",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override27": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-file-activity-monitoring-software",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override28": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-printed-document-tracking",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override29": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-optical-character-recognition-ocr",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override30": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-smart-rules-and-alerts",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override31": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-productivity-monitoring",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override32": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-app-usageapplication-monitoring",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override33": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-network-user-activitymonitoring",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override34": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-instant-message-monitoring",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override35": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-social-media-monitoring",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override36": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-remote-desktop-control",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override37": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-active-vs-idle-time-analysis",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override38": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-employee-productivity-tracking",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override39": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-citrix-session-recording",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override40": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-employee-monitoring-software",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override41": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-nonproductive-activity-reporting",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override42": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-configurable-monitoring-profiles",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override43": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-template-based-scheduling",
-			"lg-font": "500 16px/19px Inter, sans-serif"
-		}
-	},
-	"menu2Override44": {
-		"kind": "Override",
-		"props": {
-			"slot": "Item-session-recording-and-metadata",
-			"lg-font": "500 16px/19px Inter, sans-serif"
+			"slot": "Sub",
+			"lg-width": "100%",
+			"lg-left": "auto",
+			"lg-right": "auto",
+			"lg-bottom": "auto",
+			"lg-padding": "1px 0px 1px 0px"
 		}
 	},
 	"menu": {
@@ -718,7 +507,6 @@ const PurchaseHeader = props => {
 				</Link>
 				{"       "}
 			</StackItem>
-			{"    "}
 			<StackItem {...override("stackItem1")}>
 				<Override {...override("stackItemOverride1")} />
 				{"        "}
@@ -729,6 +517,7 @@ const PurchaseHeader = props => {
 				<MyNav2 {...override("myNav2")} />
 				{"    "}
 			</StackItem>
+			{"    "}
 			<StackItem {...override("stackItem2")}>
 				<Override {...override("stackItemOverride2")} />
 				<Link
@@ -770,53 +559,15 @@ const PurchaseHeader = props => {
 					<Override {...override("mobileSide2Override12")} />
 					<Override {...override("mobileSide2Override13")} />
 					<Override {...override("mobileSide2Override14")} />
-					<Menu2 {...override("menu2")}>
-						<Override {...override("menu2Override")} />
-						<Override {...override("menu2Override1")} />
-						<Override {...override("menu2Override2")} />
-						<Override {...override("menu2Override3")} />
-						<Override {...override("menu2Override4")} />
-						<Override {...override("menu2Override5")} />
-						<Override {...override("menu2Override6")} />
-						<Override {...override("menu2Override7")} />
-						<Override {...override("menu2Override8")} />
-						<Override {...override("menu2Override9")} />
-						<Override {...override("menu2Override10")} />
-						<Override {...override("menu2Override11")} />
-						<Override {...override("menu2Override12")} />
-						<Override {...override("menu2Override13")} />
-						<Override {...override("menu2Override14")} />
-						<Override {...override("menu2Override15")} />
-						<Override {...override("menu2Override16")} />
-						<Override {...override("menu2Override17")} />
-						<Override {...override("menu2Override18")} />
-						<Override {...override("menu2Override19")} />
-						<Override {...override("menu2Override20")} />
-						<Override {...override("menu2Override21")} />
-						<Override {...override("menu2Override22")} />
-						<Override {...override("menu2Override23")} />
-						<Override {...override("menu2Override24")} />
-						<Override {...override("menu2Override25")} />
-						<Override {...override("menu2Override26")} />
-						<Override {...override("menu2Override27")} />
-						<Override {...override("menu2Override28")} />
-						<Override {...override("menu2Override29")} />
-						<Override {...override("menu2Override30")} />
-						<Override {...override("menu2Override31")} />
-						<Override {...override("menu2Override32")} />
-						<Override {...override("menu2Override33")} />
-						<Override {...override("menu2Override34")} />
-						<Override {...override("menu2Override35")} />
-						<Override {...override("menu2Override36")} />
-						<Override {...override("menu2Override37")} />
-						<Override {...override("menu2Override38")} />
-						<Override {...override("menu2Override39")} />
-						<Override {...override("menu2Override40")} />
-						<Override {...override("menu2Override41")} />
-						<Override {...override("menu2Override42")} />
-						<Override {...override("menu2Override43")} />
-						<Override {...override("menu2Override44")} />
-					</Menu2>
+					<Override {...override("mobileSide2Override15")} />
+					<NestedMenu {...override("nestedMenu")}>
+						<Override {...override("nestedMenuOverride")} />
+						<Override {...override("nestedMenuOverride1")} />
+						<Override {...override("nestedMenuOverride2")} />
+						<Override {...override("nestedMenuOverride3")} />
+						<Override {...override("nestedMenuOverride4")} />
+						<Override {...override("nestedMenuOverride5")} />
+					</NestedMenu>
 					<Menu {...override("menu")}>
 						<Override {...override("menuOverride")} />
 						<Override {...override("menuOverride1")} />
