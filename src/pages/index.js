@@ -2,11 +2,13 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link, Text, Image, Box, Span, Hr, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
+import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Section, StackItem, Stack, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
 import { FaRegLifeRing } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
+		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
 				StaffCop Enterprise

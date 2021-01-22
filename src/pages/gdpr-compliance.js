@@ -2,10 +2,12 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link, Text, Box, Span, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
+import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
+		<GlobalQuarklyPageStyles pageUrl={"gdpr-compliance"} />
 		<Helmet>
 			<title>
 				GDPR Compliance

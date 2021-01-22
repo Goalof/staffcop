@@ -2,10 +2,12 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link, Text, Image, Span, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
+import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
+		<GlobalQuarklyPageStyles pageUrl={"insider-threat-detection-and-prevention"} />
 		<Helmet>
 			<title>
 				Insider Threat Detection & Prevention

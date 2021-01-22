@@ -2,10 +2,12 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link, Image, Text, Box, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
+import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Menu, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
+		<GlobalQuarklyPageStyles pageUrl={"pricing"} />
 		<Helmet>
 			<title>
 				Pricing

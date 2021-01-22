@@ -2,11 +2,13 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link, Text, Image, Strong, Hr, Box, Span, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
+import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
+		<GlobalQuarklyPageStyles pageUrl={"features/employee-monitoring-software"} />
 		<Helmet>
 			<title>
 				Employee Monitoring Software

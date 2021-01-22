@@ -2,10 +2,12 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link, Image, Text, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
+import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Menu, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
+		<GlobalQuarklyPageStyles pageUrl={"purchase"} />
 		<Helmet>
 			<title>
 				Purchase
@@ -48,7 +50,6 @@ export default (() => {
 					</Link>
 					{"       "}
 				</StackItem>
-				{"    "}
 				<StackItem
 					width="60%"
 					display="flex"
@@ -92,6 +93,7 @@ export default (() => {
 					<Components.MyNav2 />
 					{"    "}
 				</StackItem>
+				{"    "}
 				<StackItem
 					width="20%"
 					display="flex"
@@ -259,7 +261,13 @@ export default (() => {
 							lg-display="flex"
 							lg-padding="9px 9px 9px 9px"
 						/>
-						<Components.NestedMenu lg-flex-direction="column" lg-align-items="center" lg-margin="16px 0px 0px 0px">
+						<Components.NestedMenu
+							lg-flex-direction="column"
+							lg-align-items="center"
+							lg-margin="16px 0px 0px 0px"
+							collapse
+							depth="2"
+						>
 							<Override slot="Item-404" lg-display="none" />
 							<Override slot="Link-index">
 								Home
@@ -413,7 +421,7 @@ export default (() => {
 						sm-text-align="center"
 						md-text-align="center"
 					>
-						StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity
+						StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity.
 					</Text>
 					<Text
 						font="normal 400 18px/160% --fontFamily-googleInter"

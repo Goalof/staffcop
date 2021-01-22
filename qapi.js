@@ -540,5 +540,9 @@ export default {
 		}
 	},
 	"mode": "production",
-	"projectType": "gatsby"
+	"projectType": "gatsby",
+	"site": {
+		"styles": {},
+		"seo": {}
+	}
 }
