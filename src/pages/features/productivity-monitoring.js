@@ -17,7 +17,13 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Header />
-		<Section padding="180px 0 140px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)" lg-padding="60px 0 60px 0" md-padding="40px 0 40px 0">
+		<Section
+			padding="180px 0 140px 0"
+			background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)"
+			lg-padding="100px 0 30px 0"
+			md-padding="100px 0 0px 0"
+			sm-padding="80px 0 0px 0"
+		>
 			<Override slot="SectionContent" max-width="1200px" />
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}

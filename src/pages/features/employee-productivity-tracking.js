@@ -17,17 +17,26 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Header />
-		<Section padding="200px 0 140px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)" lg-padding="60px 0 60px 0" md-padding="40px 0 40px 0">
+		<Section padding="200px 0 140px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)" lg-padding="100px 0 30px 0" md-padding="100px 0 0px 0">
 			<Override slot="SectionContent" max-width="1200px" />
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
-				<StackItem width="50%" display="flex" sm-align-items="center" sm-width="100%">
+				<StackItem
+					width="50%"
+					display="flex"
+					sm-align-items="center"
+					sm-width="100%"
+					md-width="100%"
+					md-align-items="center"
+					md-justify-content="center"
+				>
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						justify-content="center"
 						align-items="flex-start"
 						sm-align-items="center"
+						md-align-items="center"
 					/>
 					{"        "}
 					<Text
@@ -36,6 +45,7 @@ export default (() => {
 						display="inline-block"
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						sm-text-align="center"
+						md-text-align="center"
 					>
 						Employee Productivity
 						<br />
@@ -48,6 +58,7 @@ export default (() => {
 						color="#555"
 						md-font="normal 400 16px/140% --fontFamily-googleInter"
 						sm-text-align="center"
+						md-text-align="center"
 					>
 						Employee Monitoring Software with Powerful Insider Threat Detection and Productivity Analysis Features{"\n\n"}
 					</Text>
@@ -77,8 +88,8 @@ export default (() => {
 					</Link>
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex" sm-width="100%">
-					<Override slot="StackItemContent" position="relative" />
+				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" position="relative" md-align-items="center" md-justify-content="center" />
 					{"        "}
 					<Image
 						width="803px"
@@ -94,12 +105,13 @@ export default (() => {
 						lg-top="-35px"
 						lg-right="-50px"
 						md-top="0px"
-						md-right="-70px"
+						md-right="auto"
 						sm-position="relative"
 						sm-bottom="auto"
 						sm-left="auto"
 						sm-right="auto"
 						sm-top="0px"
+						md-position="relative"
 					/>
 					{"    "}
 				</StackItem>
