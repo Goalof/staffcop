@@ -267,21 +267,42 @@ export default (() => {
 							lg-margin="16px 0px 0px 0px"
 							collapse
 							depth="2"
+							lg-width="100%"
+							lg-right="auto"
+							lg-left="auto"
 						>
 							<Override slot="Item-404" lg-display="none" />
 							<Override slot="Link-index">
 								Home
 							</Override>
-							<Override slot="Item" lg-padding="14px 12px 14px 12px" lg-box-shadow="none" />
+							<Override
+								slot="Item"
+								lg-padding="14px 0px 14px 0px"
+								lg-box-shadow="none"
+								lg-width="100%"
+								lg-text-align="center"
+								lg-display="flex"
+								lg-align-items="center"
+								lg-justify-content="center"
+							/>
 							<Override
 								slot="Link"
 								lg-box-shadow="none"
 								lg-font="--menu"
 								lg-color="--darkL1"
 								lg-text-decoration-line="initial"
-								lg-padding="5px 5px 5px 5px"
+								lg-padding="5px 0px 5px 0px"
+								lg-text-align="center"
 							/>
 							<Override slot="Icon" lg-box-shadow="none" lg-padding="4px 0px 0px 4px" />
+							<Override
+								slot="Sub"
+								lg-width="100%"
+								lg-left="auto"
+								lg-right="auto"
+								lg-bottom="auto"
+								lg-padding="1px 0px 1px 0px"
+							/>
 						</Components.NestedMenu>
 						<Menu
 							flex="1 1 auto"
