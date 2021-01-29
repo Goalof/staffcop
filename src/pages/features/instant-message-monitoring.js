@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, Box, Image, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -215,6 +215,189 @@ export default (() => {
 							Application-specific alerts can be set to have Teramind notify administrators of the development of potential security risks
 						</Text>
 					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Read messages in dialogues and threads
+						</Strong>
+						<br />
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						If you have noticed that employees use any communications channels that are not allowed by corporate security policies (e.g. Skype), you can check the communication to see if there was anything dangerous there, it works both for one-to-one chats and group chats.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/25.png?v=2021-01-29T11:43:41.370Z" max-width="100%" />
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							SIP tracking
+						</Strong>
+						<br />
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						Besides tracking instant messangers StaffCop also tracks SIP-communications. This function can be very useful for call-centers, when employees productivity is in direct ratio to the amount of phone calls made with softphones. Staffcop shows the amount of call together with their duration.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/21.png?v=2021-01-29T11:50:49.489Z" max-width="100%" />
+					{"            "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/22.png?v=2021-01-29T11:51:02.202Z" max-width="100%" />
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Channel communication graph
+						</Strong>
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						When you build a communication graph for a channel (e.g. Telegram) you can see the accounts (phone numbers or groups or channels) a user communicated with. The numbers on the arrows mean the number of messages in communication with a particular user or in a particular channel. If you click it, you will see the list of messages.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/23.png?v=2021-01-29T11:52:44.924Z" max-width="100%" />
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Pie chart on communication channels
+						</Strong>
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						Pie chart on communication channels shows the ratio of each channel to the whole picture, as well as their usage by a particular user.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/24.png?v=2021-01-29T11:55:37.014Z" max-width="100%" />
 					{"            "}
 				</StackItem>
 				{"    "}

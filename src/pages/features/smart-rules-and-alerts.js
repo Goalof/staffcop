@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, Box, Image, Span, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -175,95 +175,112 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Smart Rules & Automated Alerts{"\n\n"}
+						Alerts and e-mail reports
+						<br />
+						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
+				<StackItem width="100%" display="flex" sm-width="100%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Configure an alert on any user behavior, including web, email, keystrokes, file transfers, instant messaging, and more{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Block e-mail from being sent, on any platform, if they match certain criteria{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Prevent a user from instant messaging on a specific platform, or with specific users{"\n\n"}
-						</Text>
-					</Box>
 					<Box display="flex">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Block websites or limit usage of website to certain times{"\n\n"}
+							Authomatic alerts make a monitoring system a powerful instrument for incidents prevention and timely investigations. When you receive an alert on violation you can proceed to the steps to prevent possible data breach. In StaffCop, alerts can be set-up for all the policies that you create: e.g visiting of a specific web-site, connection of a USB drive, an e-mail to a specific e-mail address.
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					{"            "}
 				</StackItem>
-				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" />
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Span
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Alerts in the StaffCop Admin Panel
+						</Span>
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="100%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Stop users from writing to USB key, or uploading to a cloud drive, or sending certain e-mail attachments{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Lock-out users pending administrator unlock for any action{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							When you have your corporate policies with notifications setup, you will be notified in the Admin Panel each time a policy is triggered. The figure in the red circle shows the amount of times the policy has been triggered. At the screenshot below we can see that someone sent or recieved a credit card number.
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					{"            "}
+				</StackItem>
+				<StackItem>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/202.png?v=2021-01-29T10:56:33.423Z" />
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							E-mail reports or alerts
+						</Strong>
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="100%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Besides, e-mail notifications or reports can be set-up. If we choose "New", an e-mail will be sent each time a policy is triggered. If we choose "Daily", "Weekly" or "Monthly" a report with the list of facts on the policy will be sent for a corresponding period of time. You can setup different filters for different departments, in this case a head of sales department will get the report only on his (her) employees.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				<StackItem>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/201.png?v=2021-01-29T11:25:04.316Z" />
 				</StackItem>
 				{"    "}
 			</Stack>

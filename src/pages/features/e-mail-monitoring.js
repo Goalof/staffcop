@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, Box, Image, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -73,7 +73,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							All business and personal mail providers{"\n\n"}
+							Download and see files received by email
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -252,6 +252,164 @@ export default (() => {
 					</Box>
 					{"            "}
 				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem
+					width="100%"
+					display="flex"
+					sm-width="100%"
+					nout-width="100%"
+					padding="16px 16px 16px 16px"
+				>
+					<Override slot="StackItemContent" padding="0px 0px 0px 0px" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							E-mail correspondence graph
+						</Strong>
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							Build the relation graph of e-mail correspondence to see the e-mail recipients of each user. The fugures on the arrows mean the numbers of e-mails. If you click any of them you will see the corresponding e-mail thread. This graph is very useful in case of a data leak investigation as it helps revealing the whole chain of events and all the participants.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/14.png?v=2021-01-29T10:08:43.201Z" width="100%" />
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Files sent by e-mail
+						</Strong>
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							See the all the files that were sent by e-mail as attachments. If the files are represented by images they are available for a preview in the list. The files can be downloaded for further studying. The list can be of much use if we know what files should be searched for.{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/15.png?v=2021-01-29T10:17:53.768Z" width="100%" />
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							E-mail quantinty heatmap
+						</Strong>
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							E-mail quantity heatmap is a vivid representation of the amount of e-mails in relation to timeline. Each day is represented by a cell, the darker its color - the higher the amount of e-mails. The heatmap is useful to detect anomalies in e-mail routine, and unusually high e-mail activity may be a reson for a deeper investigation.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/17.png?v=2021-01-29T10:23:15.734Z" width="100%" />
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							IMAP Grabber (collects all e-mails from mail server)
+						</Strong>
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							This feature allows to collect all the correspondence that goes through your corporate mail server. It will collect e-mails sent or received from any device (including mobile phones). For this policy a special e-mail account should be creted on your corporate mail server that will receive a copy of each email to send it to StaffCop.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/18.png?v=2021-01-29T10:27:44.196Z" />
 				{"    "}
 			</Stack>
 		</Section>

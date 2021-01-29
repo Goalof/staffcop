@@ -101,7 +101,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Teramind for Financial Services: Identify and Stop Insider Threats{"\n\n"}
+						StaffCop for Financial Services: Identify and Stop Insider Threats{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -200,7 +200,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Teramind Addresses Activity Monitoring, Threat Detection, Data Loss Prevention Needs with a Single Unified Solution{"\n\n"}
+						StaffCop Addresses Activity Monitoring, Threat Detection, Data Loss Prevention Needs with a Single Unified Solution{"\n\n"}
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -213,7 +213,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Teramind is designed to assist the financial sector address data loss, cybersecurity and insider threats with its user activity monitoring, insider threat detection and data loss prevention solution. With Teramind, financial services organizations can implement effective endpoint monitoring to ensure adherence to regulatory compliance when it comes to protecting sensitive financial and personal data. Here are a few examples of what a financial services organization can achieve with Teramind:{"\n\n"}
+						StaffCop is designed to assist the financial sector address data loss, cybersecurity and insider threats with its user activity monitoring, insider threat detection and data loss prevention solution. With StaffCop, financial services organizations can implement effective endpoint monitoring to ensure adherence to regulatory compliance when it comes to protecting sensitive financial and personal data. Here are a few examples of what a financial services organization can achieve with StaffCop:{"\n\n"}
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -1039,8 +1039,17 @@ export default (() => {
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 			>
-				Teramind Helps Energy & Utilities Companies{" "}
-				<Span color="--primary">
+				StaffCop Helps Energy & Utilities Companies{" "}
+				<Span
+					color="--primary"
+					data-q-widget-type="PRIMITIVE"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
 					Protect Sensitive Data
 				</Span>
 			</Text>
@@ -1348,7 +1357,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind visually records every action that a user makes on your Operation Technology (OT) and IT systems including endpoints, servers/terminal servers, network and cloud, DMZ for 12+ system objects like: web, apps, email, file transfers, etc. Uncover what your employees are up to both online and offline. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. You can specify who you want to monitor, how much you want to monitor, when and for how long. This allows for instant administrative oversight in respect to all user activity while complying with any privacy requirements.
+						StaffCop visually records every action that a user makes on your Operation Technology (OT) and IT systems including endpoints, servers/terminal servers, network and cloud, DMZ for 12+ system objects like: web, apps, email, file transfers, etc. Uncover what your employees are up to both online and offline. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. You can specify who you want to monitor, how much you want to monitor, when and for how long. This allows for instant administrative oversight in respect to all user activity while complying with any privacy requirements.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1399,7 +1408,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind has built-in templates for many classified and unclassified data types to protect your customer data, IP and other sensitive information. Custom data types easily be created using flexible regular expression (RegEx) and natural language definitions. Combine OCR and fingerprinting with multiple logic, file origin, file properties and data content to discover and protect confidential exploration and production data, engineering and technical design, source codes, contract etc.
+						StaffCop has built-in templates for many classified and unclassified data types to protect your customer data, IP and other sensitive information. Custom data types easily be created using flexible regular expression (RegEx) and natural language definitions. Combine OCR and fingerprinting with multiple logic, file origin, file properties and data content to discover and protect confidential exploration and production data, engineering and technical design, source codes, contract etc.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1477,7 +1486,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						The core of the Teramind platform is its automation. Teramind comes with hundreds of pre-defined policies and rules. For example: block email containing sensitive keywords, stop uploading of a confidential document, detect screen capture, prevent the use of external drives etc. The templates cover virtually every use case of data loss prevention, insider threat detection and compliance requirements. Just pick a policy or rule template and all the data definition, content source, condition will be set automatically for you to edit.
+						The core of the StaffCop platform is its automation. Teramind comes with hundreds of pre-defined policies and rules. For example: block email containing sensitive keywords, stop uploading of a confidential document, detect screen capture, prevent the use of external drives etc. The templates cover virtually every use case of data loss prevention, insider threat detection and compliance requirements. Just pick a policy or rule template and all the data definition, content source, condition will be set automatically for you to edit.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1527,7 +1536,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind helps you put exfiltration and egress controls in place to monitor and prevent illicit sharing of information. For example, File Transfer rules to block use of removable media. Clipboard rules to prevent sharing of confidential information like customer data outside the CRM. Network rules to restrict download/upload operations in the Cloud for certain file types or all files (no need for separate Cloud Access Security Brokers). Or use dedicated Application rules to limit or completely disable social media and IMs to prevent potential data leak by social engineering. There are hundreds of use cases where Teramind can proactively defend your data from malicious or accidental leaks or misuse
+						StaffCop helps you put exfiltration and egress controls in place to monitor and prevent illicit sharing of information. For example, File Transfer rules to block use of removable media. Clipboard rules to prevent sharing of confidential information like customer data outside the CRM. Network rules to restrict download/upload operations in the Cloud for certain file types or all files (no need for separate Cloud Access Security Brokers). Or use dedicated Application rules to limit or completely disable social media and IMs to prevent potential data leak by social engineering. There are hundreds of use cases where Teramind can proactively defend your data from malicious or accidental leaks or misuse
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1605,7 +1614,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Define what constitutes dangerous or harmful user behavior and Teramind’s sophisticated anomaly engine will automatically detect when a user, department or group deviates from their normal parameters or exceeds acceptable risk levels. For example, get notified if a user sends too many attachments or prints more pages than normal. Teramind can detect anomalies in applications, emails, network, file activities, printing and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made.
+						Define what constitutes dangerous or harmful user behavior and StaffCop’s sophisticated anomaly engine will automatically detect when a user, department or group deviates from their normal parameters or exceeds acceptable risk levels. For example, get notified if a user sends too many attachments or prints more pages than normal. StaffCop can detect anomalies in applications, emails, network, file activities, printing and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1655,7 +1664,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind allows organizations to create profiles for privileged users, contractors and other third-parties and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be created to notify the authorities of any suspicious privileged user activity, such as unauthorized changes to system configuration, creation of backdoor accounts, unscheduled logins, a contractor trying to access restricted databases etc.
+						StaffCop allows organizations to create profiles for privileged users, contractors and other third-parties and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be created to notify the authorities of any suspicious privileged user activity, such as unauthorized changes to system configuration, creation of backdoor accounts, unscheduled logins, a contractor trying to access restricted databases etc.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1733,7 +1742,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind allows you to create virtual servers on Windows, VMware Horizon etc. Utilizing this capability, you can for example, setup a Terminal Server for your partners, contractors or vendors . These external users can then login to the server using RDP keeping out of your internal network and repositories. At the same time, you can record their activates separately, restrict access or take control of the server in case of an incident keeping rest of your business immune to disruption.
+						StaffCop allows you to create virtual servers on Windows, VMware Horizon etc. Utilizing this capability, you can for example, setup a Terminal Server for your partners, contractors or vendors . These external users can then login to the server using RDP keeping out of your internal network and repositories. At the same time, you can record their activates separately, restrict access or take control of the server in case of an incident keeping rest of your business immune to disruption.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1861,7 +1870,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind has a dedicated Risk dashboard where the CSO and security analysts can conduct organization-wide risk assessment. Risk can be profiled by users, departments or by system objects. Reports can be derived by severity of risks or by how many times security violations occurred. Unique Risk Scores helps you identify high-risk users or policies so that plans can be developed for treating the risks.
+						StaffCop has a dedicated Risk dashboard where the CSO and security analysts can conduct organization-wide risk assessment. Risk can be profiled by users, departments or by system objects. Reports can be derived by severity of risks or by how many times security violations occurred. Unique Risk Scores helps you identify high-risk users or policies so that plans can be developed for treating the risks.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1911,7 +1920,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind comes with support for implementing compliance and standards like NERC CIP Standards for Electric Utilities, FISMA, FERC, ISO 27001, GDPR etc. Our flexible Policy and Rules Editor and powerful analytics and reporting features can help you develop your own organization-specific security and privacy, etiquette and acceptable use policies or conform with any regional data privacy and notification laws applicable to your organization.
+						StaffCop comes with support for implementing compliance and standards like NERC CIP Standards for Electric Utilities, FISMA, FERC, ISO 27001, GDPR etc. Our flexible Policy and Rules Editor and powerful analytics and reporting features can help you develop your own organization-specific security and privacy, etiquette and acceptable use policies or conform with any regional data privacy and notification laws applicable to your organization.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1933,7 +1942,32 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.BlockNeed />
+		<Components.BlockNeed>
+			<Override slot="text1">
+				Employee Monitoring
+			</Override>
+			<Override slot="text2">
+				StaffCop Enterprise logs the beginning and the end of each employee’s workday, including lunch and coffee breaks, etc. It enables executives and employees, themselves, to improve discipline at the workplace and reduce idle periods.{"\n\n"}
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					data-q-widget-type="PRIMITIVE"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text3">
+				Information Security
+			</Override>
+			<Override slot="text6">
+				Remote Administration
+			</Override>
+		</Components.BlockNeed>
 		<Section
 			background="#ffffff"
 			padding="70px 0 20px 0"
@@ -2007,7 +2041,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							On-premise
+							Windows
 						</Text>
 						<Text
 							font="--lead"
@@ -2107,7 +2141,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Cloud
+							Linux
 						</Text>
 						<Text
 							font="--lead"
@@ -2127,7 +2161,22 @@ export default (() => {
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					<Span
+						color="--primary"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						Feature-rich
+					</Span>
+					, affordable with perpetual and annual licensing goptions
+				</Override>
+			</Components.Feature>
 			<Components.Footer />
 		</Section>
 		<Section
