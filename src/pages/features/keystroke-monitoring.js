@@ -201,7 +201,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Configure behavior rules that alert of lock out a user when certain keystrokes are pressed in certain websites or applications{"\n\n\n\n"}
+							Configure behavior rules that alert when certain keystrokes are pressed in certain websites or applications{"\n\n\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">

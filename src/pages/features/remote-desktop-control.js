@@ -62,7 +62,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Take control of any session at any tim
+							Take control of any session at any time
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -144,7 +144,7 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
@@ -167,51 +167,15 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						A user's ability to access a desktop can be instantly taken away by putting Teramind's remote control feature to use. Manually overriding an account removes the user from the equation, ensuring that activity is contained and potential threats are eliminated.
+						When you are watching remote desktop in real time you can take control over the remote workstation and control it's mouse and keyboard. It can be used in case by system administrators for fixing issues without the necessity of physical presence at the workstation).
+						<br />
+						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
+				<StackItem width="100%" display="flex" sm-width="100%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Remote control can be started by simply clicking on the remote icon on all live sessions
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Override all manual inputs by a user to prevent sensitive data from being altered and data breaches from occurring
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Use remote control to enhance productivity through management/user training sessions that can take place between different offices
-						</Text>
-					</Box>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/88.png?v=2021-02-01T06:28:24.437Z" />
 					{"            "}
 				</StackItem>
 				{"    "}

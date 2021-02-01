@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, Box, Image, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -179,19 +179,6 @@ export default (() => {
 							Video-quality desktop session recording{"\n\n"}
 						</Text>
 					</Box>
-					<Box display="flex" margin="0px 0px 0px 0px" padding="0px 0px 0px 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="15px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Video playbacks can be accessed and viewed by an administrator from a variety of platforms, including smartphones and tablets{"\n\n"}
-						</Text>
-					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
 							category="bs"
@@ -258,8 +245,108 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Recorded files can be exported and downloaded as AVIs{"\n\n"}
+							Recorded files can be exported and downloaded as MP4
 						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Live view of remote desktops
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="100%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							You can view remote desktops in real-time mode, several screens at once - just like in video surveillance! If a user has two screens, for a example a notepad with connected extetnal monitor, you will see them both merged in a single frame.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				<StackItem width="100%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/87.png?v=2021-02-01T10:15:55.827Z" max-width="100%" />
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							{"\n"}
+							<Strong>
+								Record desktop video
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="100%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							You can record videos of a remote desktop to watch them in StaffCop admin panel or download as mp4 files and watch in your desktop media player. If a user has two screens, for a example a notepad with connected extetnal monitor, video records will be taken from both screens and merged to a single file.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				<StackItem width="100%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/86.png?v=2021-02-01T10:19:37.891Z" max-width="100%" />
 					</Box>
 					{"            "}
 				</StackItem>

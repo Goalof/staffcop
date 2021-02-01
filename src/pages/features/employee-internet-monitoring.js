@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, Box, Image, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -61,7 +61,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Block or limit access to certain websites{"\n\n"}
+							Block or allow access to certain websites{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -159,98 +159,186 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Live View & History Playback
+						<Strong>
+							Scheduled reports on web-sites activity
+						</Strong>
+						<br />
+						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
+				<StackItem display="flex" sm-width="100%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="15px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Every URL and website that is typed is added to a user's textual log, with every log entry being complemented by a video playback of the event{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="15px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Customizable alerts can be set, such as for periods of idle time and access to entertainment websites, to enhance productivity and employee motivation{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="15px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							All employee internet activities that occur on a web page are monitored and recorded for live and future viewing{"\n\n"}
-						</Text>
-					</Box>
 					<Box display="flex">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="15px 0px 0px 0px"
-						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Notifications can be sent out for sensitive files that are uploaded or downloaded through email and cloud drives{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" />
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="15px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Users who access websites deemed suspicious, or determined off-limits by management, will instantly trigger an alert{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="15px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Featured or embedded audio is recorded and can be heard during live video and historic playbacks{"\n\n"}
+							You can get a scheduled report on all web-sites visited for a day (week, month) to your e-mail. Each event from the list will contain details including duration of the visit and URL. If we consider enterprise-size usage, we can set separate reports for the head of each department containing the list of web-site activities only of the employees of the corresponding department.
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
+			<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/43.png?v=2021-02-01T06:47:43.653Z" width="100%" padding="0px 24px 0px 24px" />
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Take screenshots for specific web-sites
+						</Strong>
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							You can get aa list of screenshots related to a web-sites visiting to see the exact picture of employee activity there, in case URLs don't suffice (e.g. the webpages have been deleted). Moreover, we can get a specific web-site (or a group of websites on special monitoring) to take screenshot with a higher frequency when a user has it open. This can be useful in case you have some corporate resourece with snsitive data (e.g. customers database).
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/44.png?v=2021-02-01T06:52:34.974Z" width="100%" padding="0px 16px 0px 16px" />
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						Block access to websites
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							<Strong>
+								Block particular websites
+							</Strong>
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							Black list. Add domains or URLs of web-sites that will be blocked. In this example we blocked aceess to Facebook, Pornhub and Casino-online. All other web-sites can still be accessed.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/31.png?v=2021-02-01T06:59:25.570Z" />
+					{"            "}
+				</StackItem>
+				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							<Strong>
+								Allow only particular websites
+							</Strong>
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							White list. Add domains or URLs of web-sites that will be allowed. In this example, we allowed access to StaffCop.com, Bitrix24 and Capterra. ALL other web-sites will be bloked. White lists are useful in case corporate policy allows working ONLY with a narrow range of web-sites.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/32.png?v=2021-02-01T07:27:57.685Z" />
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						Track search queries
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							Do you want to know what your employees search for on the Web during their working day? Are they interested in getting answers on job-related issues or in the funny videos on youtube? You can understand this easily with StaffCop. First of all, we can get a piechart of search engines showing the amount of searches for each user. In the example below we see that a user named "serge terekhov" used DuckDuckGo 5 times. If we click it, we will see the list of events as shown below.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/41.png?v=2021-02-01T08:00:44.857Z" width="100%" padding="0px 16px 0px 16px" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex">
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							If we choose an event from the list we will see the details of the search query including date, time, browser application, page title and URL.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/42.png?v=2021-02-01T08:06:13.150Z" width="100%" padding="0px 16px 0px 16px" />
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
