@@ -108,7 +108,15 @@ export default {
 				"5f936ce4c7fb89001e9249d5",
 				"5f937068a37bff001ef6952d",
 				"5f9770c3c7fb89001e924f4a",
-				"5f977112b40b56001e952304"
+				"5f977112b40b56001e952304",
+				"601a47eb372cb7001f0e0fda",
+				"601a555471e66d001efb10cf",
+				"601a602e372cb7001f0e1079",
+				"601a66196c1e89001ea0aec6",
+				"601a7077bfd603001f71b572",
+				"601a81bb179f5c00220681e2",
+				"601a88688e7be4001e978019",
+				"601a90d4372cb7001f0e11c6"
 			],
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
@@ -208,7 +216,7 @@ export default {
 		"5f934743b40b56001e951d21": {
 			"id": "5f934743b40b56001e951d21",
 			"pageUrl": "app-usageapplication-monitoring",
-			"name": "App usage/application  monitoring ",
+			"name": "Network activity monitoring",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "App usage/application  monitoring "
@@ -217,7 +225,7 @@ export default {
 		"5f93698fa37bff001ef694f1": {
 			"id": "5f93698fa37bff001ef694f1",
 			"pageUrl": "network-user-activitymonitoring",
-			"name": "Network User Activity Monitoring",
+			"name": "App usage/application monitoring",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "Network User Activity Monitoring"
@@ -262,7 +270,7 @@ export default {
 		"5f936beeb40b56001e951d85": {
 			"id": "5f936beeb40b56001e951d85",
 			"pageUrl": "citrix-session-recording",
-			"name": "Citrix Session Recording",
+			"name": "Linux terminal capture",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "Citrix Session Recording"
@@ -280,7 +288,7 @@ export default {
 		"5f937068a37bff001ef6952d": {
 			"id": "5f937068a37bff001ef6952d",
 			"pageUrl": "configurable-monitoring-profiles",
-			"name": "Configurable Monitoring Profiles",
+			"name": "Custom reports",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "Configurable Monitoring Profiles"
@@ -537,6 +545,46 @@ export default {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "Purchase"
 			}
+		},
+		"601a47eb372cb7001f0e0fda": {
+			"id": "601a47eb372cb7001f0e0fda",
+			"pageUrl": "nonproductive-activity-reporting1",
+			"name": "User Card"
+		},
+		"601a555471e66d001efb10cf": {
+			"id": "601a555471e66d001efb10cf",
+			"pageUrl": "nonproductive-activity-reporting11",
+			"name": "Screen Capture"
+		},
+		"601a602e372cb7001f0e1079": {
+			"id": "601a602e372cb7001f0e1079",
+			"pageUrl": "citrix-session-recording1",
+			"name": "Web-cam snapshots"
+		},
+		"601a66196c1e89001ea0aec6": {
+			"id": "601a66196c1e89001ea0aec6",
+			"pageUrl": "citrix-session-recording11",
+			"name": "USB device control"
+		},
+		"601a7077bfd603001f71b572": {
+			"id": "601a7077bfd603001f71b572",
+			"pageUrl": "citrix-session-recording111",
+			"name": "Data Leak Prevention (DLP)"
+		},
+		"601a81bb179f5c00220681e2": {
+			"id": "601a81bb179f5c00220681e2",
+			"pageUrl": "citrix-session-recording1111",
+			"name": "Voice communication recording"
+		},
+		"601a88688e7be4001e978019": {
+			"id": "601a88688e7be4001e978019",
+			"pageUrl": "citrix-session-recording11111",
+			"name": "File Scanner"
+		},
+		"601a90d4372cb7001f0e11c6": {
+			"id": "601a90d4372cb7001f0e11c6",
+			"pageUrl": "citrix-session-recording111111",
+			"name": "Software and Hardware Inventory"
 		}
 	},
 	"mode": "production",

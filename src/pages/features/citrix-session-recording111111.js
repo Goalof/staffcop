@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box, Image, Strong } from "@quarkly/widgets";
+import { Theme, Link, Strong, Text, Icon, Box, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -8,13 +8,13 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/app-usageapplication-monitoring"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/citrix-session-recording111111"} />
 		<Helmet>
 			<title>
-				App usage/application  monitoring 
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Header />
 		<Section
@@ -41,6 +41,7 @@ export default (() => {
 						align-items="flex-start"
 						sm-align-items="center"
 						lg-align-items="center"
+						padding="0px 10px 0px 0px"
 					/>
 					{"        "}
 					<Text
@@ -50,7 +51,29 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						lg-text-align="center"
 					>
-						Network activity monitoring
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Software and Hardware Inventory
+								<br />
+								{"\n\n"}
+							</Strong>
+						</Strong>
 					</Text>
 					<Box display="flex" align-items="center" margin="0px 0px 0px 0px">
 						<Icon
@@ -61,7 +84,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Usage of protocols (https, http)
+							Applications installed or uninstalled on each workstation
 							<br />
 							{"\n\n"}
 						</Text>
@@ -75,7 +98,9 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Connections to certain IP addresses{"\n\n"}
+							Updates of applications installed on each workstation
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -87,7 +112,35 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							FTP connections
+							How many PCs have this software installed
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+						/>
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Devices installed or uninstalled on each workstation
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+						/>
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Alerts can be sent in case of installation or uninstallation
 							<br />
 							{"\n\n"}
 						</Text>
@@ -128,19 +181,18 @@ export default (() => {
 						position="absolute"
 						right="-115px"
 						left="auto"
-						top="-50px"
+						top="-60px"
 						bottom="auto"
 						lg-width="500px"
-						lg-position="static"
-						lg-top="-35px"
-						lg-right="-50px"
+						lg-position="relative"
+						lg-top="0px"
+						lg-right="auto"
 						md-top="0px"
-						md-right="-70px"
-						sm-position="relative"
-						sm-bottom="auto"
-						sm-left="auto"
-						sm-right="auto"
-						sm-top="0px"
+						md-right="auto"
+						lg-bottom="auto"
+						lg-left="auto"
+						md-bottom="auto"
+						md-left="auto"
 					/>
 					{"    "}
 				</StackItem>
@@ -164,84 +216,6 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Application Monitoring{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-						sm-margin="30px 0px 0px 0px"
-					>
-						StaffCop can get info on network connections, with such fitering criteria as IP and ports. This ability can be useful for system administrators in case corporate policy has a specification for using certain ports. FTP connections are tracked with the ability to see the sent/recieved files. Activity in cloud storages (e.g. Google Drive) is monitored.
-						<br />
-						{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Usage of ports
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-						sm-margin="30px 0px 0px 0px"
-					>
-						For example, we need to understand which ports are used by which applications and check if all of them are allowed by the corporate policy. The piechart presented in screenshot below will show us the share of each applications in total amount of usage of ports.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/51.png?v=2021-02-02T11:41:38.831Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
 						<Strong
 							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
@@ -251,60 +225,6 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							{"\n"}
-							<Strong>
-								Usage of protocols
-							</Strong>
-							{"\n\n"}
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-						sm-margin="30px 0px 0px 0px"
-					>
-						StaffCop tracks traffic sent/recieved throught encrypted https connections. We can see what websites were visited through encrypted https protocol, and if any of them seems suspecious we can see all the web visiting details by clicking the corresponding item of the pie chart.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/52.png?v=2021-02-02T11:44:46.639Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							{"\n"}
 							<Strong
 								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
@@ -314,149 +234,6 @@ export default (() => {
 								text-overflow="clip"
 								hyphens="manual"
 							>
-								{"\n"}
-								<Strong>
-									FTP connections
-								</Strong>
-								{"\n\n"}
-							</Strong>
-							{"\n\n"}
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-						sm-margin="30px 0px 0px 0px"
-					>
-						With StaffCop you can track FTP connections including info on the IP address, login/pasword pair and the applications used for connection. In case shadow-copying option is enabled StaffCop allows to see all the files sent/receive through FTP.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/53.png?v=2021-02-02T11:51:26.604Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							{"\n"}
-							<Strong
-								data-q-widget-type="PRIMITIVE"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								{"\n"}
-								<Strong
-									data-q-widget-type="PRIMITIVE"
-									overflow-wrap="normal"
-									word-break="normal"
-									white-space="normal"
-									text-indent="0"
-									text-overflow="clip"
-									hyphens="manual"
-								>
-									{"\n"}
-									<Strong>
-										Cloud storages
-									</Strong>
-									{"\n\n"}
-								</Strong>
-								{"\n\n"}
-							</Strong>
-							{"\n\n"}
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-						sm-margin="30px 0px 0px 0px"
-					>
-						With StaffCop you can track connections to cloud storages (e.g Google Drive) as well as to your corporate network discs. If the shadow-copying option is enabled you will be able to see the files uploaded to cloud storages.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/56.png?v=2021-02-02T11:54:34.018Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							{"\n"}
-							<Strong
-								data-q-widget-type="PRIMITIVE"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								{"\n"}
 								<Strong
 									data-q-widget-type="PRIMITIVE"
 									overflow-wrap="normal"
@@ -477,34 +254,564 @@ export default (() => {
 										hyphens="manual"
 									>
 										{"\n"}
-										<Strong>
-											Wi-Fi connections
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											{"\n"}
+											<Strong>
+												Applications installed or uninstalled on each workstation
+											</Strong>
+											{"\n\n"}
 										</Strong>
-										{"\n\n"}
 									</Strong>
-									{"\n\n"}
 								</Strong>
+								<br />
 								{"\n\n"}
 							</Strong>
 							{"\n\n"}
 						</Strong>
-						{"\n\n"}
+						{"\n\n\n\n"}
 					</Text>
 					<Text
 						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
+						margin="30px 0px 0px 0px"
 						display="inline-block"
 						color="#555"
 						letter-spacing="-1%"
 						sm-text-align="center"
-						sm-margin="30px 0px 0px 0px"
 					>
-						StaffCop will show you the Wi-Fi connection with SSID (network name). Wi-Fi networks can be blocked on the basis on white and black lists. It's useful in case employees are allowed to use only corporate networks due to the security issues.
+						You can see applications installed or uninstalled on each workstation in a single report. It will contains such details as vendor, version, and the date the availability was checked last time.
 						<br />
 						{"\n\n"}
 					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/58.png?v=2021-02-02T11:59:35.482Z" width="322px" height="210px" />
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/59.png?v=2021-02-02T12:01:41.026Z" />
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/101.png?v=2021-02-03T12:14:58.074Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										{"\n"}
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											{"\n"}
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												{"\n"}
+												<Strong>
+													Updates of applications installed on each workstation
+												</Strong>
+												{"\n\n"}
+											</Strong>
+											{"\n\n"}
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						You can see updates of applications installed on each workstation in a single report. It will contains such details as vendor, version, and the date the availability was checked last time.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/102.png?v=2021-02-03T12:16:00.247Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										{"\n"}
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											{"\n"}
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												{"\n"}
+												<Strong
+													data-q-widget-type="PRIMITIVE"
+													overflow-wrap="normal"
+													word-break="normal"
+													white-space="normal"
+													text-indent="0"
+													text-overflow="clip"
+													hyphens="manual"
+												>
+													{"\n"}
+													<Strong>
+														How many computers have this software installed
+													</Strong>
+													{"\n\n"}
+												</Strong>
+												{"\n\n"}
+											</Strong>
+											{"\n\n"}
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						You can see how many computers have a specific application installed. This report represents a list with the name of applications and the amount of the PCs which have this application. The details for each applications are collapsed: you can click the name to see them.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/103.png?v=2021-02-03T12:20:06.102Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										{"\n"}
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											{"\n"}
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												{"\n"}
+												<Strong
+													data-q-widget-type="PRIMITIVE"
+													overflow-wrap="normal"
+													word-break="normal"
+													white-space="normal"
+													text-indent="0"
+													text-overflow="clip"
+													hyphens="manual"
+												>
+													{"\n"}
+													<Strong
+														data-q-widget-type="PRIMITIVE"
+														overflow-wrap="normal"
+														word-break="normal"
+														white-space="normal"
+														text-indent="0"
+														text-overflow="clip"
+														hyphens="manual"
+													>
+														{"\n"}
+														<Strong>
+															Devices installed or uninstalled on each workstation
+														</Strong>
+														{"\n\n"}
+													</Strong>
+													{"\n\n"}
+												</Strong>
+												{"\n\n"}
+											</Strong>
+											{"\n\n"}
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						You can see devices installed or uninstalled on each workstation in a single report. It will contains such details as vendor, ID, and the date the availability was checked last time.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/104.png?v=2021-02-03T12:21:36.846Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										{"\n"}
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											{"\n"}
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												{"\n"}
+												<Strong
+													data-q-widget-type="PRIMITIVE"
+													overflow-wrap="normal"
+													word-break="normal"
+													white-space="normal"
+													text-indent="0"
+													text-overflow="clip"
+													hyphens="manual"
+												>
+													{"\n"}
+													<Strong
+														data-q-widget-type="PRIMITIVE"
+														overflow-wrap="normal"
+														word-break="normal"
+														white-space="normal"
+														text-indent="0"
+														text-overflow="clip"
+														hyphens="manual"
+													>
+														{"\n"}
+														<Strong
+															data-q-widget-type="PRIMITIVE"
+															overflow-wrap="normal"
+															word-break="normal"
+															white-space="normal"
+															text-indent="0"
+															text-overflow="clip"
+															hyphens="manual"
+														>
+															{"\n"}
+															<Strong>
+																Alerts can be sent in case of installation or uninstallation
+															</Strong>
+															{"\n\n"}
+														</Strong>
+														{"\n\n"}
+													</Strong>
+													{"\n\n"}
+												</Strong>
+												{"\n\n"}
+											</Strong>
+											{"\n\n"}
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						You can set-up automatic alerts on fact of installation or uninstallation of an application. Our you can setup a weekly report on all such facts.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/105.png?v=2021-02-03T12:22:33.105Z" />
 					{"    "}
 				</StackItem>
 				{"    "}

@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box, Image, Strong } from "@quarkly/widgets";
+import { Theme, Link, Strong, Text, Icon, Box, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -8,13 +8,13 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/network-user-activitymonitoring"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/citrix-session-recording11"} />
 		<Helmet>
 			<title>
-				Network User Activity Monitoring
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Header />
 		<Section
@@ -41,6 +41,7 @@ export default (() => {
 						align-items="flex-start"
 						sm-align-items="center"
 						lg-align-items="center"
+						padding="0px 10px 0px 0px"
 					/>
 					{"        "}
 					<Text
@@ -50,9 +51,28 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						lg-text-align="center"
 					>
-						App usage/application{" "}
-						<br />
-						monitoring{" "}
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							{"\n"}
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								USB device control
+							</Strong>
+						</Strong>
 					</Text>
 					<Box display="flex" align-items="center" margin="0px 0px 0px 0px">
 						<Icon
@@ -63,7 +83,9 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track application usage
+							Get information on external devices that were connected or disconnected
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -75,7 +97,9 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Whitelist or blacklist apps
+							Get information of files copied from/to USB drives
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -87,7 +111,37 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Automated alerts & policy enforcement
+							Block USB devices by IDs or classes
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+						/>
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Read-only mode for USB devices
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+						/>
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Block CD-drives
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -126,22 +180,18 @@ export default (() => {
 						position="absolute"
 						right="-115px"
 						left="auto"
-						top="-50px"
+						top="-60px"
 						bottom="auto"
 						lg-width="500px"
-						lg-position="static"
-						lg-top="-35px"
-						lg-right="-50px"
+						lg-position="relative"
+						lg-top="0px"
+						lg-right="auto"
 						md-top="0px"
 						md-right="auto"
-						sm-position="relative"
-						md-left="auto"
-						md-position="relative"
+						lg-bottom="auto"
+						lg-left="auto"
 						md-bottom="auto"
-						sm-bottom="auto"
-						sm-left="auto"
-						sm-right="auto"
-						sm-top="0px"
+						md-left="auto"
 					/>
 					{"    "}
 				</StackItem>
@@ -152,102 +202,6 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						Application Monitoring
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						StaffCop tracks user activity in applications including time and duration. This collected data is then used for building time tracking reports for evaluation of employee productivity. Applications can graded according to their level of their usefullness for performing working tasks. They are divided into thematical resource lists, such as "Office applcations", "E-mail applications", "Graphic editors", "Games", etc. Each list of applications has a corresponding productivity category, for example "Office applications" are productive, "Games" - unproductive, "Graphic editors" - neutral. StaffCop can also block launching of prohibited applications.
-						<br />
-						{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="19px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Records include time spent within an application, individual keystrokes, files accessed, and content viewed, among a plethora of other data
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="19px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Application-specific alerts can be set to have StaffCop notify administrators of the development of potential security risks
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" />
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="19px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Monitor application usage across an organization to determine needed upgrades and security protocol updates
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="19px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Applications can be separated based on usages to provide a clear picture of general and individual employee productivity levels{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
 				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
@@ -261,112 +215,56 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						<Strong>
-							Activity time and duration
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong>
+									Get information on external devices that were connected or disconnected
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
 						</Strong>
-						{"\n\n"}
+						{"\n\n\n\n"}
 					</Text>
 					<Text
 						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
+						margin="30px 0px 0px 0px"
 						display="inline-block"
 						color="#555"
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						StaffCop tracks all user activities in applications, with detailed information of each event including its duration and the window title to make it clear what a particular user was doing at a particular moment.
+						With StaffCop it's easy to get the list of all external drives that were connected or disconnected to a workstation. The list will have such information as device name, ID, name of the workstation and the account on which this operation was performed. The IDs of the devices can be then used to create a white or black list.
 						<br />
 						{"\n\n"}
 					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/71.png?v=2021-02-02T09:58:49.998Z" />
 					{"    "}
 				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
 				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Special monitoring with screenshots
-						</Strong>
-						<br />
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						If knowing the window title of the application is not enough andd more information is required for investigation, screenshots taking can be used. Besides common options of taking screenshots as a specified interval and at the moment the active window is changed there is an option called "Special monitoring". If we specify an aplication for special momnitoring, screenshots will be taken with a higher frequency all the time when this application is running.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/72.png?v=2021-02-02T10:22:03.575Z" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/111.png?v=2021-02-03T09:10:39.466Z" />
 					{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Application category
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						StaffCop divides the data collected on activity in applications according to thematical groups, each group with its own productivity category. This data is used for building time tracking reports. The list of categories can be manually edited, including adding/remove applications for a list, and changing its productivity catgory (e.g. change Instant Messengers category from unproductive to productive for sales department.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/73.png?v=2021-02-02T10:32:23.243Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
 				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
@@ -391,154 +289,59 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							<Strong>
-								Files that were opened in applications
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong>
+										Get information of files copied from/to USB drives
+									</Strong>
+									{"\n\n"}
+								</Strong>
+								<br />
+								{"\n\n"}
 							</Strong>
-							<br />
 							{"\n\n"}
 						</Strong>
-						{"\n\n"}
+						{"\n\n\n\n"}
 					</Text>
 					<Text
 						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
+						margin="30px 0px 0px 0px"
 						display="inline-block"
 						color="#555"
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						With StaffCop you can get a list of files that were opened in a particular application. This may be useful in case corporate sensitive information is mainly processed in a specific application (e.g. AutoCad) or there is a limited amount files that are allowed for a specific user group. Or if we need to understand what files were opened in a cloud service application (e.g. Dropbox). The info will include the file path and the details on the file storage.
+						You can get reports on all the files that were coipied from/to USB devices. You can download the file for further ivestigation if it was shadow-copied. Moreover, you can shadow-copy ALL the files on a connected USB drive, if this option is enabled.
 						<br />
 						{"\n\n"}
 					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/74.png?v=2021-02-02T10:38:07.016Z" />
 					{"    "}
 				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
 				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Applications installations/removals
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						StaffCop will alert you in case a user installs an application that is not approved by corporate polices. StaffCop will show the facts of installations and uninstallations including update packages.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/75.png?v=2021-02-02T10:44:54.552Z" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/112.png?v=2021-02-03T09:14:10.339Z" />
 					{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Applications inventory report
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						Comparing to the previous report, applications inventory report shows information about the software available on workstations AT THE MOMENT of building the report.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/76.png?v=2021-02-02T11:04:36.823Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Windows processes working in the background
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						StaffCop tracks not only user activity performed in applications but also processes working in the background. This function can be used by system administrators who needs to diagnose and fix issues on remote workstations.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/77.png?v=2021-02-02T11:15:09.675Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
 				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
@@ -563,27 +366,275 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							{"\n"}
-							<Strong>
-								Block prohibited applications
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										<Strong>
+											Block USB devices by IDs or classes
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
 							</Strong>
 							{"\n\n"}
 						</Strong>
-						{"\n\n"}
+						{"\n\n\n\n"}
 					</Text>
 					<Text
 						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
+						margin="30px 0px 0px 0px"
 						display="inline-block"
 						color="#555"
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						StaffCop can not only track application activity but also prevent specified applications from launching. For example, corporate policy forbids usage of torrent clients on workstations. We can add uTorrent to the black list of applications. In this case, if a user tries clicking the shortcut or the .exe file itself nothing will happen. On the other hand, we can specify a list of applications that can be accessed, while ALL that are not in the white list will not work. For example, we add Word, Excel and Thunderbird to the list - the user will be able to launch ONLY them.
+						StaffCop provides flexible options for blocking USB devices on the basis of black and white lists. If you need to block particular devices, add their IDs to the "Block" list. All the other devices can be accessed. If you need to use only particular USB devices, add their IDs to the "Allow" list. ALL other devices will be blocked. The same principle can be applied for devices classes, for example, we can forbid usage of all external video/audio devices or to allow usage only of printers, keyboards and mouses.
 						<br />
 						{"\n\n"}
 					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/78.png?v=2021-02-02T11:17:20.395Z" />
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/113.png?v=2021-02-03T09:19:14.953Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												Read-only mode for USB devices
+											</Strong>
+											{"\n\n"}
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						Besides full blocking of USB devices, you can allow usage them in the Read-only mode. In this case, users will be able to open files on USB drives, but will not be able to change anything there or write any information.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/114.png?v=2021-02-03T09:21:27.432Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												{"\n"}
+												<Strong>
+													Block CD-drives
+												</Strong>
+												{"\n\n"}
+											</Strong>
+											{"\n\n"}
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						StaffCop can block usage of all CD-drives
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/115.png?v=2021-02-03T09:23:39.033Z" width="448px" />
 					{"    "}
 				</StackItem>
 				{"    "}

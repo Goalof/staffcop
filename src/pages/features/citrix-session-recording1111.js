@@ -8,13 +8,13 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/citrix-session-recording"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/citrix-session-recording1111"} />
 		<Helmet>
 			<title>
-				Citrix Session Recording
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Header />
 		<Section
@@ -51,10 +51,31 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						lg-text-align="center"
 					>
-						<Strong>
-							Linux terminal capture
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Voice communication recording
+								<br />
+								{"\n\n"}
+								<br />
+								{"\n\n"}
+							</Strong>
 						</Strong>
-						{"\n\n\n\n"}
 					</Text>
 					<Box display="flex" align-items="center" margin="0px 0px 0px 0px">
 						<Icon
@@ -65,7 +86,9 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Monitor Linux-based workstations{"\n\n\n\n"}
+							Sound from embedded and connected microphones
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -77,7 +100,9 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Get the input in the text format{"\n\n"}
+							Sound from speakers
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -89,7 +114,9 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							View the record of working in terminal{"\n\n\n\n"}
+							Voice communications in applications (Skype, SIP, Zoom, etc.)
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -163,8 +190,55 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						<Strong>
-							Linux terminal capture
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										{"\n"}
+										<Strong>
+											Sound recording
+										</Strong>
+										{"\n\n"}
+									</Strong>
+									{"\n\n"}
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
 						</Strong>
 						{"\n\n\n\n"}
 					</Text>
@@ -176,7 +250,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						If you need to monitor Linux-based workstations it's essential to monitor user activity in terminal applications. StaffCop allows not only to get the input in the text format, but also to view the record of working in terminal as a GIF image which is far more convenient.
+						You can choose applications in which sound will be recorded to study the required recording afterwards. For example, we need to get list of voice communications in Skype to study them. We can listen to the records in the admin panel or download them in the required file format.
 						<br />
 						{"\n\n"}
 					</Text>
@@ -185,13 +259,7 @@ export default (() => {
 				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/090.png?v=2021-02-03T08:33:06.794Z" />
-					{"    "}
-				</StackItem>
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/091.gif?v=2021-02-03T08:33:47.248Z" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/92.png?v=2021-02-03T11:08:53.867Z" />
 					{"    "}
 				</StackItem>
 				{"    "}

@@ -8,17 +8,17 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/network-user-activitymonitoring"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/nonproductive-activity-reporting1"} />
 		<Helmet>
 			<title>
-				Network User Activity Monitoring
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Header />
 		<Section
-			padding="180px 0 140px 0"
+			padding="180px 0 120px 0"
 			background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)"
 			lg-padding="100px 0 30px 0"
 			md-padding="100px 0 0px 0"
@@ -41,6 +41,7 @@ export default (() => {
 						align-items="flex-start"
 						sm-align-items="center"
 						lg-align-items="center"
+						padding="0px 10px 0px 0px"
 					/>
 					{"        "}
 					<Text
@@ -50,9 +51,9 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						lg-text-align="center"
 					>
-						App usage/application{" "}
+						User card
 						<br />
-						monitoring{" "}
+						{"\n\n\n\n"}
 					</Text>
 					<Box display="flex" align-items="center" margin="0px 0px 0px 0px">
 						<Icon
@@ -63,7 +64,9 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track application usage
+							Web-sites visited by the user
+							<br />
+							{"\n\n\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -75,7 +78,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Whitelist or blacklist apps
+							Applications in which the user works{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -87,7 +90,9 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Automated alerts & policy enforcement
+							Duration of calls in softphones and Skype
+							<br />
+							{"\n\n\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -126,17 +131,18 @@ export default (() => {
 						position="absolute"
 						right="-115px"
 						left="auto"
-						top="-50px"
+						top="-60px"
 						bottom="auto"
 						lg-width="500px"
-						lg-position="static"
-						lg-top="-35px"
-						lg-right="-50px"
+						lg-position="relative"
+						lg-top="0px"
+						lg-right="auto"
 						md-top="0px"
 						md-right="auto"
 						sm-position="relative"
+						lg-bottom="auto"
+						lg-left="auto"
 						md-left="auto"
-						md-position="relative"
 						md-bottom="auto"
 						sm-bottom="auto"
 						sm-left="auto"
@@ -152,7 +158,7 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem display="flex" sm-width="100%" nout-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
@@ -165,374 +171,26 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Application Monitoring
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						StaffCop tracks user activity in applications including time and duration. This collected data is then used for building time tracking reports for evaluation of employee productivity. Applications can graded according to their level of their usefullness for performing working tasks. They are divided into thematical resource lists, such as "Office applcations", "E-mail applications", "Graphic editors", "Games", etc. Each list of applications has a corresponding productivity category, for example "Office applications" are productive, "Games" - unproductive, "Graphic editors" - neutral. StaffCop can also block launching of prohibited applications.
-						<br />
-						{"\n\n"}
+						<Strong>
+							Basic account information
+						</Strong>
+						{"\n\n\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
 				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="19px 0px 0px 0px"
-						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Records include time spent within an application, individual keystrokes, files accessed, and content viewed, among a plethora of other data
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="19px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Application-specific alerts can be set to have StaffCop notify administrators of the development of potential security risks
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" />
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="19px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Monitor application usage across an organization to determine needed upgrades and security protocol updates
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="19px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Applications can be separated based on usages to provide a clear picture of general and individual employee productivity levels{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Activity time and duration
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						StaffCop tracks all user activities in applications, with detailed information of each event including its duration and the window title to make it clear what a particular user was doing at a particular moment.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/71.png?v=2021-02-02T09:58:49.998Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Special monitoring with screenshots
-						</Strong>
-						<br />
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						If knowing the window title of the application is not enough andd more information is required for investigation, screenshots taking can be used. Besides common options of taking screenshots as a specified interval and at the moment the active window is changed there is an option called "Special monitoring". If we specify an aplication for special momnitoring, screenshots will be taken with a higher frequency all the time when this application is running.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/72.png?v=2021-02-02T10:22:03.575Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Application category
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						StaffCop divides the data collected on activity in applications according to thematical groups, each group with its own productivity category. This data is used for building time tracking reports. The list of categories can be manually edited, including adding/remove applications for a list, and changing its productivity catgory (e.g. change Instant Messengers category from unproductive to productive for sales department.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/73.png?v=2021-02-02T10:32:23.243Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							<Strong>
-								Files that were opened in applications
-							</Strong>
+							Basic account information includes user name, domain name, and the date of last report received from this account.
 							<br />
-							{"\n\n"}
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						With StaffCop you can get a list of files that were opened in a particular application. This may be useful in case corporate sensitive information is mainly processed in a specific application (e.g. AutoCad) or there is a limited amount files that are allowed for a specific user group. Or if we need to understand what files were opened in a cloud service application (e.g. Dropbox). The info will include the file path and the details on the file storage.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/74.png?v=2021-02-02T10:38:07.016Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Applications installations/removals
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						StaffCop will alert you in case a user installs an application that is not approved by corporate polices. StaffCop will show the facts of installations and uninstallations including update packages.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/75.png?v=2021-02-02T10:44:54.552Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Applications inventory report
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						Comparing to the previous report, applications inventory report shows information about the software available on workstations AT THE MOMENT of building the report.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/76.png?v=2021-02-02T11:04:36.823Z" />
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							Windows processes working in the background
-						</Strong>
-						{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						StaffCop tracks not only user activity performed in applications but also processes working in the background. This function can be used by system administrators who needs to diagnose and fix issues on remote workstations.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/77.png?v=2021-02-02T11:15:09.675Z" />
-					{"    "}
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/121.png?v=2021-02-03T07:24:17.309Z" />
+					</Box>
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -563,28 +221,468 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							{"\n"}
 							<Strong>
-								Block prohibited applications
+								Web-sites visited by the user
 							</Strong>
 							{"\n\n"}
 						</Strong>
-						{"\n\n"}
+						{"\n\n\n\n"}
 					</Text>
-					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 20px 0px"
-						display="inline-block"
-						color="#555"
-						letter-spacing="-1%"
-						sm-text-align="center"
-					>
-						StaffCop can not only track application activity but also prevent specified applications from launching. For example, corporate policy forbids usage of torrent clients on workstations. We can add uTorrent to the black list of applications. In this case, if a user tries clicking the shortcut or the .exe file itself nothing will happen. On the other hand, we can specify a list of applications that can be accessed, while ALL that are not in the white list will not work. For example, we add Word, Excel and Thunderbird to the list - the user will be able to launch ONLY them.
-						<br />
-						{"\n\n"}
-					</Text>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/78.png?v=2021-02-02T11:17:20.395Z" />
 					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							User card contains a pie-chart on all the web-sites visited by a user with percentage and total time for each web-site. If we click on the web-site name we will get a list of visits with detailed information including time, duration and URL.{" "}
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/122.png?v=2021-02-03T07:25:55.438Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong>
+									Applications in which the user works
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							User card contains a pie-chart on all the applications in which a user worked with percentage and total time for each application. If we click on the application we will get a list of visits with detailed information including time, duration and URL.{"\n\n"}
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/123.png?v=2021-02-03T07:30:19.631Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong>
+										Computers and accounts used by the user
+									</Strong>
+									{"\n\n"}
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							User card contains information on computers where the user logged in with his account, e-mail addresses and skype accounts that were used.
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/125.png?v=2021-02-03T07:36:09.533Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										{"\n"}
+										<Strong>
+											Files sent/received by the user
+										</Strong>
+										{"\n\n"}
+									</Strong>
+									{"\n\n"}
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							The user card has the list of all the files that were sent or received by the user in e-mail or messengers, recieved from USB drives or uploaded to cloud storages. Files are shadow-copied so you could open them for further investigation.
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/126.png?v=2021-02-03T07:37:49.727Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										{"\n"}
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											{"\n"}
+											<Strong>
+												Search queries performed by the user
+											</Strong>
+											{"\n\n"}
+										</Strong>
+										{"\n\n"}
+									</Strong>
+									{"\n\n"}
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							User card shows the list of search queries performed by the user. It contains the search phrase and the URL.
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/127.png?v=2021-02-03T07:40:50.908Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										{"\n"}
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											{"\n"}
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												{"\n"}
+												<Strong>
+													Graph of communications
+												</Strong>
+												{"\n\n"}
+											</Strong>
+											{"\n\n"}
+										</Strong>
+										{"\n\n"}
+									</Strong>
+									{"\n\n"}
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							User card contains the graph of communications that is used to get a visual overview of the user's communications with other users. If you click an arrowm you will see the list of messages.
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/128.png?v=2021-02-03T07:43:44.961Z" />
+					</Box>
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>

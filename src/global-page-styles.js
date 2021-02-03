@@ -55,7 +55,15 @@ const pageStyles = {
     "pricing": {},
     "request-demo": {},
     "leadership": {},
-    "purchase": {}
+    "purchase": {},
+    "features/nonproductive-activity-reporting1": {},
+    "features/nonproductive-activity-reporting11": {},
+    "features/citrix-session-recording1": {},
+    "features/citrix-session-recording11": {},
+    "features/citrix-session-recording111": {},
+    "features/citrix-session-recording1111": {},
+    "features/citrix-session-recording11111": {},
+    "features/citrix-session-recording111111": {}
 };
 
 const PageStyles = createGlobalStyle`

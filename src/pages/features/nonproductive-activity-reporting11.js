@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Text, Icon, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, Box, Image, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -8,17 +8,17 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/citrix-session-recording"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/nonproductive-activity-reporting11"} />
 		<Helmet>
 			<title>
-				Citrix Session Recording
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Header />
 		<Section
-			padding="180px 0 140px 0"
+			padding="180px 0 120px 0"
 			background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)"
 			lg-padding="100px 0 30px 0"
 			md-padding="100px 0 0px 0"
@@ -51,9 +51,8 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						lg-text-align="center"
 					>
-						<Strong>
-							Linux terminal capture
-						</Strong>
+						Screen capture
+						<br />
 						{"\n\n\n\n"}
 					</Text>
 					<Box display="flex" align-items="center" margin="0px 0px 0px 0px">
@@ -65,7 +64,9 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Monitor Linux-based workstations{"\n\n\n\n"}
+							Take screnshots at a specified interval
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -77,7 +78,9 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Get the input in the text format{"\n\n"}
+							Take screenshot at changing active window or web page
+							<br />
+							{"\n\n\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -89,7 +92,23 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							View the record of working in terminal{"\n\n\n\n"}
+							Special monitoring: take screenshots when a specific application (web-site) is running{"\n\n"}
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+						/>
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							See all screenshots taken by users with "PrtSc" button.{"\n\n\n\n"}
+							<br />
+							{"\n\n\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -136,10 +155,15 @@ export default (() => {
 						lg-right="auto"
 						md-top="0px"
 						md-right="auto"
+						sm-position="relative"
 						lg-bottom="auto"
 						lg-left="auto"
-						md-bottom="auto"
 						md-left="auto"
+						md-bottom="auto"
+						sm-bottom="auto"
+						sm-left="auto"
+						sm-right="auto"
+						sm-top="0px"
 					/>
 					{"    "}
 				</StackItem>
@@ -163,36 +187,116 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						<Strong>
-							Linux terminal capture
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Take screenshots
 						</Strong>
-						{"\n\n\n\n"}
 					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							StaffCop can take screenshots at the specified interval or by changing active window (web page). If the second option us enabled, a screenshot is taken each time when a user switches between applications or web-pages, for example from MS Word to Thunderbird or from one Firefox tab to another.
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/82.png?v=2021-02-03T07:59:19.244Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							You can get a list of screenshots taken for a specific application, user, PC, web-site or department. If a user has two screens, for a example a notepad with connected extetnal monitor, screenshots will be taken from both screens and merged to a single file.
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/81.png?v=2021-02-03T08:03:38.898Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							You can download a specific screenshot or all screenshots packed in a single ZIP-archive. Or you can view them in StaffCop admin panel with either manual or automatic scrolling.
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/83.png?v=2021-02-03T08:07:43.208Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							Besides common options of taking screenshots as a specified interval and at the moment the active window is changed there is an option called "Special monitoring". If we specify an aplication or website for special momnitoring, screenshots will be taken with a higher frequency all the time when this application is running or this web-site is open.{"\n\n"}
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/84.png?v=2021-02-03T08:08:50.390Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
 					<Text
-						font="400 18px/160% --fontFamily-googleInter"
-						margin="30px 0px 0px 0px"
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
 						display="inline-block"
-						color="#555"
+						color="rgba(19, 33, 42, 1)"
 						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
 						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						If you need to monitor Linux-based workstations it's essential to monitor user activity in terminal applications. StaffCop allows not only to get the input in the text format, but also to view the record of working in terminal as a GIF image which is far more convenient.
-						<br />
+						<Strong>
+							See all screenshots taken by users with "PrtSc" button
+						</Strong>
 						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem display="flex" sm-width="100%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/090.png?v=2021-02-03T08:33:06.794Z" />
-					{"    "}
-				</StackItem>
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/091.gif?v=2021-02-03T08:33:47.248Z" />
-					{"    "}
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							StaffCop allows to get a list of screenshots that were taken by a user on a workstation. This function is very useful when it comes to information security issues, as users may take screenshot of sensitive data in order to get it outside of the corporate network as an attached image (or as an image inside a document). Administrator can get notifications each time a user takes a screenshot.
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/85.png?v=2021-02-03T08:12:09.991Z" />
+					</Box>
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>

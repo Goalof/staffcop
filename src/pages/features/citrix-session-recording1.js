@@ -8,13 +8,13 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/citrix-session-recording"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/citrix-session-recording1"} />
 		<Helmet>
 			<title>
-				Citrix Session Recording
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Header />
 		<Section
@@ -51,8 +51,20 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						lg-text-align="center"
 					>
-						<Strong>
-							Linux terminal capture
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							{"\n"}
+							<Strong>
+								Web-cam snapshots
+							</Strong>
+							{"\n\n"}
 						</Strong>
 						{"\n\n\n\n"}
 					</Text>
@@ -65,7 +77,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Monitor Linux-based workstations{"\n\n\n\n"}
+							See who logged in the system
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -77,7 +89,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Get the input in the text format{"\n\n"}
+							Face recognition with neural network
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -89,7 +101,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							View the record of working in terminal{"\n\n\n\n"}
+							See if the right person worked in sensitive app
 						</Text>
 					</Box>
 					{"    "}
@@ -163,8 +175,20 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						<Strong>
-							Linux terminal capture
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							{"\n"}
+							<Strong>
+								Web-cam snapshots
+							</Strong>
+							{"\n\n"}
 						</Strong>
 						{"\n\n\n\n"}
 					</Text>
@@ -176,7 +200,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						If you need to monitor Linux-based workstations it's essential to monitor user activity in terminal applications. StaffCop allows not only to get the input in the text format, but also to view the record of working in terminal as a GIF image which is far more convenient.
+						You can see who logged into the system, by comparing the picture taken from the web-cam to the employee account. This function is useful when you are on an investigation and the responsible person claims that he (or she) didn't log in to the system when the incident happened. Moreover, you can set up periodic snapshots taking to check how often employees really leave their workplaces.
 						<br />
 						{"\n\n"}
 					</Text>
@@ -185,13 +209,7 @@ export default (() => {
 				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/090.png?v=2021-02-03T08:33:06.794Z" />
-					{"    "}
-				</StackItem>
-				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/091.gif?v=2021-02-03T08:33:47.248Z" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/89.png?v=2021-02-03T08:56:02.964Z" />
 					{"    "}
 				</StackItem>
 				{"    "}
