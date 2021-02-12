@@ -34,7 +34,7 @@ export default (() => {
 					/>
 					{"        "}
 					<Text font="--headline2" margin="0px 0px 16px 0px" display="inline-block" md-font="normal 700 30px/40px Inter, sans-serif">
-						Starter
+						Remote Administration
 					</Text>
 					<Text
 						font="normal 400 18px/160% --fontFamily-googleInter"
@@ -44,7 +44,7 @@ export default (() => {
 						md-font="normal 400 16px/140% --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Employee Monitoring Software with Powerful Insider Threat Detection and Productivity Analysis Features
+						Remote Desctop Controll, Software and Hardware inventory, software installation report, Network monitoring
 					</Text>
 					{"    "}
 					<Link
@@ -124,7 +124,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Starter: Employee Monitoring Simplified
+						StaffCop: Remote Administration
 					</Text>
 					{"    "}
 				</StackItem>
@@ -143,7 +143,14 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Organizations looking to protect their intellectual property and sensitive data from falling into the wrong hands, and looking to optimize processes and maximize employee productivity, are looking to implement employee monitoring (aka user activity monitoring) software that allows for user session recording and analysis. Employee monitoring can ensure business continuity by identifying process gaps such as unproductive employee activity, inefficient applications, wasted labour hours, project cost and more. If used properly, employee monitoring can even increasing employee engagement resulting in increased business profitability. Here are some benefits to using employee monitoring software:
+						Utilize powerful StaffCop's functionality for administration of remote workstations.{" \n"}
+						<br />
+						For large companies and startups alike, powerful remote assistance software allows you to provide exceptional customer service and fast problem-solving solutions from any location.
+						<br />
+						Particularly for software vendors or app developers, remote support and monitoring ensures you can easily solve complex customer and client issues from your central office.
+						<br />
+						<br />
+						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -164,7 +171,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter">
-							Increase employee productivity
+							See which ports are used
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -176,7 +183,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555">
-							Reduce administrative work
+							Help your staff with remote connection
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -188,7 +195,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555">
-							Increase employee engagement
+							Manage distribution of licensed software
 						</Text>
 					</Box>
 					{"            "}
@@ -204,7 +211,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555">
-							Identify process gaps
+							Get notified when software is installed or uninstalled
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -216,7 +223,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555">
-							Protect sensitive data and resources
+							Monitor usage of FTP
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -228,7 +235,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555">
-							Minimize waste and reduce cost
+							Block usage of prohibited software
 						</Text>
 					</Box>
 					{"            "}
@@ -244,7 +251,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555">
-							Improve time management
+							Manage device usage policies
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -256,7 +263,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555">
-							Improve employee and organizational safety
+							Recover deleted files with the help of shadow copying
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -268,7 +275,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555">
-							Establish a culture of fairness and transparency
+							Minitor file storages
 						</Text>
 					</Box>
 					{"            "}
@@ -293,7 +300,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Starter: Employee Monitoring Software with Powerful Insider Threat Detection and Productivity Analysis Features
+						StaffCop: Remote Administration Use Case
 					</Text>
 					{"    "}
 				</StackItem>
@@ -312,7 +319,18 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Starter is entry-level employee monitoring solution. It’s built on top of award-winning UAM and DLP platform and includes powerful features such as real-time activity tracking, video capture and playback, and a set of productivity optimization tools. While it packs a punch in terms of functionality, it’s designed to be super affordable for the budget sensitive startups and small businesses looking for entry level employee monitoring, user session recording and process optimization capabilities.
+						Jim, a system administrator, receives complaints about low
+performance of the workstations in a remote office in a
+neighboring town. He opens StaffCop, runs the hardware
+inventory report and sees that the expensive CPU and RAM
+that were installed last month were replaced with the cheaper
+analoguestwo days ago on a couple of workstations. Jim takes
+a business-trip to the remote office for further investigation
+and while being there he receives a complaint from the main
+office: one of the empl oyees reports a software problem that
+has paralyzed his work. Jim opens StaffCop admin console,
+connects remotely to this employee's workstation, takes
+control over his keyboard and mouse, and resolves the issues.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -376,7 +394,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Real-Time Employee Monitoring
+							Linux terminal capture
 						</Text>
 						<Text
 							font="--lead"
@@ -385,9 +403,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-Time Employee Monitoring
-							<br />
-							Starter lets you monitor all employee activity for system objects like website, applications, social media, IMs. Searches etc. in real-time for Windows, Mac, Virtual PCs and Terminal Servers
+							If you need to monitor Linux-based workstations it's essential to monitor user activity in terminal applications. StaffCop allows not only to get the input in the text format, but also to view the record of working in terminal as a GIF image which is far more convenient.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -446,7 +462,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Activity Reports
+							Control of a remote desktop
 						</Text>
 						<Text
 							font="--lead"
@@ -455,9 +471,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Detailed logs capture all web/app activity, duration, IP/URL. Filter the report for individuals, groups or department by productive/unproductive or custom categories. Real-time alerts and trend reports show what rules were broken, when, by whom, what action was taken and the context.
-							<br />
-							<br />
+							When you are watching remote desktop in real time you can take control over the remote workstation and control it's mouse and keyboard. It can be used in case by system administrators for fixing issues without the necessity of phisical presence at the workstation
 						</Text>
 					</Box>
 					{"    "}
@@ -516,7 +530,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Activity Intelligent Policy and Rules Engine
+							Network activity{"\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -525,7 +539,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Detailed logs capture all web/app activity, duration, IP/URL. Filter the report for individuals, groups or department by productive- unproductive or custom categories. Real-time alerts and trend reports show what rules were broken, when, by whom, what action was taken and the context.
+							StaffCop can get info on network connections, with such fitering criteria as IP and ports. This ability can be useful for system administrators in case corporate policy has a specification for using certain ports. FTP connections are tracked with the ability to see the sent/recieved files. Activity in cloud storages (e.g. Google Drive) is monitored.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -584,7 +598,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Employee Privacy
+							Usage of protocols
 						</Text>
 						<Text
 							font="--lead"
@@ -593,7 +607,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitoring for individual objects like Screen, Search, IM can be turned off as needed. Furthermore, monitoring settings can be configured to capture the data you need while respecting employee privacy. For example, automatically suspend monitoring when an employee visits certain websites/apps (i.e. personal email).
+							StaffCop tracks traffic sent/recieved throught encrypted https connections. We can see what websites were visited through encrypted https protocol, and if any of them seems suspecious we can see all the web visiting details
 						</Text>
 					</Box>
 					{"    "}
@@ -652,7 +666,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Audit and Forensics
+							FTP connections
 						</Text>
 						<Text
 							font="--lead"
@@ -661,7 +675,9 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Video recording of employee activity, session recording, immutable logs, alerts are just few examples of powerful audit and forensic capabilities. Together they provide a vast collection of investigation data to locate the source and insider threat with pinpoint accuracy.{" "}
+							With StaffCop you can track FTP connections including info on the IP address, login/pasword pair and the applications used for connection. In case shadow-copying option is enabled StaffCop allows to see all the files sent/receive through FTP.
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -720,7 +736,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Built-In Productivity Tools
+							Wi-Fi connections
 						</Text>
 						<Text
 							font="--lead"
@@ -729,339 +745,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Define which apps and websites you consider productive and get in-depth reports on how your employees spend their day. Identify the laggards or high performers with active vs. idle time analysis. Establish a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, proje...more
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#F8F8F9" padding="100px 0 30px 0" sm-padding="50px 0 30px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Text
-				font="--headline2"
-				margin="0px 0px 45px 0px"
-				display="inline-block"
-				color="#13212A"
-				letter-spacing="-2%"
-				text-align="center"
-				md-font="normal 700 30px/40px Inter, sans-serif"
-				sm-font="normal 700 24px/30px Inter, sans-serif"
-				lg-font="normal 700 36px/40px Inter, sans-serif"
-			>
-				Industry Statistics Prove the{" "}
-				<br />
-				<Span color="--primary">
-					Need for Employee Monitoring
-				</Span>
-			</Text>
-			<Stack margin="0px 0px 0px 0px">
-				{"    "}
-				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="36px 36px 36px 36px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Сolluding employees are the sources of insider threats
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							According to the Community Emergency Response Team, the main reasons for insider caused incidents are collusion from employees and third-parties.
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							<Span font="700 18px/28.8px Inter, sans-serif" color="--primary">
-								48.3%
-							</Span>
-							{" "}Insider-Insider Collusion
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								16.75%
-							</Span>
-							{" "}Insider-Outsider Collusion
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="36px 36px 36px 36px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						/>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							According to a survey of 400,000 member online by Cybersecurity Insiders published on The Insider Threat 2018 report.
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								37%
-							</Span>
-							{" "}Insider-Insider Collusion
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								34%
-							</Span>
-							{" "}Increased Amount of Sensitive Data
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="36px 36px 36px 36px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Employees are a major security concern
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Businesses agree employees are their biggest weakness in IT security - according to Kaspersky Lab and B2B International study of over 5,000 businesses
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								52%
-							</Span>
-							{" "}of Businesses Agree Employees are Biggest Risk
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="36px 36px 36px 36px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Many employees spend unproductive time at work
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							According to the Community Emergency Response Team, the main reasons for insider caused incidents are collusion from employees and third-parties.
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								64%
-							</Span>
-							{" "}Browse Unproductive Sites
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								85%
-							</Span>
-							{" "}Use Email for Personal Tasks
+							StaffCop will show you the Wi-Fi connection with SSID (network name). Wi-Fi networks can be blocked on the basis on white and black lists. It's useful in case employees are allowed to use only corporate networks due to the security issues.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1096,8 +780,17 @@ export default (() => {
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 				sm-margin="0px 0px 0px 0px"
 			>
-				Starter is a Feature-Rich Employee Monitoring Solution with{" "}
-				<Span color="--primary">
+				StaffCop is a Feature-Rich Remote Administration Solution with{" "}
+				<Span
+					color="--primary"
+					data-q-widget-type="PRIMITIVE"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
 					Tangible Business Benefits
 				</Span>
 			</Text>
@@ -1147,7 +840,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Monitor Employee Activity in Real-Time
+						Software and Hardware Inventory{"\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1158,7 +851,9 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Employees spend majority of their time on desktop using apps or websites. Starter lets you visually records every action that a user makes on their desktop (screen), apps, websites, social media and instant messengers. Capture all the essential activity data like application/site name, URL, duration etc.- all from the industry's most powerful and user-friendly employee monitoring dashboard.
+						With StaffCop you can get detailed information about the software and hardware that have been installed or uninstalled on workstations. This can be very useful for system administrators as they don't have to present physically at each workstation to get the list software and hardware available there, as the system administrator can see the entire list in a single report. This type of report is can be used to investigate cases when employees change expensive hardware with its cheaper analogues or when a corporate policy prohibits usage of some software (or when a licensed software is used with limited number of copies that can be installed by the company).
+						<br />
+						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1197,7 +892,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Monitor Employee Activity in Real-Time
+						Applications installed or uninstalled on each workstation{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1209,7 +904,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Employees spend majority of their time on desktop using apps or websites. Starter lets you visually records every action that a user makes on their desktop (screen), apps, websites, social media and instant messengers. Capture all the essential activity data like application/site name, URL, duration etc.- all from the industry's most powerful and user-friendly employee monitoring dashboard.
+						You can see applications installed or uninstalled on each workstation in a single report. It will contains such details as vendor, version, and the date the availability was checked last time.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1276,7 +971,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Detect Insider Threats with Intelligent Policy & Rules Engine
+						Updates of applications installed on each workstation{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1287,7 +982,9 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Determine what behaviors are high risk i.e. downloading files and attachments from unknown website, running a risky application etc. Then, apply behavior-based rules to detect when users violate the rules. The system will automatically block harmful employee activity or warn the user with a customized message about potential danger reducing false positives with minimal supervision. The system can also notify you about sensitive rule violation incidents that needs your personal attention.
+						You can see updates of applications installed on each workstation in a single report. It will contains such details as vendor, version, and the date the availability was checked last time.
+						<br />
+						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1325,7 +1022,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Boost Employee Productivity and Increase Organizational Performance
+						How many computers have this software installed
 					</Text>
 					<Text
 						font="--lead"
@@ -1337,7 +1034,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Use the workforce productivity tools to track active vs inactive time, late shifts, long breaks etc. Use intelligent activity-based rules to automatically identify clues to customer dissatisfaction (angry sentiments in social media posts/ customer query in instant messenger not answered etc.) and implement processes to provide better service.
+						You can see how many computers have a specific application installed. This report represents a list with the name of applications and the amount of the PCs which have this application. The details for each applications are collapsed: you can click the name to see them.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1404,7 +1101,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Monitor Privileged Users for Extra Security
+						Devices installed or uninstalled on each workstation{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1415,8 +1112,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						We allows organizations to create profiles for remote and privileged employees and then define what information and system resources each profile can access. Create autonomous rules to notify the authorities of any suspicious privileged user activity, such as unscheduled login, access to system configuration, creation of backdoor accounts etc.
-						<br />
+						You can see devices installed or uninstalled on each workstation in a single report. It will contains such details as vendor, ID, and the date the availability was checked last time.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1454,7 +1150,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Audit Security Incidents with Forensics
+						Alerts can be sent in case of installation or uninstallation
 					</Text>
 					<Text
 						font="--lead"
@@ -1466,7 +1162,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Detailed alerts for all users can be viewed including any security event and what action was taken, which app/site was involved, what data got accessed etc. Session recordings and history playback can be used to view user’s desktop or exported as MP4 video to be used as evidence in any investigation. Immutable system logs and session reports provide with further information to trace back to the source and cause of any security incident.
+						You can set-up automatic alerts on fact of installation or uninstallation of an application. Or you can setup a weekly report on all such facts.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1488,7 +1184,48 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.BlockNeed />
+		<Components.BlockNeed>
+			<Override slot="text1">
+				Information Security
+			</Override>
+			<Override slot="text2">
+				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest. .
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text3">
+				Remote Administration
+			</Override>
+			<Override slot="text4">
+				View remote desktop without being notices. Take control over a workstation.  Full picture of software and hardware usage. Intensity of usage and registry of states.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring
+			</Override>
+			<Override slot="text7">
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.
+			</Override>
+		</Components.BlockNeed>
 		<Section
 			background="#ffffff"
 			padding="70px 0 20px 0"
@@ -1555,7 +1292,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							On-premise
+							Bare Metal
 						</Text>
 						<Text
 							font="--lead"
@@ -1564,7 +1301,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							control the implementation in its entirety, stay off-cloud if that’s your firm’s operational model, leverage LDAP groups and users to identify which users and groups to apply which policies and rules to
+							Install on bare metal from our ISO image containing Ubuntu 18.04 and StaffCop or install StaffCop packages on existing Ubuntu 18.04.
 						</Text>
 					</Box>
 					{"    "}
@@ -1599,7 +1336,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{" "}
+							Virtual Machine
 						</Text>
 						<Text
 							font="--lead"
@@ -1608,7 +1345,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.
 						</Text>
 					</Box>
 					{"    "}
@@ -1643,7 +1380,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Cloud
+							Private Cloud
 						</Text>
 						<Text
 							font="--lead"
@@ -1652,7 +1389,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							trust us the management of the deployment and infrastructure. Only install Agents on the machines you want to monitor and set up your users, policies and rules and let us take care of the rest.
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
 						</Text>
 					</Box>
 					{"    "}
@@ -1663,7 +1400,11 @@ export default (() => {
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					Feature-rich, affordable with annual and perpetual licensing options
+				</Override>
+			</Components.Feature>
 		</Section>
 		<Components.Footer />
 		<Section

@@ -30,7 +30,7 @@ export default (() => {
 					/>
 					{"        "}
 					<Text font="--headline2" margin="0px 0px 16px 0px" display="inline-block" md-font="normal 700 30px/40px Inter, sans-serif">
-						UAM{"\n\n"}
+						Employee Monitoring
 					</Text>
 					<Text
 						font="normal 400 18px/160% --fontFamily-googleInter"
@@ -145,7 +145,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Whether it is a company’s intellectual property, financial records, customer data, PII, PHI or other sensitive material, it only takes one insider to engage in unwanted behavior and expose an organization to risks. In fact, the majority of the data breaches in recent years involved weak or exploited employee credentials either by malicious or accidental incident (source). This is where User Activity Monitoring (UAM) can help fill the gaps which already includes features like Employee Monitoring, Privileged User Monitoring, Third-Party Monitoring, User and Entity Behavior Analytics (UEBA), Endpoint Security etc. crucial for a holistic insider threat prevention solution.{"\n\n"}
+						Whether it is a company’s intellectual property, financial records, customer data, PII, PHI or other sensitive material, it only takes one insider to engage in unwanted behavior and expose an organization to risks. In fact, the majority of the data breaches in recent years involved weak or exploited employee credentials either by malicious or accidental incident (source). This is where StaffCop can help fill the gaps which already includes features like Employee Monitoring, Privileged User Monitoring, Third-Party Monitoring, User and Entity Behavior Analytics (UEBA), Endpoint Security etc. crucial for a holistic insider threat prevention solution.{"\n\n"}
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -183,9 +183,9 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						User activity monitoring goes beyond the basic employee monitoring and tracking functionality and adds intelligent behavior-based analysis to provide actionable insight and automated responses to employee generated threats. It can monitor employees, third-party vendors, contractors, remote and special/privileged users. With its rules and policies, UAM captures violation incidents as forensic evidence and take action to alert, stop, block and more.{"\n"}
+						User activity monitoring goes beyond the basic employee monitoring and tracking functionality and adds intelligent behavior-based analysis to provide actionable insight and automated responses to employee generated threats. It can monitor employees, third-party vendors, contractors, remote and special/privileged users. With its rules and policies, StaffCop captures violation incidents as forensic evidence and take action to alert.{"\n"}
 						<br />
-						UAM can also measures employee productivity, conduct risk analysis, prevent unauthorized data exfiltration and keep track of how employees and third-party vendors access company resources while logged in at work. Finally, in case of a data breach or security incident, we provide comprehensive forensic data and session recordings to identify the employees and vendors who have triggered a rule violation along with their activity footprint with pinpoint accuracy.{"\n\n"}
+						StaffCop can also measures employee productivity, conduct risk analysis, prevent unauthorized data exfiltration and keep track of how employees and third-party vendors access company resources while logged in at work. Finally, in case of a data breach or security incident, we provide comprehensive forensic data and session recordings to identify the employees and vendors who have triggered a rule violation along with their activity footprint with pinpoint accuracy.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -266,7 +266,7 @@ export default (() => {
 						>
 							Real-Time Employee Monitoring
 							<br />
-							Starter lets you monitor all employee activity for system objects like website, applications, social media, IMs. Searches etc. in real-time for Windows, Mac, Virtual PCs and Terminal Servers
+							lets you monitor all employee activity for system objects like website, applications, social media, IMs. Searches etc. in real-time for Windows, Mac, Virtual PCs and Terminal Servers
 						</Text>
 					</Box>
 					{"    "}
@@ -340,7 +340,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Intelligent behavior analysis can detect malicious activity and anomalies that indicate deviation from normal behavioral baseline. Dynamic risk scoring and vulnerability scanning identifies insider activity before they represent a real threat.
+							Intelligent behavior analysis can detect malicious activity and anomalies that indicate deviation from normal behavioral baseline.
 							<br />
 							<br />
 							<br />
@@ -492,7 +492,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Define which apps and websites you consider productive and get in-depth reports on how your employees utilize them. Identify the laggards or high performers with active vs. idle time analysis. Establish a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, proje...more{"\n\n"}
+							Define which apps and websites you consider productive and get in-depth reports on how your employees utilize them. Identify the laggards or high performers with active vs. idle time analysis. Establish a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, projeсts and more.
 						</Text>
 					</Box>
 					{"    "}
@@ -643,7 +643,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Define which apps and websites you consider productive and get in-depth reports on how your employees spend their day. Identify the laggards or high performers with active vs. idle time analysis. Establish a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, proje...more{"\n\n"}
+							Define which apps and websites you consider productive and get in-depth reports on how your employees spend their day. Identify the laggards or high performers with active vs. idle time analysis. Establish a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, projects and more{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -717,7 +717,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							UAM can be used to create activity and schedule based rules to support several common compliance requirements like: implementing audit trails (GDPR), limiting unauthorized login (ISO 27001), prevent unencrypted file transfers (PCI DSS), reporting, and more.{"\n\n"}
+							StaffCop can be used to create activity and schedule based rules to support several common compliance requirements like: implementing audit trails (GDPR), limiting unauthorized login (ISO 27001), prevent unencrypted file transfers (PCI DSS), reporting, and more.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -742,7 +742,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Starter: Employee Monitoring Software with Powerful Insider Threat Detection and Productivity Analysis Features{"\n\n\n\n"}
+						StaffCop: Employee Monitoring Software with Powerful Insider Threat Detection and Productivity Analysis Features{"\n\n\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -761,7 +761,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						UAM features user and entity behavior analytics (UEBA) capabilities to identify and alert the organization to a wide-range of anomalous behavior and potential threats by either a malicious, inadvertent or compromised employee, user or third-party entity.
+						StaffCop features user and entity behavior analytics (UEBA) capabilities to identify and alert the organization to a wide-range of anomalous behavior and potential threats by either a malicious, inadvertent or compromised employee, user or third-party entity.
 						<br />
 						{"\n"}
 						<br />
@@ -1157,9 +1157,18 @@ export default (() => {
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 				sm-margin="0px 0px 0px 0px"
 			>
-				UAM Delivers Immediate
+				StaffCop Delivers Immediate
 				<br />
-				<Span color="--primary">
+				<Span
+					color="--primary"
+					data-q-widget-type="PRIMITIVE"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
 					Business Benefits
 				</Span>
 				{"\n\n"}
@@ -1223,7 +1232,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Visually records every action that an employee makes for over 12 objects including screen, apps, websites, files, emails, etc. Each object can be configured to take into consideration what needs to be monitored and measured and who has access to the monitored records. You can control which employees or third-party vendors to monitor, how much you want to monitor, when and for how long. This allows for both instant administrative viewing and respect employee privacy requirements as needed.{"\n\n"}
+						Visually records every action that an employee makes for over 22 objects including screen, apps, websites, files, emails, etc. Each object can be configured to take into consideration what needs to be monitored and measured and who has access to the monitored records. You can control which employees or third-party vendors to monitor, how much you want to monitor, when and for how long. This allows for both instant administrative viewing and respect employee privacy requirements as needed.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1352,7 +1361,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Take a look at DLP if you need a dedicated data loss prevention solution. However, UAM comes with some useful data protection features too. For example, you can utilize the Activity and Schedule-based rules to prevent external drive usage, detect unusual or unauthorized network login or files transfers. Or, write rules that react to any observable employee activity like blocking an e-mail from being sent outside the company domain, receive instant notification when certain sensitive document gets printed etc. All these features can help minimize information exfiltration and data leaks by malicious or ignorant employees.{"\n\n"}
+						Prevent external drive usage, detect unusual or unauthorized network login or files transfers. Or, write rules that react to any observable employee activity like notifying about e-mails sent outside the company domain, receive instant notification when certain sensitive document gets printed etc. All these features can help minimize information exfiltration and data leaks by malicious or ignorant employees.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1404,7 +1413,6 @@ export default (() => {
 					>
 						Use the workforce productivity tools to track active vs inactive time, late shifts, long breaks etc. Design etiquette rules to limit unproductive behavior. For example, set a time limit on social media usage or restrict access to gambling sites.{"\n"}
 						<br />
-						Use intelligent content-based rules to automatically identify clues to customer dissatisfaction (angry sentiments in emails/ customer query in IM chat not answered etc.) and implement processes to provide better service{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1599,7 +1607,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Project Management Benefits{"\n\n"}
+						HR Management Benefits
 					</Text>
 					<Text
 						font="--lead"
@@ -1610,74 +1618,8 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Use the Revealed agent to let employees, contractors or vendors identify and track what projects/tasks they're working on or use the Hidden agent to automatically assign tasks to employees based on their apps/web activity. Use built-in scheduler to track attendance; receive alerts when employees deviate from their scheduled work hours. Timesheet and cost tracking reduce the need for manual invoicing and oversight when working with contractors or remote workers.{"\n"}
-						<br />
-						Additionally, has integration support for all your favorite project management tools like JIRA, Trello, BaseCamp, Redmine etc.{"\n\n"}
+						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when employees violate the rules. Utilize sophisticated anomaly rules to identify employee activity outside the normal behavior. Immediately get notified about harmful employee activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.
 					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						HR Management Benefits{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when employees violate the rules. Utilize sophisticated anomaly rules to identify employee activity outside the normal behavior. Immediately get notified about harmful employee activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%206.png?v=2020-10-19T22:39:56.097Z" md-width="80%" object-fit="contain" />
 					{"    "}
 				</StackItem>
 				{"        "}
@@ -1692,6 +1634,57 @@ export default (() => {
 					for Every Need
 				</Span>
 				{"  \n\n"}
+			</Override>
+			<Override slot="text1">
+				Information Security{"\n\n"}
+			</Override>
+			<Override slot="text2">
+				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text3">
+				Remote Administration{"\n\n"}
+			</Override>
+			<Override slot="text4">
+				View remote desktop without being notices. Take control over a workstation. Full picture of software and hardware usage. Intensity of usage and registry of states.{"\n\n"}
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring{"\n\n"}
+			</Override>
+			<Override slot="text7">
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
 			</Override>
 		</Components.BlockNeed>
 		<Section
@@ -1766,7 +1759,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							On-premise
+							Bare Metal{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1775,7 +1768,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							control the implementation in its entirety, stay off-cloud if that’s your firm’s operational model, leverage LDAP groups and users to identify which users and groups to apply which policies and rules to
+							Install on bare metal from our ISO image containing Ubuntu 18.04 and StaffCop or install StaffCop packages on existing Ubuntu 18.04.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1816,7 +1809,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{" "}
+							Virtual Machine{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1825,7 +1818,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.
 						</Text>
 					</Box>
 					{"    "}
@@ -1866,7 +1859,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Cloud
+							Private Cloud
 						</Text>
 						<Text
 							font="--lead"
@@ -1875,7 +1868,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							trust us the management of the deployment and infrastructure. Only install Agents on the machines you want to monitor and set up your users, policies and rules and let us take care of the rest.
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
 						</Text>
 					</Box>
 					{"    "}
@@ -1988,7 +1981,11 @@ export default (() => {
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					Feature-rich, affordable with annual and perpetual licensing options
+				</Override>
+			</Components.Feature>
 			<Components.Footer />
 		</Section>
 		<Section

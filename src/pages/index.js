@@ -73,7 +73,7 @@ export default (() => {
 				border-color="#2165FF"
 				md-margin="20px 0px 55px 0px"
 			>
-				Free trial 30 days
+				Free trial 15 days
 			</Link>
 			<Image
 				loading="lazy"
@@ -110,7 +110,7 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Productive tracking
+						Productivity tracking
 					</Text>
 					{"    "}
 				</StackItem>
@@ -433,7 +433,7 @@ export default (() => {
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Automate risk detection and block unwanted employee behavior. Teramind uses smart rules & alerts to always keep your organization safe
+								Automate risk detection and block unwanted employee behavior. StaffCop uses smart rules & alerts to always keep your organization safe
 							</Text>
 						</Link>
 					</Box>
@@ -676,8 +676,7 @@ export default (() => {
 							Allows you to see your business processes in reality 1999
 						</Override>
 						<Override slot="Before Text2 :default" transform="translateY(20px)">
-							Allows you to see your business processes in reality 1999aaa
-							<br />
+							Allows you to see your business processes in reality 1999Allows you to see your business processes in reality 1999
 						</Override>
 						<Override slot="Before Text2 :hover" transform="translateY(-25px)" />
 						<Override
@@ -824,7 +823,7 @@ export default (() => {
 							color="#ffffff"
 							lg-text-align="center"
 						>
-							Starter
+							Information Security
 						</Text>
 						<Text
 							font="--lead"
@@ -833,8 +832,8 @@ export default (() => {
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
 						>
-							Screen Recording & live view, website and apps tracking
-							<br />
+							Receive the required data “on the fly”. Search
+by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest.
 						</Text>
 					</Box>
 					<Link
@@ -871,7 +870,7 @@ export default (() => {
 					{"        "}
 					<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/pervaya1.svg?v=2020-11-16T21:36:47.681Z" object-position="0% 0%" margin="0px 0px 10px -10px" />
 					<Text font="--headline3" margin="0px 0px 18px 0px" display="inline-block" color="#ffffff">
-						UAM
+						Remote Administration
 					</Text>
 					<Text
 						font="--lead"
@@ -880,7 +879,10 @@ export default (() => {
 						color="rgba(255, 255, 255, 0.6)"
 						lg-text-align="center"
 					>
-						User activity monitoring, audit, forensics, UBA, policies and rules
+						View remote desktop without being notices. Take control over
+a workstation. 
+Full picture of software and hardware usage. Intensity of usage
+and registry of states.{"\n\n"}
 					</Text>
 					<Link
 						href="/uam/"
@@ -935,10 +937,12 @@ export default (() => {
 					</Text>
 					<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/treriya3.svg?v=2020-11-16T21:37:12.931Z" object-position="0% 0%" margin="0px 0px 10px -10px" />
 					<Text font="--headline3" margin="0px 0px 18px 0px" display="inline-block" color="#ffffff">
-						DLP
+						Employee Monitoring
 					</Text>
 					<Text font="--lead" margin="0px 0px 36px 0px" display="inline-block" color="rgba(255, 255, 255, 0.6)">
-						Staffcop UAM plus content-based data exfiltration rules
+						Categorize applications and web-sites into productive
+and unproductive. Set up different configurations for particular
+users, groups and departments. Compare results.{"\n\n\n\n"}
 					</Text>
 					<Link
 						href="/dlp/"
@@ -1044,7 +1048,7 @@ export default (() => {
 						lg-font="normal 700 30px/43px --fontFamily-googleInter"
 						md-margin="0px 0px 24px 0px"
 					>
-						Starter
+						Information Security
 					</Text>
 					<Text
 						font="--lead"
@@ -1053,7 +1057,9 @@ export default (() => {
 						color="rgba(255, 255, 255, 0.6)"
 						lg-font="normal 400 15px/160% Inter, sans-serif"
 					>
-						Our most affordable, employee monitoring solution for startups and small businesses with powerful features such as real-time activity tracking, video capture and playback, and a set of productivity optimization tools.
+						StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity.
+						<br />
+						{"\n\n"}
 					</Text>
 					<Link
 						href="/starter/"
@@ -1100,7 +1106,7 @@ export default (() => {
 						lg-font="normal 700 30px/43px --fontFamily-googleInter"
 						md-margin="0px 0px 24px 0px"
 					>
-						UAM
+						Employee Monitoring
 					</Text>
 					<Text
 						font="--lead"
@@ -1110,7 +1116,9 @@ export default (() => {
 						text-align="right"
 						lg-font="normal 400 15px/160% Inter, sans-serif"
 					>
-						Staffcop's UAM/User Behavior Analytics (UBA/UEBA) solution comes with everything essential you will need for employee monitoring, third-party monitoring, insider threat detection and workplace productivity optimization use cases.
+						StaffCop Enterprise logs the beginning and the end of each employee’s workday, including lunch and coffee breaks, etc. It enables executives and employees, themselves, to improve discipline at the workplace and reduce idle periods.
+						<br />
+						{"\n\n"}
 					</Text>
 					<Link
 						href="/uam/"
@@ -1193,7 +1201,7 @@ export default (() => {
 						lg-font="normal 700 30px/43px --fontFamily-googleInter"
 						md-margin="0px 0px 24px 0px"
 					>
-						DLP
+						Remote Administration
 					</Text>
 					<Text
 						font="--lead"
@@ -1202,7 +1210,8 @@ export default (() => {
 						color="rgba(255, 255, 255, 0.6)"
 						lg-font="normal 400 15px/160% Inter, sans-serif"
 					>
-						Our most affordable, employee monitoring solution for startups and small businesses with powerful features such as real-time activity tracking, video capture and playback, and a set of productivity optimization tools.
+						Monitor processes and applications, system events,
+and remote desktop connection makes StaffCop a must-have tool for an IT specialist. Monitor and analyze user actions on workstations with X-Windows window nanager as well as in terminal mode.
 					</Text>
 					<Link
 						href="/dlp/"
@@ -1701,7 +1710,7 @@ export default (() => {
 							color="rgba(255, 255, 255, 1)"
 							text-align="center"
 						>
-							Open an Account
+							Install StaffCop{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -1710,7 +1719,7 @@ export default (() => {
 							color="rgba(255, 255, 255, 0.6)"
 							text-align="center"
 						>
-							Sign up for a Staffcop Cloud or On-Premise trial for free
+							Install StaffCop on-premises or on private cloud (AWS, Google Cloud)
 						</Text>
 						{"    "}
 					</StackItem>

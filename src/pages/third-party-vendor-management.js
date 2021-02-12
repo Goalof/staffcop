@@ -46,7 +46,7 @@ export default (() => {
 						md-font="normal 400 16px/140% --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Teramind provides third party vendor monitoring, threat detection and data loss prevention in a single platform
+						StaffCop provides third party vendor monitoring, threat detection and data loss prevention in a single platform
 					</Text>
 					{"    "}
 					<Link
@@ -175,7 +175,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Teramind Third Party Vendor Management: activity monitoring, threat detection and data loss prevention in a single platform
+						StaffCop Third Party Vendor Management: activity monitoring, threat detection and data loss prevention in a single platform
 					</Text>
 					{"    "}
 				</StackItem>
@@ -194,7 +194,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						With features like user activity monitoring, privileged user management, advanced authentication and access control, remote user monitoring and support for virtualization services, Teramind offers an unrivaled platform to monitor, control and protect third party vendors to ensure access is only granted to systems needed, decrease the chances of accidental mistakes that can damage system settings, and help improve IT safety measures. In addition, Teramind helps you meet many regulatory compliance requirements as it relates to third party vendor management with its extensive user activity monitoring, data exfiltration protection, audit, reporting and forensics capabilities.
+						With features like user activity monitoring, privileged user management, advanced authentication and access control, remote user monitoring and support for virtualization services, StaffCop offers an unrivaled platform to monitor, control and protect third party vendors to ensure access is only granted to systems needed, decrease the chances of accidental mistakes that can damage system settings, and help improve IT safety measures. In addition, StaffCop helps you meet many regulatory compliance requirements as it relates to third party vendor management with its extensive user activity monitoring, data exfiltration protection, audit, reporting and forensics capabilities.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -273,8 +273,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitor all user activity covering 12+ system objects like: web pages, apps, email, file transfers, instant messaging, social media and more.
-							<br />
+							Monitor all user activity covering 22+ system objects like: web pages, apps, email, file transfers, instant messaging, social media and more.
 						</Text>
 					</Box>
 					{"    "}
@@ -428,7 +427,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Create monitoring profiles for individual vendor or groups. Configure rules for dangerous vendor behaviors like abnormal login, privilege escalation etc. with hundreds of pre-built rules or create your own with an intuitive, visual Policy and Rules Editor. Automatically warn, block or take control on detection of any rule violations or anomalies.
+							Create monitoring profiles for individual vendor or groups. Configure rules for dangerous vendor behaviors like abnormal login, privilege escalation etc. with hundreds of pre-built rules or create your own with an intuitive, visual Policy and Rules Editor. Automatically warn or take control on detection of any rule violations or anomalies.
 						</Text>
 					</Box>
 					{"    "}
@@ -1455,9 +1454,9 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						With Teramind’s activity monitoring solution, it’s possible to quickly see (and prove) exactly who worked on the servers, when, for how long and what they did to ensure security and process accurate billing and SLAs.{"\n"}
+						With StaffCop’s activity monitoring solution, it’s possible to quickly see (and prove) exactly who worked on the servers, when, for how long and what they did to ensure security and process accurate billing and SLAs.{"\n"}
 						<br />
-						In addition, Teramind supports ISO 27001 compliance that further ensures an organization’s overall IT security measures are covered with a single solution.{"\n\n"}
+						In addition, StaffCop supports ISO 27001 compliance that further ensures an organization’s overall IT security measures are covered with a single solution.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1519,7 +1518,7 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						letter-spacing="-1%"
 					>
-						Teramind solution{"\n\n"}
+						StaffCop solution{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/29px --fontFamily-googleInter"
@@ -1528,11 +1527,9 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						With Teramind’s activity monitoring solution, it’s possible to quickly see (and prove) exactly who worked on the servers, when, for how long and what they did to ensure security and process accurate billing and SLAs.{"\n"}
+						With StaffCop’s activity monitoring solution, it’s possible to quickly see (and prove) exactly who worked on the servers, when, for how long and what they did to ensure security and process accurate billing and SLAs.{"\n"}
 						<br />
-						Teramind helps banks and financial institutions uncover potential cybersecurity weaknesses in their online banking system and develop threat intelligence with behavioral and content-based analysis of secure financial data. With continuous monitoring, a bank can prevent bad practices by its vendors and if necessary, conduct detailed file search to make sure vendors are using the right forms, following the agreement and addressing customer request on a prompt and responsive manner.{"\n"}
-						<br />
-						Teramind supports standards like FFIEC and SOX, so financial institution can rest assured that their third party vendor management conforms to financial regulations.{"\n\n"}
+						StaffCop helps banks and financial institutions uncover potential cybersecurity weaknesses in their online banking system and develop threat intelligence with behavioral and content-based analysis of secure financial data. With continuous monitoring, a bank can prevent bad practices by its vendors and if necessary, conduct detailed file search to make sure vendors are using the right forms, following the agreement and addressing customer request on a prompt and responsive manner.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1576,7 +1573,7 @@ export default (() => {
 						letter-spacing="-1%"
 						lg-font="normal 700 28px/35px --fontFamily-googleInter"
 					>
-						industry challenge{"\n\n"}
+						Industry challenge{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/29px --fontFamily-googleInter"
@@ -1594,7 +1591,7 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						letter-spacing="-1%"
 					>
-						Teramind solution{"\n\n"}
+						StaffCop solution{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/29px --fontFamily-googleInter"
@@ -1603,9 +1600,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						The simplest way to ensure PCI DSS compliance and proper auditing is to add third party vendors into your existing (preferably Cloud-based) monitoring and auditing system so that you both have a common, transparent, end-to-end auditing system.{"\n"}
-						<br />
-						Teramind has several deployment options including a Cloud solution. It’s PCI DSS compliant and implements key security requirements for third party vendors and external users like: financial data (PFI, PII) identification, unique IDs, layered access control, 2FA etc. for both local and network resources.{"\n\n"}
+						The simplest way to ensure PCI DSS compliance and proper auditing is to add third party vendors into your existing  monitoring and auditing system so that you both have a common, transparent, end-to-end auditing system.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1649,7 +1644,7 @@ export default (() => {
 						letter-spacing="-1%"
 						lg-font="normal 700 28px/35px --fontFamily-googleInter"
 					>
-						industry challenge{"\n\n"}
+						Industry challenge{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/29px --fontFamily-googleInter"
@@ -1667,7 +1662,7 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						letter-spacing="-1%"
 					>
-						Teramind solution{"\n\n"}
+						StaffCop solution{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/29px --fontFamily-googleInter"
@@ -1676,9 +1671,9 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						Teramind helps healthcare organizations conform with ongoing privacy and security requirements of HIPAA regulated PII, PHI and EHR data from both internal and external users.{"\n"}
+						StaffCop helps healthcare organizations conform with ongoing privacy and security requirements of HIPAA regulated PII, PHI and EHR data from both internal and external users.{"\n"}
 						<br />
-						With Teramind, you can create security profiles for vendors allowing or restricting access to patient records on a need to know basis. Granular activity monitoring of all system objects like files, networks, websites, apps, emails etc. helps enforce privacy policy. Use instant alerts and audit trail to meet the HIPAA security review and reporting requirements.{"\n\n"}
+						With StaffCop, you can create security profiles for vendors allowing or restricting access to patient records on a need to know basis. Granular activity monitoring of all system objects like files, networks, websites, apps, emails etc. helps enforce privacy policy. Use instant alerts and audit trail to meet the HIPAA security review and reporting requirements.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1722,7 +1717,7 @@ export default (() => {
 						letter-spacing="-1%"
 						lg-font="normal 700 28px/35px --fontFamily-googleInter"
 					>
-						industry challenge{"\n\n"}
+						Industry challenge{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/29px --fontFamily-googleInter"
@@ -1740,7 +1735,7 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						letter-spacing="-1%"
 					>
-						Teramind solution{"\n\n"}
+						StaffCop solution{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/29px --fontFamily-googleInter"
@@ -1749,9 +1744,9 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						With Teramind’s privileged user monitoring and intelligent behavioral analysis, telecom providers can look out for compromised vendors who show abnormal signs, like: attempting to bypass security clearances and gain additional access, attempt to change system component etc.{"\n"}
+						With StaffCop’s privileged user monitoring and intelligent behavioral analysis, telecom providers can look out for compromised vendors who show abnormal signs, like: attempting to bypass security clearances and gain additional access, attempt to change system component etc.{"\n"}
 						<br />
-						Moreover, Teramind’s granular activity monitoring and data loss prevention solution is designed for high-grade security standards like NERC-CIP, NIST-FISMA, ISO 27001 for critical infrastructure providers like telecom and utilities.{"\n\n"}
+						Moreover, StaffCop’s granular activity monitoring and data loss prevention solution is designed for high-grade security standards like NERC-CIP, NIST-FISMA, ISO 27001 for critical infrastructure providers like telecom and utilities.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1795,7 +1790,7 @@ export default (() => {
 						letter-spacing="-1%"
 						lg-font="normal 700 28px/35px --fontFamily-googleInter"
 					>
-						industry challenge{"\n\n"}
+						Industry challenge{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/29px --fontFamily-googleInter"
@@ -1813,7 +1808,7 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						letter-spacing="-1%"
 					>
-						Teramind solution{"\n\n"}
+						StaffCop solution{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/29px --fontFamily-googleInter"
@@ -1824,7 +1819,7 @@ export default (() => {
 					>
 						Third-party vendor management, access control and contractual oversight is required to make sure a GDPR Controller has implemented the right accountability procedures for its Processor(s).{"\n"}
 						<br />
-						Teramind can ensure your third party is processing privacy data only in the context it is required to be processed. Additionally, the software can be configured with restricted feature sets allowing for further privacy of EU customers. Extensive reporting and forensic capability help you fulfill GDPR’s record keeping and breach reporting requirements.{"\n\n"}
+						StaffCop can ensure your third party is processing privacy data only in the context it is required to be processed. Additionally, the software can be configured with restricted feature sets allowing for further privacy of EU customers. Extensive reporting and forensic capability help you fulfill GDPR’s record keeping and breach reporting requirements.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2031,7 +2026,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind has a dedicated Risk dashboard where the supervisor can conduct organization-wide risk assessment. Risk can be profiled by vendors, departments responsible for the vendor or by system objects accessed by the vendor. Reports can be derived by severity of risks or by how many times security violations occurred. Unique Risk Scores helps you identify high-risk vendors or policies so that plans can be developed for treating the risks.{"\n\n"}
+						StaffCop has a dedicated Risk dashboard where the supervisor can conduct organization-wide risk assessment. Risk can be profiled by vendors, departments responsible for the vendor or by system objects accessed by the vendor. Reports can be derived by severity of risks or by how many times security violations occurred. Unique Risk Scores helps you identify high-risk vendors or policies so that plans can be developed for treating the risks.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2197,7 +2192,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Security Sandbox{"\n\n"}
+						Remote Desktop Control
 					</Text>
 					<Text
 						font="--lead"
@@ -2209,7 +2204,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind allows you to create virtual servers on Windows, VMware Horizon etc. Utilizing this capability, you can for example, setup a Terminal Server for your vendors and install the Teramind Agent on it. Vendors can then login to the server using RDP keeping out of your internal network and repositories. At the same time, you can record vendor activates separately, restrict access or take control of the server in case of an incident keeping rest of your business immune to disruption.{"\n\n"}
+						Remote contractors and vendors can enjoy the simplicity of tracking their project and time with StaffCop with the click of a mouse. Once the StaffCop agent is started, all actions and data are recorded. You can take control of an external vendor's desktop control and access at the first sign of malicious activity to eliminate threats of all kinds.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2273,55 +2268,6 @@ export default (() => {
 						margin="0px 0px 18px 0px"
 						lg-font="normal 700 24px/33px --fontFamily-googleInter"
 						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Remote Desktop Control{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Remote contractors and vendors can enjoy the simplicity of tracking their project and time with Teramind with the click of a mouse. Once the Teramind agent is started, all actions and data are recorded. You can take control of an external vendor's desktop control and access at the first sign of malicious activity to eliminate threats of all kinds.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-end"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
@@ -2333,89 +2279,10 @@ export default (() => {
 						display="inline-block"
 						color="#555"
 						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						A user's ability to access a desktop can be instantly taken away by putting Teramind's remote control feature to use. Manually overriding an account removes the user from the equation, ensuring that activity is contained, and potential threats are eliminated. Remote control can be started by simply clicking on the remote icon on all live sessions. Override all manual inputs by a user to prevent sensitive data from being altered and data breaches from occurring.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%207.png?v=2020-10-19T22:40:56.844Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="20px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Integrated Threat Management{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Attain full knowledge of which vendors are accessing systems and network resources with in-depth activity reports. Receive real-time alerts for high-risk vendor behavior. Session logs, anomaly and risk analysis, incident reports make your findings and observations tasks easier by identifying where sensitive data is stored, who accessed it and how. Finally, event triggers and logs from Teramind can be send to SIEM and other analytics tools for a holistic threat management system.{"\n\n"}
+						A user's ability to access a desktop can be instantly taken away by putting StaffCop's remote control feature to use. Manually overriding an account removes the user from the equation, ensuring that activity is contained, and potential threats are eliminated. Remote control can be started by simply clicking on the remote icon on all live sessions. Override all manual inputs by a user to prevent sensitive data from being altered and data breaches from occurring.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2453,7 +2320,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Ensure Quality of Service{"\n\n"}
+						Integrated Threat Management
 					</Text>
 					<Text
 						font="--lead"
@@ -2465,7 +2332,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Built-in productivity tools let you establish a continuous feedback loop with your vendor network. Refine and adjust your organizational workflow through tracking contract schedules, projects, budget and engagement rate to improve vendor SLA. If your vendors handle customer care services, you can monitor their performance and quality and if necessary, conduct detailed investigation to make sure vendors are using the right forms, following the agreement and addressing customer request on a prompt and responsive manner.{"\n\n"}
+						Attain full knowledge of which vendors are accessing systems and network resources with in-depth activity reports. Receive real-time alerts for high-risk vendor behavior. Session logs, anomaly and risk analysis, incident reports make your findings and observations tasks easier by identifying where sensitive data is stored, who accessed it and how. Finally, event triggers and logs from StaffCop can be send to SIEM and other analytics tools for a holistic threat management system.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2490,7 +2357,7 @@ export default (() => {
 				margin="0px 0px 0px 0px"
 				width="100%"
 				gap="--cmp-stack-gap-default"
-				border-width="0px"
+				border-width="0px 0px 1px 0px"
 				border-style="solid"
 				lg-margin="50px 0px 0px 0px"
 				border-color="rgba(19, 33, 42, 0.05)"
@@ -2532,7 +2399,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Compliance Management{"\n\n"}
+						Ensure Quality of Service
 					</Text>
 					<Text
 						font="--lead"
@@ -2543,14 +2410,120 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Many organizations are required to follow several regulatory, cybersecurity, administrative and privacy standards that includes vendors accountability and liability protection. Teramind has built-in support for many of these compliance standards including HIPAA, GDPR, PCI DSS, ISO 27001 etc. and can be adapted to support evolving compliance requirements with its powerful Policy & Rules editor and various monitoring and reporting capabilities.{"\n\n"}
+						Built-in productivity tools let you establish a continuous feedback loop with your vendor network. Refine and adjust your organizational workflow through tracking contract schedules, projects, budget and engagement rate to improve vendor SLA. If your vendors handle customer care services, you can monitor their performance and quality and if necessary, conduct detailed investigation to make sure vendors are using the right forms, following the agreement and addressing customer request on a prompt and responsive manner.
 					</Text>
 					{"    "}
 				</StackItem>
 				{"        "}
 			</Stack>
+			<Stack
+				margin="0px 0px 0px 0px"
+				width="100%"
+				gap="--cmp-stack-gap-default"
+				border-width="0px 0px 1px 0px"
+				border-style="solid"
+				lg-margin="50px 0px 0px 0px"
+				border-color="rgba(19, 33, 42, 0.05)"
+			>
+				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
+					<Override
+						slot="StackItemContent"
+						padding="0px 0px 0px 50px"
+						border-radius="0px"
+						border-width="0px"
+						flex-direction="column"
+						align-items="flex-end"
+						lg-padding="0px 30px 0px 50px"
+						sm-margin="20px 0px 0px 0px"
+						justify-content="center"
+					/>
+					{"        "}
+					<Text
+						font="normal 700 36px/43px --fontFamily-googleInter"
+						color="Monitor Employee Activity in Real-Time"
+						margin="0px 0px 18px 0px"
+						lg-font="normal 700 30px/43px --fontFamily-googleInter"
+						md-margin="0px 0px 24px 0px"
+						text-align="right"
+						nout-font="normal 700 30px/43px --fontFamily-googleInter"
+						sm-text-align="center"
+					>
+						Compliance Management
+					</Text>
+					<Text
+						font="--lead"
+						margin="0px 0px 24px 0px"
+						display="inline-block"
+						color="#555"
+						lg-font="normal 400 15px/160% Inter, sans-serif"
+						text-align="right"
+						nout-font="normal 400 16px/160% Inter, sans-serif"
+						sm-text-align="center"
+					>
+						Many organizations are required to follow several regulatory, cybersecurity, administrative and privacy standards that includes vendors accountability and liability protection. StaffCop has built-in support for many of these compliance standards including HIPAA, GDPR, PCI DSS, ISO 27001 etc. and can be adapted to support evolving compliance requirements with its powerful Policy & Rules editor and various monitoring and reporting capabilities.
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						padding="0px 0px 0px 20px"
+						border-radius="0px"
+						border-width="0px"
+						flex-direction="column"
+						align-items="center"
+						justify-content="center"
+						md-align-items="center"
+					/>
+					{"        "}
+					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
+					{"    "}
+				</StackItem>
+				{"        "}
+			</Stack>
 		</Section>
-		<Components.BlockNeed />
+		<Components.BlockNeed>
+			<Override slot="text1">
+				Information Security
+			</Override>
+			<Override slot="text2">
+				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest.
+			</Override>
+			<Override slot="text3">
+				Remote Administration
+			</Override>
+			<Override slot="text4">
+				View remote desktop without being notices. Take control over a workstation. Full picture of software and hardware usage. Intensity of usage and registry of states.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring
+			</Override>
+			<Override slot="text7">
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results. ..
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+		</Components.BlockNeed>
 		<Section
 			background="#ffffff"
 			padding="70px 0 20px 0"
@@ -2623,7 +2596,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							On-premise
+							Bare Metal{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -2632,7 +2605,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							control the implementation in its entirety, stay off-cloud if that’s your firm’s operational model, leverage LDAP groups and users to identify which users and groups to apply which policies and rules to
+							Install on bare metal from our ISO image containing Ubuntu 18.04 and StaffCop or install StaffCop packages on existing Ubuntu 18.04.
 						</Text>
 					</Box>
 					{"    "}
@@ -2673,7 +2646,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{" "}
+							Virtual Machine
 						</Text>
 						<Text
 							font="--lead"
@@ -2682,7 +2655,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.
 						</Text>
 					</Box>
 					{"    "}
@@ -2723,7 +2696,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Cloud
+							Private Cloud
 						</Text>
 						<Text
 							font="--lead"
@@ -2732,7 +2705,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							trust us the management of the deployment and infrastructure. Only install Agents on the machines you want to monitor and set up your users, policies and rules and let us take care of the rest.
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
 						</Text>
 					</Box>
 					{"    "}
@@ -2743,7 +2716,11 @@ export default (() => {
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					Feature-rich, affordable with annual and perpetual licensing options
+				</Override>
+			</Components.Feature>
 			<Components.Footer />
 		</Section>
 		<Section

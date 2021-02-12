@@ -58,7 +58,7 @@ export default {
 		"5f8c35772e3a2a001faf7788": {
 			"id": "5f8c35772e3a2a001faf7788",
 			"pageUrl": "starter",
-			"name": "Starter",
+			"name": "Remote Administration",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "Starter"
@@ -67,7 +67,7 @@ export default {
 		"5f90cf52b40b56001e9517aa": {
 			"id": "5f90cf52b40b56001e9517aa",
 			"pageUrl": "uam",
-			"name": "UAM",
+			"name": "Employee Monitoring",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "UAM"
@@ -76,7 +76,7 @@ export default {
 		"5f9198c5e5a236001eeb5abf": {
 			"id": "5f9198c5e5a236001eeb5abf",
 			"pageUrl": "dlp",
-			"name": "DLP",
+			"name": "Information Security",
 			"seo": {
 				"title": "DLP",
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"
@@ -99,7 +99,6 @@ export default {
 				"5f934743b40b56001e951d21",
 				"5f93698fa37bff001ef694f1",
 				"5f936a53e5a236001eeb5e68",
-				"5f936ab2a37bff001ef694ff",
 				"5f936b52b40b56001e951d77",
 				"5f936bace5a236001eeb5e7e",
 				"5f934446e5a236001eeb5e12",
@@ -240,15 +239,6 @@ export default {
 				"title": "Instant Message Monitoring"
 			}
 		},
-		"5f936ab2a37bff001ef694ff": {
-			"id": "5f936ab2a37bff001ef694ff",
-			"pageUrl": "social-media-monitoring",
-			"name": "Social Media Monitoring",
-			"seo": {
-				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
-				"title": "Social Media Monitoring"
-			}
-		},
 		"5f936b52b40b56001e951d77": {
 			"id": "5f936b52b40b56001e951d77",
 			"pageUrl": "remote-desktop-control",
@@ -333,7 +323,7 @@ export default {
 		"5f99bcd61fae5f001ff6c0bc": {
 			"id": "5f99bcd61fae5f001ff6c0bc",
 			"pageUrl": "solutions",
-			"name": "Solutions",
+			"name": "Cases",
 			"seo": {
 				"title": "Solutions",
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"
@@ -432,7 +422,7 @@ export default {
 		"5f9f5caafe68cf001ebadc25": {
 			"id": "5f9f5caafe68cf001ebadc25",
 			"pageUrl": "iso-27001-compliance",
-			"name": "ISO 27001 Compliance",
+			"name": "General Data Protection Regulation (GDPR)",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "ISO 27001 Compliance"
@@ -531,7 +521,7 @@ export default {
 		"5fab9147badc03001fb10c7f": {
 			"id": "5fab9147badc03001fb10c7f",
 			"pageUrl": "leadership",
-			"name": "Leadership",
+			"name": "Solutions",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "Leadership"

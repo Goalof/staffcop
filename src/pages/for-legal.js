@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Hr, Box, Span, Image, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Hr, Box, Span, Strong, Image, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -102,9 +102,9 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						n today’s highly regulated business landscape, law firms are faced with the ever evolving challenge of addressing their insider risk issues as it pertains to securing attorney-client privileged information and client/matter data, ensuring the security of the work product offshored, and securing access to critical systems by privileged users and third party vendors/contractors.
+						In today’s highly regulated business landscape, law firms are faced with the ever evolving challenge of addressing their insider risk issues as it pertains to securing attorney-client privileged information and client/matter data, ensuring the security of the work product offshored, and securing access to critical systems by privileged users and third party vendors/contractors.
 						<br />
-						Teramind for Legal is designed to assist law firms to address these requirements to deliver peace of mind and product/demonstrate effective oversight to compliance initiatives to your clients.
+						StaffCop for Legal is designed to assist law firms to address these requirements to deliver peace of mind and product/demonstrate effective oversight to compliance initiatives to your clients.
 					</Text>
 					<Hr width="98%" margin="40px 0px 40px 0px" border-color="rgba(237, 237, 237, 1)" />
 					<Text
@@ -117,7 +117,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Law firm insider threat management
+						Complience management
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -200,7 +200,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Controls to ensure safety of client/matter data and work-product stored in firm systems and repositories, beyond the traditional password-protection/access control/identity management systems
+							Controls to ensure safety of client/matter data and work-product stored in firm systems and repositories
 						</Text>
 					</Box>
 					{"    "}
@@ -783,10 +783,9 @@ export default (() => {
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 				width="75%"
 			>
-				Effective, End-to-End Security for{" "}
-				<Span color="--primary">
-					Your Healthcare Data
-				</Span>
+				StaffCop helps to comply with
+				<br />
+				ISO 27001{"\n\n"}
 			</Text>
 			<Text
 				font="normal 400 18px/160% --fontFamily-googleInter"
@@ -797,7 +796,11 @@ export default (() => {
 				text-align="center"
 				width="75%"
 			>
-				Teramind for GDPR provides user activity and data exfiltration monitoring capabilities to help organizations detect, investigate, and report on data breaches.
+				StaffCop Enterprise can significantly help you meet{" "}
+				<Strong>
+					ISO 27001
+				</Strong>
+				{" "}demands. The flexibility of settings makes it perfect to fit any Information Security Management System (ISMS). PDCA (Plan-Do-Check-Act) cycle lies in the core of the standard, so let’s take it with StaffCop step-by-step.{"\n\n"}
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -843,7 +846,10 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Identify
+							<Strong>
+								Plan
+							</Strong>
+							{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -852,7 +858,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Leveraging advanced fingerprinting, OCR and tagging technology, Teramind identifies personal and sensitive data in structured and unstructured information across organization data stores.
+							At this stage you should establish the internal policy of the company regulating creation and distribution of information (ISMS) within and beyond the company. The corporate information and access to it should be classified and divided with different access rights for different groups of employees. For example, your employees should work only with a limited number of web-sites and applications, the PC of the secretary is the only one which can print documents and the sales department is the only department with access to the customers’ database.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -899,7 +905,10 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Protect
+							<Strong>
+								Do
+							</Strong>
+							{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -908,7 +917,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind leverages its activity monitoring and data loss prevention capabilities to defend confidential and private information from unauthorized access, sharing, attack and misuse.
+							The implementation is done through creating a number of fully customized filters and policies. It’s all carried out in the administrative interface of StaffCop to be applied on the workstations. The policies and filters can be easily modified at any moment. StaffCop is deployed in your corporate network and it doesn’t send any data outside providing high level of information security. It can work in closed networks, the ones that don’t have internet connection.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -955,7 +964,10 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Detect{"   "}
+							<Strong>
+								Check
+							</Strong>
+							{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -964,7 +976,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind’s powerful behavior-based policy and rules engine casts a strong detection net over the entire organization, allowing for quick detection of insider threats and data breach incidents before it happens.
+							The monitoring is carried out in the same administrative interface. A number of administrators can be assigned access right corresponding to the level of the responsibility they carry. For example, each head of a department can monitor information on PCs belonging to his or her department. The alerts on violations of ISMS will be sent to the specified e-mail addresses, be it a security officer or the company owner. Documents can be easily searched for classified information, and if it’s contained in images or PDF, the text will be recognized.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1011,7 +1023,10 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Responde
+							<Strong>
+								Act
+							</Strong>
+							{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1020,63 +1035,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-time notification and immediate actions proactively defend against data exfiltration, malicious or accidental insider threats and data breaches. In case of an incident, pinpoint the exact cause and source of the incident with readily available audit and forensic data.
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="100%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="30px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Image width="64px" height="64px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/folder-circle.1%201%20(1).svg?v=2020-10-30T02:15:40.681Z" />
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Report
-						</Text>
-						<Text
-							font="normal 400 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Meet GDPR record keeping requirements with detailed incident reports, alerts and session recordings. Exportable reports can be shared with the Controller, DPO, auditors and other members of the compliance team.
+							StaffCop Enterprise can track huge amount of information that can be used to analyze user behavior and estimate. Use pre-set and customized reports to analyze data and visualize the resulting output. There are quite handy embedded tools, such as heat map and anomalies detector that could help you track behavior trends and deviations. With experience gained and data collected the ISMS should be corrected in a corresponding way, which means both organizational means and configuring of StaffCop polices.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1155,7 +1114,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind’s Session Recording feature captures all user activity and screen content. User session recordings can be viewed live or for past dates and exported as a video file. With the session recording feature, you can:.
+						StaffCop’s Session Recording feature captures all user activity and screen content. User session recordings can be viewed live or for past dates and exported as a video file. With the session recording feature, you can:.
 					</Text>
 					{"  "}
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1247,7 +1206,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Privileged user monitoring)
+						Privileged user monitoring
 					</Text>
 					<Text
 						font="--lead"
@@ -1259,7 +1218,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Privileged insiders such as system administrators, network administrators, conflicts department and other personnel have access to otherwise restricted critical information systems containing client/matter data. As such, a malicious privileged user can cause serious damage to a law firm by accessing, leaking or potentially destroying client/matter data and work product. To prevent these insider threats, Teramind can:
+						Privileged insiders such as system administrators, network administrators, conflicts department and other personnel have access to otherwise restricted critical information systems containing client/matter data. As such, a malicious privileged user can cause serious damage to a law firm by accessing, leaking or potentially destroying client/matter data and work product. To prevent these insider threats, StaffCop can:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Text
@@ -1394,7 +1353,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind can capture all data on a computer screen, including text in images and video streams, and apply OCR technology to provide the firm with the ability to:
+						StaffCop can capture all data on a computer screen, including text in images and apply OCR technology to provide the firm with the ability to:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -1432,20 +1391,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Create rules for identifying content that is not easily parsable because the text is embedded inside images or videos.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Build rules that trigger an action when certain text appears on screen.
+							Build rules that sends an alert when certain text appears on screen.
 						</Text>
 					</Box>
 					{"    "}
@@ -1496,7 +1442,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With work product offshored and contracted out on a regular basis, it’s important to be able to monitor and improve the process and productivity of the extended legal workforce. Teramind can assist by providing a framework within which your law firm can:
+						With work product offshored and contracted out on a regular basis, it’s important to be able to monitor and improve the process and productivity of the extended legal workforce. StaffCop can assist by providing a framework within which your law firm can:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Text
@@ -1507,25 +1453,6 @@ export default (() => {
 							text-align="right"
 						>
 							Classify apps and websites you consider productive then get in-depth reports on their usage.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Track tasks, hours and cost by outsourced/remote worker by department.
 						</Text>
 						<Icon
 							category="bs"
@@ -1563,7 +1490,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Set up automated alerts to discourage unproductive activity and excessive idling.
+							Set up automated alerts to discourage excessive idling.
 						</Text>
 						<Icon
 							category="bs"
@@ -1650,7 +1577,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With Teramind’s visual Policy and Rules creation engine, law firms can establish:
+						With StaffCop’s visual Policy and Rules creation engine, law firms can establish:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -1675,7 +1602,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							100s of pre-built policies and rules to protect you against common mistakes and perilous activities like unauthorized access, content sharing or other dangerous activities that can put your firm at risk.
+							The visual Policy and Rules Editor enables administrators to define highly complex rules for very specific use cases with oversight on all internal and external disk activity, keystrokes, application usage, instant message and much more.{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1688,7 +1615,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Automatically take action during a rule violation. For example, you can create a rule that blocks a paralegal attempting to upload confidential documents to cloud shares.
+							Use black/white listing, define safe or restricted app and websites and do much more.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1739,7 +1666,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With Teramind, your firm is in complete control on when, who and how much to monitor, when to record and when not to. Teramind is flexible to accommodate all use cases:
+						With StaffCop, your firm is in complete control on when, who and how much to monitor, when to record and when not to. StaffCop is flexible to accommodate all use cases:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Text
@@ -1749,7 +1676,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Monitor activity and alert/block actions only, with no user session recording
+							Monitor activity and alert only, with no user session recording
 						</Text>
 						<Icon
 							category="bs"
@@ -1768,7 +1695,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Record only during rule and policy violations, by setting Teramind to trigger a recording action when a rule is triggered..
+							Monitor only during the specified working hours.
 						</Text>
 						<Icon
 							category="bs"
@@ -1787,7 +1714,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Record groups of users all the time (example privileged user access to critical systems), and other groups of users based on other criteria. For example, you may choose to record entire user sessions for your contractors and only record privileged users when they access specific applications such as your document and records management systems which contain your client/matter data and work product.
+							Specify which types of data are monitored for specific users or department. E.g, monitor only printing documents for accountant, only e-mail and messengers for sales department, or monitor all type of activities with desktop video recording for an employee in the risk group.
 						</Text>
 						<Icon
 							category="bs"
@@ -1874,7 +1801,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind can be deployed with a revealed desktop agent, whereby users are aware of the Teramind system and its monitoring functions, and can control when to turn on and off the agent. Alternatively, the desktop agent can be deployed in stealth mode with no visible controls to the end users being monitored.
+						StaffCop can be deployed with a revealed desktop agent, whereby users are aware of the Teramind system and its monitoring functions. Alternatively, the desktop agent can be deployed in stealth mode with no visible controls to the end users being monitored.
 					</Text>
 					<Text
 						font="normal 600 18px/160% --fontFamily-googleInter"
@@ -1897,7 +1824,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Monitor employee activity and work product non-obtrusively and transparently with the user’s consent and knowledge.
+							Users can see the StaffCop icon in the taskbar with the address of the StaffCop Server collecting the data from this agent.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1910,7 +1837,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Users can decide when/what activities should be tracked.
+							Users can be asked for the reason of absence if there is no activity registered for a specified period of time.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1923,70 +1850,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							User can select their own task/project in the agent.
-						</Text>
-					</Box>
-					<Text
-						font="normal 600 18px/160% --fontFamily-googleInter"
-						margin="24px 0px 24px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						With the revealed agent you can:
-					</Text>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Set up full-time or scheduled monitoring.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Users can be monitored as soon as a user logs on.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Automatic task assignment by user's application / website usage.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Users don’t see or interact with the agent software.
+							Control mouse and keyboard of a remote desktop in real time{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -2037,7 +1901,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Compliance, competition and customer trust means law firms have to ensure the safety of client/matter information and work product. To ensure data safety and integrity, Teramind has a robust, four-step data loss prevention process:
+						Compliance, competition and customer trust means law firms have to ensure the safety of client/matter information and work product. To ensure data safety and integrity, StaffCop has a robust, four-step data loss prevention process:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Text
@@ -2104,7 +1968,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							In case of a data breach, pinpoint the exact cause and source of the incident with audit and forensic data available in the Teramind system.
+							In case of a data breach, pinpoint the exact cause and source of the incident with audit and forensic data available in the StaffCop system.
 						</Text>
 						<Icon
 							category="bs"
@@ -2135,7 +1999,38 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.BlockNeed />
+		<Components.BlockNeed>
+			<Override slot="text1">
+				Information Security{"\n\n"}
+			</Override>
+			<Override slot="text2">
+				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest.
+			</Override>
+			<Override slot="text3">
+				Remote Administration{"\n\n"}
+			</Override>
+			<Override slot="text4">
+				View remote desktop without being notices. Take control over a workstation.  Full picture of software and hardware usage. Intensity of usage and registry of states.{"\n\n"}
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring{"\n\n\n\n"}
+			</Override>
+			<Override slot="text7">
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.{"  "}
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					data-q-widget-type="PRIMITIVE"
+				>
+					.
+				</Span>
+			</Override>
+		</Components.BlockNeed>
 		<Section
 			background="#ffffff"
 			padding="70px 0 20px 0"
@@ -2208,7 +2103,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							On-premise
+							Bare Metal{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -2217,7 +2112,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							control the implementation in its entirety, stay off-cloud if that’s your firm’s operational model, leverage LDAP groups and users to identify which users and groups to apply which policies and rules to
+							Install on bare metal from our ISO image containing Ubuntu 18.04 and StaffCop or install StaffCop packages on existing Ubuntu 18.04.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -2258,7 +2153,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{" "}
+							Virtual Machine{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -2267,7 +2162,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -2308,7 +2203,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Cloud
+							Private Cloud{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -2317,7 +2212,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							trust us the management of the deployment and infrastructure. Only install Agents on the machines you want to monitor and set up your users, policies and rules and let us take care of the rest.
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -2328,7 +2223,11 @@ export default (() => {
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					Feature-rich, affordable with annual and perpetual licensing options{"\n\n"}
+				</Override>
+			</Components.Feature>
 			<Components.Footer />
 		</Section>
 		<Section

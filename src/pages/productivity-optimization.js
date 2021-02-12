@@ -241,7 +241,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Teramind Employee Productivity Tools Go Beyond Monitoring and Basic Time Tracking{"\n\n"}
+						StaffCop Employee Productivity Tools Go Beyond Monitoring and Basic Time Tracking{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -260,7 +260,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Teramind takes a data-centric approach to employee productivity. Teramind captures virtually all types of user activity and behavior data that can be leveraged to review and analyze user productivity. When properly analyzed through the various analytics tools offered by Teramind, it allows management to both understand and take steps to increase employee productivity.{"\n\n"}
+						StaffCop takes a data-centric approach to employee productivity. StaffCop captures virtually all types of user activity and behavior data that can be leveraged to review and analyze user productivity. When properly analyzed through the various analytics tools offered by StaffCop, it allows management to both understand and take steps to increase employee productivity.{"\n\n"}
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -275,7 +275,7 @@ export default (() => {
 					>
 						Get the ability to have an enterprise-wide oversight with productivity, performance and security KPIs for all uses on a single, intuitive dashboard. Productive, Unproductive, Active and idle time tracking shows you how engaged your employees are. Integrated schedule and task management means there is less administrative headache to deal with. Automated rules enforce company policy and decrease unproductive behavior. Track project costs and eliminate waste for not just regular employees but external consultants, remote employees and freelance contractors.{"\n"}
 						<br />
-						Teramind Workforce Optimization solutions are more than just an employee productivity tool. It also defends your organization from theft, sabotage and other malicious user activity with built-in insider threat detection and data loss prevention features.{"\n\n"}
+						StaffCop Workforce Optimization solutions are more than just an employee productivity tool. It also defends your organization from theft, sabotage and other malicious user activity with built-in insider threat detection and data loss prevention features.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -354,7 +354,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitor all user activity covering 12+ system objects like: web pages, apps, email, file transfers, instant messaging, social media and more.
+							Monitor all user activity covering 22+ system objects like: web pages, apps, email, file transfers, instant messaging, social media and more.
 							<br />
 							{"\n\n"}
 						</Text>
@@ -430,7 +430,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Tell Teramind which applications and websites you consider productive then get in-depth reports on how your employees and departments spend their time. Identify high performing employees and those who need improvement.{"\n\n"}
+							Tell StaffCop which applications and websites you consider productive then get in-depth reports on how your employees and departments spend their time. Identify high performing employees and those who need improvement.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -659,7 +659,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Create monitoring profiles for individual user, group or department. Setup custom behavior rules to limit the use of unproductive applications and websites or send automated notices to alert you about excessive idle time, decreased employee productivity and other anomalies.{"\n\n"}
+							Create monitoring profiles for individual user, group or department. Setup custom behavior rules to limit the use of unproductive applications and websites or send automated notices to alert you about excessive idle time and other anomalies.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -733,7 +733,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Built-in widgets for employee, departmental, task and project payroll and salary/wages ratings. Track work hours and labor costs for consultants, independent contractors and freelancers eliminating the need for manual invoicing.
+							{" "}Track work hours and labor costs for consultants, independent contractors and freelancers eliminating the need for manual invoicing.
 							<br />
 							<br />
 							<br />
@@ -815,157 +815,6 @@ export default (() => {
 							<br />
 							<br />
 							{"\n"}
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="42px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="700 18px/22px --fontFamily-googleInter"
-							color="#ffffff"
-							background="--color-primary"
-							padding="13px 0px 13px 0px"
-							border-radius="40px"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							border-width="1px"
-							border-style="solid"
-							border-color="rgba(255, 255, 255, 0.05)"
-							align-items="center"
-							display="block"
-							justify-content="center"
-							text-align="center"
-							width="48px"
-						>
-							8
-						</Text>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Project Management Integration{"\n\n"}
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Teramind has easy integration with all your favorite tools for handling complex projects easier. Sync your users’ tasks and track how much time they spend on each task and the cost of labor for each project. Teramind integrates with: JIRA, Trello, BaseCamp, Redmine and others.{"\n\n"}
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="42px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="700 18px/22px --fontFamily-googleInter"
-							color="#ffffff"
-							background="--color-primary"
-							padding="13px 0px 13px 0px"
-							border-radius="40px"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							border-width="1px"
-							border-style="solid"
-							border-color="rgba(255, 255, 255, 0.05)"
-							align-items="center"
-							display="block"
-							justify-content="center"
-							text-align="center"
-							width="48px"
-						>
-							9
-						</Text>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Active Directory Integration{"\n\n"}
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Utilize your existing active directory LDAP to import employees, departments, computer and groups to speedup enrolling into Teramind’s employee monitoring and productivity optimization solution.
-							<br />
 							<br />
 							{"\n\n"}
 						</Text>
@@ -1372,7 +1221,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With Teramind, track employee activity throughout the day, then aggregate that data to produce detailed metrics, such as:{"\n\n"}
+						With StaffCop, track employee activity throughout the day, then aggregate that data to produce detailed metrics, such as:{"\n\n"}
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -1424,174 +1273,6 @@ export default (() => {
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
 							Use the various productivity reports to track progress and adjust tasks to ensure you meet your productivity goals.{"\n\n"}
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 20px 0px 60px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-						md-order="1"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Intelligent Policy & Rules Engine{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						The core of the Teramind platform is its automation. Teramind comes with hundreds of pre-defined policies and rules. For example: block email containing sensitive keywords, stop uploading of a confidential document, detect screen capture, prevent use of external drives etc. The templates cover virtually every use case of data loss prevention, insider threat detection and compliance requirements. Just pick a policy or rule template and all the data definition, content source, condition will be set automatically for you to edit{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="100%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%204.png?v=2020-10-19T22:32:34.380Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%205.png?v=2020-10-19T22:35:48.644Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="20px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Reduce Administrative Overhead{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						With Teramind’s built-in features, many of the repetitive yet import administrative tasks can be automated or made efficient. For example, with Teramind you can:{"\n\n"}
-					</Text>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Setup schedules and automatically track attendance, breaks, sick hours, late shifts, absence etc.{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track the time, performance and cost for projects with contractors and hourly employees reducing the need for manual invoicing and oversight.{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Reduce project supervision by automatically identifying tasks based on employee apps and web usage.
 						</Text>
 					</Box>
 					{"    "}
@@ -1777,7 +1458,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Conduct gap analysis and process improvement at individual and team levels by identifying skill gaps, overlap in duties and responsibilities, conflicting goals and accountability etc. With Teramind’s advanced OCR and content-based rules, you can automatically analyze the emotional context in email, IM and social media conversations. As an example, using such rules you found out that a talented software developer of your team is consistently engaging in poor client communications. You can transfer the person to a position which is less customer facing, maximizing the developer’s strengths while also protecting the reputation of the company.{"\n\n"}
+						Conduct gap analysis and process improvement at individual and team levels by identifying skill gaps, overlap in duties and responsibilities, conflicting goals and accountability etc. As an example, using such rules you found out that a talented software developer of your team is consistently engaging in poor client communications. You can transfer the person to a position which is less customer facing, maximizing the developer’s strengths while also protecting the reputation of the company.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1827,7 +1508,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind can track employee active vs idle time and allows you to send automated notifications to employees if they are idling excessively. With payroll reports and activity category breakdown, you can build an accurate estimate of which type of works takes how much time and then set your team’s deliverables accordingly reducing slack times and overtime hours. Using the software’s device monitoring feature, you can implement policies like set a limit on printer to reduce paper and ink waste.{"\n\n"}
+						StaffCop can track employee active vs idle time and allows you to send automated notifications to employees if they are idling excessively. With payroll reports and activity category breakdown, you can build an accurate estimate of which type of works takes how much time and then set your team’s deliverables accordingly reducing slack times and overtime hours. Using the software’s device monitoring feature, you can implement policies like set a limit on printer to reduce paper and ink waste.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1894,7 +1575,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Improve Time Management{"\n\n"}
+						Develop Better Management and HR Policies
 					</Text>
 					<Text
 						font="--lead"
@@ -1905,7 +1586,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Use Teramind Revealed Agent to let users identify and track what projects/tasks they're working on or use the Hidden Agent to automatically assign tasks to employees based on their apps/web activity. Use built-in scheduler to track attendance; receive alerts when users deviate from their scheduled work hours.{"\n\n"}
+						Use StaffCop to provide a safe work environment by monitoring internal communication channels for harassment, abuse, resentment etc. HR department can use etiquette rules to govern acceptable usage policy and code of conduct when using information technology
 					</Text>
 					<Text
 						font="--lead"
@@ -1916,91 +1597,66 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Additionally, Teramind has integration support for all your favorite project management tools like JIRA, Trello, BaseCamp, Redmine etc.{"\n\n"}
+						Develop training materials and on-demand feedback system regarding company policy by utilizing the session recording and custom alert messaging features. Same can be used for onboarding new staff or as a guide for an exit interview.
 					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-end"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Develop Better Management and HR Policies{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Use Teramind to provide a safe work environment by monitoring internal communication channels for harassment, abuse, resentment etc. HR department can use etiquette rules to govern acceptable usage policy and code of conduct when using information technology{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Develop training materials and on-demand feedback system regarding company policy by utilizing the session recording and custom alert messaging features. Same can be used for onboarding new staff or as a guide for an exit interview.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
 					{"    "}
 				</StackItem>
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.BlockNeed />
+		<Components.BlockNeed>
+			<Override slot="text1">
+				Information Security
+			</Override>
+			<Override slot="text2">
+				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest.{"\n\n"}
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text3">
+				Remote Administration
+			</Override>
+			<Override slot="text4">
+				View remote desktop without being notices. Take control over a workstation. Full picture of software and hardware usage. Intensity of usage and registry of states.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring
+			</Override>
+			<Override slot="text7">
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+		</Components.BlockNeed>
 		<Section
 			background="#ffffff"
 			padding="70px 0 20px 0"
@@ -2073,7 +1729,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							On-premise
+							Bare Metal
 						</Text>
 						<Text
 							font="--lead"
@@ -2082,7 +1738,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							control the implementation in its entirety, stay off-cloud if that’s your firm’s operational model, leverage LDAP groups and users to identify which users and groups to apply which policies and rules to
+							Install on bare metal from our ISO image containing Ubuntu 18.04 and StaffCop or install StaffCop packages on existing Ubuntu 18.04.
 						</Text>
 					</Box>
 					{"    "}
@@ -2123,7 +1779,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{" "}
+							Virtual Machine
 						</Text>
 						<Text
 							font="--lead"
@@ -2132,7 +1788,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.
 						</Text>
 					</Box>
 					{"    "}
@@ -2173,7 +1829,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Cloud
+							Private Cloud
 						</Text>
 						<Text
 							font="--lead"
@@ -2182,7 +1838,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							trust us the management of the deployment and infrastructure. Only install Agents on the machines you want to monitor and set up your users, policies and rules and let us take care of the rest.
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
 						</Text>
 					</Box>
 					{"    "}
@@ -2193,7 +1849,11 @@ export default (() => {
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					Feature-rich, affordable with annual and perpetual licensing options
+				</Override>
+			</Components.Feature>
 			<Components.Footer />
 		</Section>
 		<Section

@@ -48,7 +48,7 @@ export default (() => {
 						md-font="normal 400 16px/140% --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Find Compliance Solutions with Teramind
+						Find Compliance Solutions with StaffCop
 					</Text>
 					{"    "}
 					<Link
@@ -141,7 +141,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Compliance is an increasingly complex task, requiring organizations to manage multiple risk factors across an evolving technology landscape, while also ensuring appropriate user behavior to meet the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST, FedRamp, FISMA, AML/KYC and others. Failing to remain compliant exposes your organization to substantial financial and reputational risk. No matter which industry you are in, you need a solid compliance management solution that can help you achieve compliance and then assists you in staying compliant with continuous oversight. Finally, the solution should be able to provide you with burden of proof in case of an audit{"\n\n"}
+						Compliance is an increasingly complex task, requiring organizations to manage multiple risk factors across an evolving technology landscape, while also ensuring appropriate user behavior to meet the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST and others. Failing to remain compliant exposes your organization to substantial financial and reputational risk. No matter which industry you are in, you need a solid compliance management solution that can help you achieve compliance and then assists you in staying compliant with continuous oversight. Finally, the solution should be able to provide you with burden of proof in case of an audit{"\n\n"}
 					</Text>
 					{"  "}
 					<Hr width="98%" margin="50px 0px 0px 0px" border-color="rgba(237, 237, 237, 1)" />
@@ -165,7 +165,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						How Teramind can help with your compliance requirements{"\n\n"}
+						How StaffCop can help with your compliance requirements{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -186,7 +186,7 @@ export default (() => {
 					>
 						While many solutions are out there to ensure compliance with respect to various systems, the human elements in these data driven transactions remain difficult to oversee, mandate and manage.{"\n"}
 						<br />
-						With its Intelligent behavior analysis and user centric activity monitoring, Teramind can identify the human factors in compliance like insider threats, errors or accidents allowing you to address critical data protection, security and audit requirements. No matter what your specific compliance requirements are, Teramind can provide the control and peace of mind with its many features and benefits.{"\n\n"}
+						With its Intelligent behavior analysis and user centric activity monitoring, StaffCop can identify the human factors in compliance like insider threats, errors or accidents allowing you to address critical data protection, security and audit requirements. No matter what your specific compliance requirements are, StaffCop can provide the control and peace of mind with its many features and benefits.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -522,7 +522,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Immediate action (warn, block action, lock out user, etc.) to ensure data is safe{"\u2028"}
+							Immediate action (warn, block action, lock out user, etc.) to ensure data is safe
 							<br />
 							{"\n\n"}
 						</Text>
@@ -657,7 +657,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Privacy data (gdpr){"\n\n\n"}
+							Privacy data (GDPR){"\n\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -670,7 +670,7 @@ export default (() => {
 							<br />
 							{"\n"}
 							<br />
-							– Support for GDPR Articles 5: Principle relating to processing of personal data, 25: Data protection and design by default, 33: Notification of data breach and 41: Monitoring of approved codes of conduct.
+							– Support for GDPR Articles 25: Data protection and design by default, 30: Record of processing activities, 32: Security of processing, 33: Notification of a data breach and 38: Supporting the data protection officer.
 							<br />
 							{" \n"}
 							<br />
@@ -682,7 +682,7 @@ export default (() => {
 							<br />
 							{"\n"}
 							<br />
-							– Teramind provides full forensics with respect to a data breaches, and a video recording of the event.{"\n\n"}
+							– StaffCop provides full forensics with respect to a data breaches, and a video recording of the event.{"\n\n"}
 						</Text>
 						<Link
 							href="/gdpr-compliance/"
@@ -732,7 +732,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Healthcare (hipaa){"\n\n\n"}
+							Healthcare (HIPAA){"\n\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -741,17 +741,12 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							All healthcare organizations need to comply with HIPAA requirements of privacy and safeguards for medical and patient information and protect them from data loss, insider threats, fraud and other misuses. With Teramind, healthcare organizations can speed up HIPAA compliance implementation and auditing process:{" "}
+							All healthcare organizations need to comply with HIPAA requirements of privacy and safeguards for medical and patient information and protect them from data loss, insider threats, fraud and other misuses. With StaffCop, healthcare organizations can speed up HIPAA compliance implementation and auditing process:{" "}
 							<br />
 							{"\n"}
 							<br />
 							– Guard protected health information (PHI), claim, care and clinical data with ready to use HIPAA policy templates.{" \n"}
 							<br />
-							{"\n"}
-							<br />
-							– Predefined health data classification for common drug and disease names, DNA profiles, NDC number, HICN, NHS number, ICD10 code etc.{" \n"}
-							<br />
-							{"\n"}
 							<br />
 							– Identify employees and 3rd party vendors who fail to comply with activity monitoring and tracking of communication channels like file transfer, email, IM etc.{" \n"}
 							<br />
@@ -819,7 +814,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Law firms are constantly faced with the ever evolving challenge of addressing insider threats as it pertains to securing attorney-client privileged information and client/matter data. Teramind helps you address these threats, protect confidentiality and product/demonstrate effective oversight to compliance initiatives to your clients:{" \n"}
+							Law firms are constantly faced with the ever evolving challenge of addressing insider threats as it pertains to securing attorney-client privileged information and client/matter data. StaffCop helps you address these threats, protect confidentiality and product/demonstrate effective oversight to compliance initiatives to your clients:{" \n"}
 							<br />
 							– Ensure safety of client/matter data and work-product stored in firm repositories, beyond the traditional access and identity management systems.{" \n"}
 							<br />
@@ -894,7 +889,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Government organizations can address data loss, cybersecurity and insider threats with Teramind’s insider threat detection and data loss prevention solutions. Teramind is an effective endpoint monitoring solution to ensure your adherence to regulatory compliance including NIST, FAR/DFARS, FDCC, FedRamp, FISMA and more:{" \n"}
+							Government organizations can address data loss, cybersecurity and insider threats with StaffCop’s insider threat detection and data loss prevention solutions. StaffCop is an effective endpoint monitoring solution to ensure your adherence to regulatory compliance including NIST, FAR/DFARS, FDCC, FedRamp, FISMA and more:{" \n"}
 							<br />
 							{"\n"}
 							<br />
@@ -960,7 +955,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Retail / ecommerce (pci dss){"\n\n"}
+							Retail / ecommerce (PCI DSS){"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -969,23 +964,19 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							PCI DSS has some stringent information security requirements for retailers, e-commerce, financial services companies and other organizations that process credit card transactions and have access to customer data. Teramid comes with some great pre-built features to help you maintain PCI DSS compliance:{" \n"}
+							- StaffCop can be used for diversifying access to the cardholders’ data, which means that only authorized users will be able to work with files containing this kind of information.{"\n\n \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Pre-packaged templates and rules to maintain PCI DSS requirements for Merchants & Processors.{" \n"}
+							– Each user with authorized access to cardholders’ data will have a unique identification represented by its name. This is also true for the users of StaffCop – they can be assigned unique IDs and unique range of permissions.{"\n\n \n"}
 							<br />
 							{"\n"}
 							<br />
-							– 100s of templates for cardholder data, sensitive Personally Identifiable Information (PII) and Personally identifiable Financial Information (PIFI).{" \n"}
+							– StaffCop can protect cardholder data against leakage by blocking information channels through which it may leak. For example, the PC containing this type of information can have USB and CD drives or e-mail applications blocked.{"\n\n \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Implement unique IDs, layered access control, 2FA etc. for local and network resources.{" \n"}
-							<br />
-							{"\n"}
-							<br />
-							– Advanced behavior-based rules engine automatically prevents data loss and exfiltration events.{"\n\n"}
+							– StaffCop keeps track of all information associated with cardholder data and network resources and possesses all the instruments which may be used to prevent this data leakage, including the ability to instantly block the targeted PC. The card numbers are identified with the implementation of Luhn algorithm, so the administrator of the system will be timely notified about the actions with this data which gives him time to take preventive measures.
 						</Text>
 						<Link
 							href="https://romantic-jang-bba117.netlify.app/retail-and-ecommerce-cyber-security/"
@@ -1035,7 +1026,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Information technology (iso 27001){"\n\n"}
+							Information technology (ISO 27001){"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1110,7 +1101,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Public accounting (sox){"\n\n"}
+							Public accounting (SOX){"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1119,7 +1110,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Public companies, investors, public accounting and management firms can meet several provisions of the Sarbanes–Oxley Act of 2002 (SOX) compliance requirements with Teramind's rigorous fraud prevention, data protection and reporting capabilities:{" \n"}
+							Public companies, investors, public accounting and management firms can meet several provisions of the Sarbanes–Oxley Act of 2002 (SOX) compliance requirements with StaffCop's rigorous fraud prevention, data protection and reporting capabilities:{" \n"}
 							<br />
 							{"\n"}
 							<br />
@@ -1135,7 +1126,7 @@ export default (() => {
 							<br />
 							{"\n"}
 							<br />
-							– Risk analysis reports, historical logs and video records of all user activity to streamline any change management process.{"\n\n"}
+							– Historical logs and video records of all user activity to streamline any change management process.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1176,7 +1167,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Online banking (ffiec){"\n\n"}
+							Online banking (FFIEC){"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1185,15 +1176,15 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							FFIEC (Federal Financial Institutions Examination Council) compliance is a set of conformance standards for online banking. Teramind helps banks and financial institutions uncover potential cybersecurity weaknesses and insider threats in their online banking system:{" \n"}
+							FFIEC (Federal Financial Institutions Examination Council) compliance is a set of conformance standards for online banking. StaffCop helps banks and financial institutions uncover potential cybersecurity weaknesses and insider threats in their online banking system:{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Develop threat intelligence with 12+ monitored objects, user activities and content sharing.{" \n"}
+							– Develop threat intelligence with 22+ monitored objects, user activities and content sharing.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Implement ‘always on’ cyber security controls with automated monitoring and preventive rules.{" \n"}
+							– Implement ‘always on’ cyber security controls with automated monitoring rules.{" \n"}
 							<br />
 							{"\n"}
 							<br />
@@ -1244,7 +1235,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Utilities (nerc){"\n\n\n"}
+							Utilities (NERC){"\n\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1253,7 +1244,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							With nine standards and forty-five requirements, a single security solution may not be enough to achieve and maintain NERC-CIP security standards. Teramind can assist registered utilities in meeting the plans several requirements:{" \n"}
+							With nine standards and forty-five requirements, a single security solution may not be enough to achieve and maintain NERC-CIP security standards. StaffCop can assist registered utilities in meeting the plans several requirements:{" \n"}
 							<br />
 							{"\n"}
 							<br />
@@ -1310,7 +1301,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Federal agencies (fisma){"\n\n"}
+							Federal agencies (FISMA){"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1319,7 +1310,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Supplement your existing federal security implementation for NIST-FISMA with Teramind’s comprehensive platform for risk management, information protection and confidentiality:{" \n"}
+							Supplement your existing federal security implementation for NIST-FISMA with StaffCop’s comprehensive platform for risk management, information protection and confidentiality:{" \n"}
 							<br />
 							{"\n"}
 							<br />
@@ -1345,46 +1336,13 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section
-			background="#ffffff"
-			padding="70px 0 20px 0"
-			md-padding="24px 0 40px 0"
-			border-width="0px 0px 1px 0px"
-			border-style="solid"
-			border-color="rgba(255, 255, 255, 0.05)"
-		>
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Text
-				font="--headline2"
-				margin="0px 16px 30px 16px"
-				display="inline-block"
-				color="#13212A"
-				letter-spacing="-1%"
-				md-font="normal 700 30px/40px Inter, sans-serif"
-				md-margin="0px 0px 20px 0px"
-				sm-font="normal 700 24px/30px Inter, sans-serif"
-				lg-font="normal 700 36px/58px Inter, sans-serif"
-			>
-				<Span color="--primary">
-					Effective compliance
-				</Span>
-				{" "}management with Cloud, private cloud and on-premise deployment options and out-of-the-box policy templates and rules.{"\n\n"}
-			</Text>
-			<Text
-				font="normal 400 18px/28px --fontFamily-googleInter"
-				margin="0px 16px 0px 16px"
-				display="inline-block"
-				color="rgba(85, 85, 85, 1)"
-				letter-spacing="-2%"
-				md-margin="0px 0px 20px 0px"
-			>
-				Teramind is designed to offer you a variety of deployment options, ensuring the most suitable deployment scenario. The platform comes pre-populated with policies and rules to address most data privacy issues. Organizations can easily extend and modify existing policies and rules, and create and manage new rules with great ease, leveraging Teramind’s visual policy and rules editor.{"\n\n"}
-			</Text>
-			<Components.Company />
-		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					Feature-rich, affordable with annual and perpetual licensing options
+				</Override>
+			</Components.Feature>
 			<Components.Footer />
 		</Section>
 		<Section

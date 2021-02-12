@@ -120,7 +120,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Insights and Security for Remote Employees with Teramind
+						Insights and Security for Remote Employees with StaffCop
 					</Text>
 					{"    "}
 				</StackItem>
@@ -235,7 +235,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Insights and Security for Remote Employees with Teramind
+						Insights and Security for Remote Employees with StaffCop
 					</Text>
 					{"    "}
 				</StackItem>
@@ -254,7 +254,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Organizations can use Teramind’s all-inclusive remote employee monitoring solution to track time and engagement, manage projects, reduce expenses and ensure overall productivity of a remote team. Additionally, Teramind’s automated Policy & Rules Engine enforces security best practices to defend your organization from theft, sabotage and other threats either intentional or accidental. With Teramind’s remote user monitoring you can:
+						Organizations can use StaffCop’s all-inclusive remote employee monitoring solution to track time and engagement, manage projects, reduce expenses and ensure overall productivity of a remote team. Additionally, StaffCop’s automated Policy & Rules Engine enforces security best practices to defend your organization from theft, sabotage and other threats either intentional or accidental. With StaffCop’s remote user monitoring you can:
 					</Text>
 					{"    "}
 				</StackItem>
@@ -404,8 +404,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind monitors all user activity over endpoints, servers/terminal servers, network and the Cloud covering 12+ system objects like: web, apps, email, files etc. even on-screen content in real-time.
-							<br />
+							StaffCop monitors all user activity over endpoints, servers/terminal servers, network and the Cloud covering 22+ system objects like: web, apps, email, files etc. even on-screen content in real-time.
 						</Text>
 					</Box>
 					{"    "}
@@ -479,10 +478,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind Agent monitors activity and enforces admin policies and rules even when the user is offline.
-							<br />
-							<br />
-							<br />
+							StaffCop Agent monitors activity and enforces admin policies and rules even when the user is offline.
 							<br />
 							<br />
 							<br />
@@ -559,8 +555,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Tell Teramind which applications and websites you consider productive then get in-depth reports on how the employee spends their time. Discourage unproductive activity and too idle time by setting up automated alerts.
-							<br />
+							Tell StaffCop which applications and websites you consider productive then get in-depth reports on how the employee spends their time. Discourage unproductive activity and too idle time by setting up automated alerts.
 							<br />
 						</Text>
 					</Box>
@@ -714,13 +709,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Schedule employees by shift or workload and easily inform all employees about any updates.
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
+							Specify different schedules in case your employees working in several shifts to get more precise reports. Set holidays or sick leaves in the calendar
 						</Text>
 					</Box>
 					{"    "}
@@ -794,8 +783,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Use the powerful Policy & Rules Editor to create rules to define what constitutes dangerous activities and set actions to automatically warn, block or lockout user when rule violations are detected
-							<br />
+							Use the powerful Policy & Rules Editor to create rules to define what constitutes dangerous activities and set actions to automatically warn when rule violations are detected
 						</Text>
 					</Box>
 					{"    "}
@@ -869,8 +857,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind lets you view the live desktop of a connected user and if needed, allow you freeze their input or take complete remote control of the system to prevent malicious activity. With history playback, view past activity and collect evidence for forensic and investigation purposes.
-							<br />
+							StaffCop lets you view the live desktop of a connected user and if needed, allow you take complete remote control of the system to prevent malicious activity. With history playback, view past activity and collect evidence for forensic and investigation purposes.
 						</Text>
 					</Box>
 					{"    "}
@@ -951,161 +938,6 @@ export default (() => {
 							<br />
 							<br />
 							<br />
-							<br />
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="42px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="700 18px/22px --fontFamily-googleInter"
-							color="#ffffff"
-							background="--color-primary"
-							padding="13px 0px 13px 0px"
-							border-radius="40px"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							border-width="1px"
-							border-style="solid"
-							border-color="rgba(255, 255, 255, 0.05)"
-							align-items="center"
-							display="block"
-							justify-content="center"
-							text-align="center"
-							width="48px"
-						>
-							9
-						</Text>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Task Management
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Let remote workers manage their own tasks and track as they switch between different tasks. Or, you can set up tasks that get assigned automatically based on the user's application / website usage.
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="42px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="700 18px/22px --fontFamily-googleInter"
-							color="#ffffff"
-							background="--color-primary"
-							padding="13px 0px 13px 0px"
-							border-radius="40px"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							border-width="1px"
-							border-style="solid"
-							border-color="rgba(255, 255, 255, 0.05)"
-							align-items="center"
-							display="block"
-							justify-content="center"
-							text-align="center"
-							width="48px"
-						>
-							10
-						</Text>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Employee Awareness and Training
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Conduct interactive training sessions with staff around the world utilizing Teramind’s Live View and Remote Desktop Control features.
 							<br />
 						</Text>
 					</Box>
@@ -2157,7 +1989,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind visually records every action that all remote users make not just your remote employees but also third-party vendors and external contractors. They can be on a local machine, remote domain, servers or terminal servers. Teramind tracks virtually all system objects like: web, apps, email, file transfers, etc. Uncover what your users are up to both online and offline. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. This allows for instant administrative oversight in respect to all user activity while complying with any privacy requirements.{"\n\n"}
+						StaffCop visually records every action that all remote users make not just your remote employees but also third-party vendors and external contractors. They can be on a local machine, remote domain, servers or terminal servers. StaffCop tracks virtually all system objects like: web, apps, email, file transfers, etc. Uncover what your users are up to both online and offline. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. This allows for instant administrative oversight in respect to all user activity while complying with any privacy requirements.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2208,7 +2040,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With Teramind, track both in-office and remote employee activity throughout the day, then aggregate that data to produce detailed metrics, such as:{"\n\n"}
+						With StaffCop, track both in-office and remote employee activity throughout the day, then aggregate that data to produce detailed metrics, such as:{"\n\n"}
 					</Text>
 					<Box display="flex" margin="0px 0px 18px 0px">
 						<Text
@@ -2362,7 +2194,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With Teramind’s built-in administrative features, many of the repetitive yet import clerical tasks can be automated or made efficient. For example, with Teramind you can:{"\n\n"}
+						With StaffCop’s built-in administrative features, many of the repetitive yet import clerical tasks can be automated or made efficient. For example, with StaffCop you can:{"\n\n"}
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -2605,7 +2437,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind can track employee active vs idle time and allows you to send automated notifications to remote workers if they are idling excessively. With payroll reports and activity category breakdown, you can build an accurate estimate of which type of works takes how much time and then set your team’s deliverables accordingly reducing slack times and overtime hours. Using the software’s device monitoring feature, you can implement policies like set a limit on printer to reduce paper and ink waste.{"\n\n"}
+						StaffCop can track employee active vs idle time and allows you to send automated notifications to remote workers if they are idling excessively. With payroll reports and activity category breakdown, you can build an accurate estimate of which type of works takes how much time and then set your team’s deliverables accordingly reducing slack times and overtime hours. Using the software’s device monitoring feature, you can implement policies like set a limit on printer to reduce paper and ink waste.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2643,7 +2475,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Improve Time Management{"\n\n"}
+						Detect Suspicious Behavior with Automated Policy & Rules
 					</Text>
 					<Text
 						font="--lead"
@@ -2655,147 +2487,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Use Teramind Revealed Agent to let remote users themselves identify and track what projects/tasks they're working on reducing supervision time. Or, use the Hidden Agent to automatically assign tasks to employees based on their apps/web activity. Use built-in scheduler to track attendance; receive alerts when users deviate from their scheduled work hours..{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Additionally, Teramind has integration support for all your favorite project management tools like JIRA, Trello, BaseCamp, Redmine etc.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%207.png?v=2020-10-19T22:40:56.844Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="20px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Detect Suspicious Behavior with Automated Policy & Rules{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Define what constitutes dangerous or harmful user behavior and Teramind’s sophisticated anomaly engine will automatically detect when an employee deviates from their normal parameters or exceeds acceptable risk levels. Teramind can detect anomalies in applications, emails, network, file activities and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-end"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Use Remote Desktop Control for Security and Training{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						A user's ability to access a desktop can be instantly taken away by putting Teramind's remote control feature to use. Manually overriding an account removes the user from the equation, ensuring that activity is contained, and potential threats are eliminated. Remote control can be started by simply clicking on the remote icon on all live sessions. Override all manual inputs by a user to prevent sensitive data from being altered and data breaches from occurring.{"\n\n"}
+						Define what constitutes dangerous or harmful user behavior and StaffCop’s sophisticated anomaly engine will automatically detect when an employee deviates from their normal parameters or exceeds acceptable risk levels. StaffCop can detect anomalies in applications, emails, network, file activities and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2873,79 +2565,55 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind's network monitoring tools allow administrators to monitor network traffic for all remote users connected to your business network, their identity, location, time and exact IP ports utilized for the connection. Additionally, automated networking rules can alert administrator when suspicious remote user activity is detected. For example, repeated connection attempts, initiation of specific root processes, use of suspicious connection protocols, login sessions at abnormal hours etc. Network monitoring allows administrators to block connections or data transmissions from a remote user for individual IP addresses or computers.{"\n\n"}
+						StaffCop's network monitoring tools allow administrators to monitor network traffic for all remote users connected to your business network, their identity, location, time and exact IP ports utilized for the connection. Additionally, automated networking rules can alert administrator when suspicious remote user activity is detected. For example, repeated connection attempts, initiation of specific root processes, use of suspicious connection protocols, login sessions at abnormal hours etc. Network monitoring allows administrators to block connections or data transmissions from a remote user for individual IP addresses or computers.{"\n\n"}
 					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-end"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Build a Security Sandbox for Unsanctioned Remote Users{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Teramind allows you to create virtual servers on Windows, VMware Horizon etc. Utilizing this capability, you can for example, setup a Terminal Server for your remote vendors or contractors and install the Teramind Agent on it. Users can then login to the server using RDP keeping out of your internal network and repositories. At the same time, you can record their activates separately, restrict access or take control of the server in case of an incident keeping rest of your business immune to disruption{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
 					{"    "}
 				</StackItem>
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.BlockNeed />
+		<Components.BlockNeed>
+			<Override slot="text1">
+				Information Security
+			</Override>
+			<Override slot="text2">
+				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest.
+			</Override>
+			<Override slot="text3">
+				Remote Administration
+			</Override>
+			<Override slot="text4">
+				View remote desktop without being notices. Take control over a workstation. Full picture of software and hardware usage. Intensity of usage and registry of states.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring
+			</Override>
+			<Override slot="text7">
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+		</Components.BlockNeed>
 		<Section
 			background="#ffffff"
 			padding="70px 0 20px 0"
@@ -3018,7 +2686,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							On-premise
+							Bare Metal
 						</Text>
 						<Text
 							font="--lead"
@@ -3027,7 +2695,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							control the implementation in its entirety, stay off-cloud if that’s your firm’s operational model, leverage LDAP groups and users to identify which users and groups to apply which policies and rules to
+							Install on bare metal from our ISO image containing Ubuntu 18.04 and StaffCop or install StaffCop packages on existing Ubuntu 18.04.
 						</Text>
 					</Box>
 					{"    "}
@@ -3068,7 +2736,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{" "}
+							Virtual Machine
 						</Text>
 						<Text
 							font="--lead"
@@ -3077,7 +2745,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.
 						</Text>
 					</Box>
 					{"    "}
@@ -3118,7 +2786,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Cloud
+							Private Cloud
 						</Text>
 						<Text
 							font="--lead"
@@ -3127,7 +2795,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							trust us the management of the deployment and infrastructure. Only install Agents on the machines you want to monitor and set up your users, policies and rules and let us take care of the rest.
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
 						</Text>
 					</Box>
 					{"    "}
@@ -3138,7 +2806,11 @@ export default (() => {
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					Feature-rich, affordable with annual and perpetual licensing options
+				</Override>
+			</Components.Feature>
 			<Components.Footer />
 		</Section>
 		<Section

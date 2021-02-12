@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Icon, Box, Span, Hr } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Icon, Box, Hr, Span, Em } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -198,30 +198,6 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
-							What is '
-							<Span
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								app overload
-							</Span>
-							'? Is it affecting my team’s productivity silently?{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" align-items="center">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-						/>
-						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
 							Am I properly utilizing my remote resources?{"\n\n"}
 						</Text>
 					</Box>
@@ -271,7 +247,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Teramind Employee Productivity Tools Go Beyond Monitoring and Basic Time Tracking{"\n\n"}
+						StaffCop Employee Productivity Tools Go Beyond Monitoring and Basic Time Tracking{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -290,7 +266,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Teramind takes a data-centric approach to employee productivity. Teramind captures virtually all types of user activity and behavior data that can be leveraged to review and analyze user productivity. When properly analyzed through the various analytics tools offered by Teramind, it allows management to both understand and take steps to increase employee productivity.{"\n\n"}
+						StaffCop takes a data-centric approach to employee productivity. StaffCop captures virtually all types of user activity and behavior data that can be leveraged to review and analyze user productivity. When properly analyzed through the various analytics tools offered by StaffCop, it allows management to both understand and take steps to increase employee productivity.{"\n\n"}
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -316,7 +292,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Teramind Workforce Optimization solutions are more than just an employee productivity tool. It also defends your organization from theft, sabotage and other malicious user activity with built-in insider threat detection and data loss prevention features.{"\n\n"}
+						StaffCop Workforce Optimization solutions are more than just an employee productivity tool. It also defends your organization from theft, sabotage and other malicious user activity with built-in insider threat detection and data loss prevention features.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -471,7 +447,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Tell Teramind which applications and websites you consider productive then get in-depth reports on how your employees and departments spend their time. Identify high performing employees and those who need improvement.
+							Tell StaffCop which applications and websites you consider productive then get in-depth reports on how your employees and departments spend their time. Identify high performing employees and those who need improvement.
 							<br />
 							<br />
 							<br />
@@ -1362,8 +1338,17 @@ export default (() => {
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 				sm-margin="0px 0px 0px 0px"
 			>
-				Starter is a Feature-Rich Employee Monitoring Solution with{" "}
-				<Span color="--primary">
+				StaffCop is a Feature-Rich Employee Monitoring Solution with{" "}
+				<Span
+					color="--primary"
+					data-q-widget-type="PRIMITIVE"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
 					Tangible Business Benefits
 				</Span>
 			</Text>
@@ -1424,7 +1409,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With Teramind, track employee activity throughout the day, then aggregate that data to produce detailed metrics, such as:{"\n\n"}
+						With StaffCop, track employee activity throughout the day, then aggregate that data to produce detailed metrics, such as:{"\n\n"}
 					</Text>
 					<Box display="flex" align-items="center">
 						<Icon
@@ -1601,7 +1586,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With Teramind’s built-in features, many of the repetitive yet import administrative tasks can be automated or made efficient. For example, with Teramind you can:{"\n\n"}
+						With StaffCop’s built-in features, many of the repetitive yet import administrative tasks can be automated or made efficient. For example, with StaffCop you can:{"\n\n"}
 					</Text>
 					<Box display="flex" align-items="center">
 						<Icon
@@ -1801,7 +1786,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Conduct gap analysis and process improvement at individual and team levels by identifying skill gaps, overlap in duties and responsibilities, conflicting goals and accountability etc. With Teramind’s advanced OCR and content-based rules, you can automatically analyze the emotional context in email, IM and social media conversations. As an example, using such rules you found out that a talented software developer of your team is consistently engaging in poor client communications. You can transfer the person to a position which is less customer facing, maximizing the developer’s strengths while also protecting the reputation of the company.
+						Conduct gap analysis and process improvement at individual and team levels by identifying skill gaps, overlap in duties and responsibilities, conflicting goals and accountability etc. With StaffCop’s advanced OCR and content-based rules, you can automatically analyze the emotional context in email, IM and social media conversations. As an example, using such rules you found out that a talented software developer of your team is consistently engaging in poor client communications. You can transfer the person to a position which is less customer facing, maximizing the developer’s strengths while also protecting the reputation of the company.
 						<br />
 						{"\n\n"}
 					</Text>
@@ -1855,7 +1840,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind can track employee active vs idle time and allows you to send automated notifications to employees if they are idling excessively. With payroll reports and activity category breakdown, you can build an accurate estimate of which type of works takes how much time and then set your team’s deliverables accordingly reducing slack times and overtime hours. Using the software’s device monitoring feature, you can implement policies like set a limit on printer to reduce paper and ink waste.{"\n\n"}
+						StaffCop can track employee active vs idle time and allows you to send automated notifications to employees if they are idling excessively. With payroll reports and activity category breakdown, you can build an accurate estimate of which type of works takes how much time and then set your team’s deliverables accordingly reducing slack times and overtime hours. Using the software’s device monitoring feature, you can implement policies like set a limit on printer to reduce paper and ink waste.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1933,10 +1918,42 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Use Teramind Revealed Agent to let users identify and track what projects/tasks they're working on or use the Hidden Agent to automatically assign tasks to employees based on their apps/web activity. Use built-in scheduler to track attendance; receive alerts when users deviate from their scheduled work hours.
+						<Em
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Use Teramind Revealed Agent to let users identify and track what projects/tasks they're working on or use the Hidden Agent to automatically assign tasks to employees based on their apps/web activity
+						</Em>
+						. Use built-in scheduler to track attendance; receive alerts when users deviate from their scheduled work hours.
 						<br />
-						<br />
-						Additionally, Teramind has integration support for all your favorite project management tools like JIRA, Trello, BaseCamp, Redmine etc.
+						<Link
+							href="#"
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<br />
+						</Link>
+						<Em
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Additionally, Teramind has integration support for all your favorite project management tools like JIRA, Trello, BaseCamp, Redmine etc.
+						</Em>
 						<br />
 						{"\n\n"}
 					</Text>
@@ -2011,7 +2028,17 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.BlockNeed />
+		<Components.BlockNeed>
+			<Override slot="text1">
+				Information Security
+			</Override>
+			<Override slot="text3">
+				Remote Administration
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring
+			</Override>
+		</Components.BlockNeed>
 		<Section
 			background="#ffffff"
 			padding="70px 0 20px 0"

@@ -30,7 +30,7 @@ export default (() => {
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				color="rgba(19, 33, 42, 1)"
 			>
-				Solutions
+				Cases
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}

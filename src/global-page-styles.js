@@ -22,7 +22,6 @@ const pageStyles = {
     "features/app-usageapplication-monitoring": {},
     "features/network-user-activitymonitoring": {},
     "features/instant-message-monitoring": {},
-    "features/social-media-monitoring": {},
     "features/remote-desktop-control": {},
     "features/active-vs-idle-time-analysis": {},
     "features/citrix-session-recording": {},

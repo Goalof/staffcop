@@ -64,7 +64,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Discourage idle time by automating user warnings{"\n\n"}
+							Request reasons for absence from employees
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -154,7 +154,7 @@ export default (() => {
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -166,7 +166,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Teramind recognizes away time with no user input{"\n\n"}
+							StaffCop recognizes away time with no user input{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -179,8 +179,15 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Understand how much time spent on a recorded task is active working time{"\n\n"}
+							Compare active and idle time by department
 						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/211.png?v=2021-02-04T05:11:18.893Z" />
 					</Box>
 					{"            "}
 				</StackItem>

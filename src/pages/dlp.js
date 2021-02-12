@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Strong, Hr, Box, Span } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Strong, Em, Hr, Box, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -30,7 +30,7 @@ export default (() => {
 					/>
 					{"        "}
 					<Text font="--headline2" margin="0px 0px 16px 0px" display="inline-block" md-font="normal 700 30px/40px Inter, sans-serif">
-						DLP{"\n\n"}
+						Information Security
 					</Text>
 					<Text
 						font="normal 400 18px/160% --fontFamily-googleInter"
@@ -132,10 +132,21 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						<Strong>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							{"\n"}Data Loss Prevention (DLP)
 						</Strong>
-						{" "}is a strategy for ensuring your employees and vendors do not accidentally or intentionally share sensitive and company confidential data outside your organization. A DLP solution utilizes content discovery, digital inspection techniques and contextual analysis to identify and categorize sensitive data and IP. Next, policies and rules are created for data usage scenarios. The system then monitors user actions; validates them against the DLP rules and takes appropriate action if and when a rule condition is triggered. Actions could include stopping the action, blocking the user, alerting an administrator, requesting management override and more.{"\n\n"}
+						{" "}is a strategy for ensuring your employees and vendors do not accidentally or intentionally share sensitive and company confidential data outside your organization. First, Identify what types of data and communication channels are sensitive. Next, create policies and rules for data usage scenarios. The system then monitors user actions; validates them against the{" "}
+						<Em>
+							DLP rules and takes appropriate action if and when a rule condition is triggered. Actions could include stopping the action, blocking the user, alerting an administrator, requesting management override and more.{"\n\n"}
+						</Em>
 					</Text>
 					{"    "}
 				</StackItem>
@@ -176,7 +187,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						‘User-centric’, endpoint Data Loss Prevention solution goes beyond traditional DLP approaches by adding intelligent behavioral analysis to identify human factors like malicious intent, errors or accidents allowing you to implement effective protection against data breaches and other exfiltration attempts. DLP provides the best return of investment for organizations of any size. It’s designed to assist SMBs, enterprises and the public sector address data loss, cybersecurity and insider threats. Additionally, Teramind’s compliance management features help you conform with compliance regulations including GDPR, HIPAA, PCI DSS, and ISO 27001.{"\n\n"}
+						‘User-centric’, endpoint Data Loss Prevention solution goes beyond traditional DLP approaches by adding intelligent behavioral analysis to identify human factors like malicious intent, errors or accidents allowing you to implement effective protection against data breaches and other exfiltration attempts. DLP provides the best return of investment for organizations of any size. It’s designed to assist SMBs, enterprises and the public sector address data loss, cybersecurity and insider threats. Additionally, StaffCop’s compliance management features help you conform with compliance regulations including GDPR, HIPAA, PCI DSS, and ISO 27001.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -255,7 +266,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitors all user activity including third-party vendors and privileged users for 12+ system objects like: website, application, keystroke, IM, email, network etc
+							Monitors all user activity including third-party vendors and privileged users for 22+ system objects like: website, application, keystroke, IM, email, network etc
 						</Text>
 					</Box>
 					{"    "}
@@ -479,7 +490,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Discover and identify sensitive information from structured and unstructured sources. Built-in classification templates for Personally Identifiable Information (PII), Personal Health Information (PHI), Personal Financial Information (PFI) etc
+							Discover and identify sensitive information from structured and unstructured sources with the help of customized vocabularies.{" "}
 							<br />
 							{"\n\n"}
 						</Text>
@@ -555,8 +566,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							‘On the fly’ content discovery with advanced OCR, natural language processing (NLP) and RegEx. Detect sensitive data inside images, applications and even videos preventing steganographic data exfiltration
-							<br />
+							‘On the fly’ content discovery with advanced OCR, natural language processing (NLP) and RegEx. Detect sensitive data inside images and applications{" "}
 							<br />
 							<br />
 							{"\n\n"}
@@ -791,10 +801,8 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							We have built-in support for compliance and standards like GDPR, HIPAA, PCI DSS, ISO 27001 etc. and can be adapted to support other regulatory requirements with its powerful Policy & Rules editor and various monitoring and reporting capabilities
-							<br />
-							<br />
-							{"\n\n"}
+							StaffCop Enterprise can significantly help you meet ISO 27001 demands. The flexibility of settings
+makes it perfect to fit any Information Security Management System (ISMS).{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -1256,7 +1264,7 @@ export default (() => {
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 				sm-margin="0px 0px 0px 0px"
 			>
-				DLP Delivers Immediate
+				Information Security with StaffCop delivers Immediate
 				<br />
 				<Span
 					color="--primary"
@@ -1266,6 +1274,7 @@ export default (() => {
 					text-indent="0"
 					text-overflow="clip"
 					hyphens="manual"
+					data-q-widget-type="PRIMITIVE"
 				>
 					Business Benefits
 				</Span>
@@ -1317,7 +1326,10 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Organization-wide data visibility and control{"\n\n"}
+						<Strong>
+							Block prohibited applications
+						</Strong>
+						{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1328,7 +1340,9 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Monitors every action that a user makes for over 12 objects including screen, apps, websites, files, emails, etc. You can view the user activity with associated security KPIs, alerts and logs on a central console. Control who can access what information, when and how – all from the industry's most powerful and user-friendly DLP Management Dashboard. Drag-and-drop widgets to build your own enterprise dashboard to have organization-wise data visibility and control even from your mobile phone or tablet.{"\n\n"}
+						StaffCop can not only track application activity but also prevent specified applications from launching. For example, corporate policy forbids usage of torrent clients on workstations. We can add uTorrent to the black list of applications. In this case, if a user tries clicking the shortcut or the .exe file itself nothing will happen. On the other hand, we can specify a list of applications that can be accessed, while ALL that are not in the white list will not work. For example, we add Word, Excel and Thunderbird to the list - the user will be able to launch ONLY them.
+						<br />
+						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1367,7 +1381,19 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Auto discovery and classification of sensitive data{"\n\n"}
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Block access to websites
+						</Strong>
+						<br />
+						{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1379,7 +1405,11 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						It has built-in templates for many classified and sensitive data types like Personally Identifiable Information (PII) Personal Health Information (PHI), Personal Financial Information (PFI), OGD, GSCP, Special codes etc. Custom categories can be created Regular Expression (RegEx) and Natural Language Processing (NLP). Combine advanced OCR, fingerprinting and tagging technology with multiple logic, file origin, file properties and data content to discover classified information in structured/unstructured data or even images ‘on the fly’.{"\n\n"}
+						You can use StaffCop to block particular web-sites that can be distracting or harmful for working process.
+						<br />
+						Black list. Add domains or URLs of web-sites that will be blocked. All other web-sites can still be accessed.
+						<br />
+						White list. Add domains or URLs of web-sites that will be allowed. In this example, we allowed access to StaffCop.com, Bitrix24 and Capterra. ALL other web-sites will be bloked. White lists are useful in case corporate policy allows working ONLY with a narrow range of web-sites.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1457,7 +1487,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Flexible platform and powerful rules engine allows for creation of rules and policies to easily address data loss prevention needs of any organization. The visual Policy and Rules Editor enables administrators to define highly complex rules for very specific use cases with oversight on all internal and external disk activity, keystrokes, application usage, instant message, social media posts, and much more. Use built-in shared list or upload your own data/text patterns, regular expressions, or networking protocols to create IP black/white listing, define safe or restricted app and websites and do much more.{"\n\n"}
+						Flexible platform and powerful rules engine allows for creation of rules and policies to easily address data loss prevention needs of any organization. The visual Policy and Rules Editor enables administrators to define highly complex rules for very specific use cases with oversight on all internal and external disk activity, keystrokes, application usage, instant message and much more. Use black/white listing, define safe or restricted app and websites and do much more.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1495,7 +1525,10 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Predefined DLP policies and rules{"\n\n"}
+						<Strong>
+							Block USB devices by IDs or classes
+						</Strong>
+						{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1507,7 +1540,9 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						The core of the  platform is its automation. Teramind comes with over 200 pre-defined policies and rules. For example: block email containing sensitive keywords, stop uploading of a confidential document, detect screen capture, prevent use of external drives etc. The templates cover virtually every use case of data loss prevention, insider threat detection and compliance requirements. Just pick a policy or rule template and all the data definition, content source, condition will be set automatically for you to edit.{"\n\n"}
+						StaffCop provides flexible options for blocking USB devices on the basis of black and white lists. If you need to block particular devices, add their IDs to the "Block" list. All the other devices can be accessed. If you need to use only particular USB devices, add their IDs to the "Allow" list. ALL other devices will be blocked. The same principle can be applied for devices classes, for example, we can forbid usage of all external video/audio devices or to allow usage only of printers, keyboards and mouses.
+						<br />
+						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1585,7 +1620,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Allows organizations to stop potential employee-employee or employee-third party collusion attempts. Create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be created to notify the authorities of any suspicious privileged employee and third-party vendor activity, such as unscheduled and/or unauthorized changes to system configuration, creation of backdoor accounts etc.
+						Allows organizations to stop potential employee-employee or employee-third party collusion attempts. Create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1702,133 +1737,6 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Prevent data leaks over external drives, network and Cloud services{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Use file transfer rules to block external drives, clipboard rules to prevent sharing of confidential information like customer data outside the CRM or restrict download/upload operations in the Cloud for certain file types or all files. Keep an eye on the social media or IMs and block them automatically if a potential data leak event is detected. There are hundreds of use cases where Teramind can proactively defend your data from malicious or accidental leaks or misuse.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Data loss prevention from insider threats{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						It allows organizations to create profiles for regular, privileged and contract/external users and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be created to notify the authorities of any suspicious privileged user activity, such as unscheduled and/or unauthorized changes to system configuration, and creation of backdoor accounts.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%206.png?v=2020-10-19T22:39:56.097Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="82%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%201.png?v=2020-10-19T22:24:26.269Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="20px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
 						Data breach audit with forensic evidence{"\n\n"}
 					</Text>
 					<Text
@@ -1840,7 +1748,9 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Detailed alerts for all users can be viewed including any breach events and what actions were taken. Warning messages can be configured to inform the users about nonconformity as it pertains to handling sensitive data. Influence corrective behavior with on-time feedback and notifications. Session recordings and history playback can be used to view user’s desktop for audit and evidence gathering purposes.{"\n\n"}
+						Detailed alerts for all users can be viewed including any breach events and what actions were taken. Session recordings and history playback can be used to view user’s desktop for audit and evidence gathering purposes. StaffCop is a wayback machine! At any moment, you can go back in time and see what a particular employee was doing in a specified period in the past.
+						<br />
+						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1910,133 +1820,6 @@ export default (() => {
 				</StackItem>
 				{"        "}
 			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="82%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%201.png?v=2020-10-19T22:24:26.269Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="20px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Unified security orchestration with SIEM and threat analytics systems{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Event triggers and logs from it can be sent to SIEM and other analytics tools like HP ArcSight, Splunk, IBM QRadar, McAfee Enterprise Security Manager, LogRhythm, NetIQ Sentinel etc. allowing you to share reports and threat intelligence with your security team or other departments. It also has a set of RESTful APIs utilizing a simple token/endpoint framework that can be easily utilized by an application supporting webservice connections.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Compliance and privacy management{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						It has built-in support for many regulatory compliance standards including GDPR, HIPAA, PCI DSS, ISO 27001, NIST, FISMA etc. Teramind’s detailed alerts, session logs, anomaly and risk analysis, and incident reports help you product/demonstrate that you have established data security best practices and are ready to fulfill breach reporting and burden of proof requirements. Additionally, your can configure monitoring features to meet the personal data privacy requirements set by GDPR and similar regulations.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%206.png?v=2020-10-19T22:39:56.097Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
 		</Section>
 		<Components.BlockNeed>
 			<Override slot="text">
@@ -2047,6 +1830,48 @@ export default (() => {
 					for Every Need{"\n\n"}
 				</Span>
 				{"\n\n"}
+			</Override>
+			<Override slot="text1">
+				Information Security{"\n\n"}
+			</Override>
+			<Override slot="text2">
+				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest.{"\n\n"}
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					data-q-widget-type="PRIMITIVE"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text3">
+				Remote Administration{"\n\n"}
+			</Override>
+			<Override slot="text4">
+				View remote desktop without being notices. Take control over a workstation.  Full picture of software and hardware usage. Intensity of usage and registry of states.{"\n\n"}
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring{"\n\n\n\n"}
+			</Override>
+			<Override slot="text7">
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.{"\n\n"}
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					data-q-widget-type="PRIMITIVE"
+				>
+					.
+				</Span>
 			</Override>
 		</Components.BlockNeed>
 		<Section
@@ -2121,7 +1946,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							On-premise
+							Bare Metal
 						</Text>
 						<Text
 							font="--lead"
@@ -2130,7 +1955,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							control the implementation in its entirety, stay off-cloud if that’s your firm’s operational model, leverage LDAP groups and users to identify which users and groups to apply which policies and rules to
+							Install on bare metal from our ISO image containing Ubuntu 18.04 and StaffCop or install StaffCop packages on existing Ubuntu 18.04.
 						</Text>
 					</Box>
 					{"    "}
@@ -2171,7 +1996,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{" "}
+							Virtual Machine
 						</Text>
 						<Text
 							font="--lead"
@@ -2180,7 +2005,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.
 						</Text>
 					</Box>
 					{"    "}
@@ -2221,7 +2046,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Cloud
+							Private Cloud{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -2230,7 +2055,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							trust us the management of the deployment and infrastructure. Only install Agents on the machines you want to monitor and set up your users, policies and rules and let us take care of the rest.
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -2343,7 +2168,23 @@ export default (() => {
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					<Span
+						color="--primary"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						data-q-widget-type="PRIMITIVE"
+					>
+						Feature-rich
+					</Span>
+					, affordable with annual and perpetual licensing options
+				</Override>
+			</Components.Feature>
 			<Components.Footer />
 		</Section>
 		<Section

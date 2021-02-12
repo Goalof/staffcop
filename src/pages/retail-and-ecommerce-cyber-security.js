@@ -322,7 +322,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Discover and Categorize Sensitive Data Automatically{"\n\n"}
+							Auto discovery of card number data
 						</Text>
 						<Text
 							font="--lead"
@@ -331,7 +331,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Built-in templates for cardholder data, including: Personally Identifiable Information (PII), Personal Financial Information (PFI), CC numbers, bank a/c, ABN/swift codes and more.Deep content inspection in both structured and unstructured data.‘On the fly’ content discovery with advanced OCR and digital fingerprinting.{"\n\n"}
+							Built-in templates for card numbers developed with the implementation of Luhn algorithm. ‘On the fly’ content discovery with advanced OCR and digital fingerprinting.{"\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -405,7 +405,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-time user activity monitoring prevents accidental or malicious insider threats and data breaches.Enforce classified financial data rules for websites, apps, emails, social media etc.Automatically warn, block or lock-out user if unauthorized access is detected.Dynamic blackout feature protects accidental exposure of unprotected customer data like CC numbers.{"\n\n"}
+							Real-time user activity monitoring prevents accidental or malicious insider threats and data breaches. Enforce classified financial data rules for websites, apps, emails, social media etc.Automatically warn if unauthorized access is detected.
 						</Text>
 					</Box>
 					{"    "}
@@ -479,7 +479,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Apply Identity authentication and segregated access levels to minimize data compromises.Restrict transfers of cardholder data on local, network, Cloud and external storage.Enforce data encryption at rest and on transit rules.
+							Apply Identity authentication and segregated access levels to minimize data compromises. Restrict transfers of cardholder data on local, network, Cloud and external storage. Enforce data encryption at rest and on transit rules.
 							<br />
 							<br />
 							<br />
@@ -637,7 +637,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Report on Compliance (ROC) with Digital Forensics and Audit.Session recording and immutable log keep track of all user activity related to cardholder data.Detailed reports of all data breach incidents, rule violations and what actions were taken.Flexible Policy & Rules Editor allows for creation of new rules for the evolving compliance landscape.
+							Report on Compliance (ROC) with Digital Forensics and Audit. Session recording and immutable log keep track of all user activity related to cardholder data. Detailed reports of all data breach incidents, rule violations and what actions were taken. Flexible Policy & Rules Editor allows for creation of new rules for the evolving compliance landscape.
 							<br />
 							{"\n\n"}
 						</Text>
@@ -713,7 +713,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Integrate Teramind with Intrusion Detection/Prevention Systems (IDS/ IPS), Access Control, Threat Analytics and SIEM systems.Create a cyber security perimeter across your stores, supply chain network and corporate offices.Share threat intelligence and coordinate response with analysts, CSO, MSSP and security teams.
+							Integrate Teramind with Intrusion Detection/Prevention Systems (IDS/ IPS), Access Control, Threat Analytics and SIEM systems. Create a cyber security perimeter across your stores, supply chain network and corporate offices. Share threat intelligence and coordinate response with analysts, CSO, MSSP and security teams.
 							<br />
 							{"\n\n"}
 						</Text>
@@ -1101,7 +1101,7 @@ export default (() => {
 						>
 							– Personally Identifiable Information (PII): name, address, social security number, date of birth, driver's license etc.{" \n"}
 							<br />
-							– Payment Card Industry Data Security Standard (PCI DSS) i.e. cardholder data, CC no., debit card no., CAV/pin, magnetic code, SWIFT/ABA/routing etc.{" \n"}
+							– Payment Card Industry Data Security Standard (PCI DSS) i.e. cardholder data, CC no., debit card no.
 							<br />
 							– Supplier/vendor contracts.
 							<br />
@@ -1357,7 +1357,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop visually records every action that a user makes on your Operation Technology (OT) and IT systems including endpoints, servers/terminal servers, network and cloud, DMZ for 12+ system objects like: web, apps, email, file transfers, etc. Uncover what your employees are up to both online and offline. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. You can specify who you want to monitor, how much you want to monitor, when and for how long. This allows for instant administrative oversight in respect to all user activity while complying with any privacy requirements.
+						StaffCop visually records every action that a user makes on your Operation Technology (OT) and IT systems including endpoints, servers/terminal servers, network and cloud: web, apps, email, file transfers, etc. Uncover what your employees are up to both online and offline. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. You can specify who you want to monitor, how much you want to monitor, when and for how long. This allows for instant administrative oversight in respect to all user activity while complying with any privacy requirements.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1486,7 +1486,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						The core of the StaffCop platform is its automation. Teramind comes with hundreds of pre-defined policies and rules. For example: block email containing sensitive keywords, stop uploading of a confidential document, detect screen capture, prevent the use of external drives etc. The templates cover virtually every use case of data loss prevention, insider threat detection and compliance requirements. Just pick a policy or rule template and all the data definition, content source, condition will be set automatically for you to edit.
+						The core of the StaffCop platform is its automation. StaffCop comes with hundreds of pre-defined policies and rules. For example: track e-mails outside the corporate network, stop uploading of a confidential document, detect screen capture, prevent the use of external drives etc. The templates cover virtually every use case of data loss prevention, insider threat detection and compliance requirements. Just pick a policy or rule template and all the data definition, content source, condition will be set automatically for you to edit.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1536,7 +1536,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop helps you put exfiltration and egress controls in place to monitor and prevent illicit sharing of information. For example, File Transfer rules to block use of removable media. Clipboard rules to prevent sharing of confidential information like customer data outside the CRM. Network rules to restrict download/upload operations in the Cloud for certain file types or all files (no need for separate Cloud Access Security Brokers). Or use dedicated Application rules to limit or completely disable social media and IMs to prevent potential data leak by social engineering. There are hundreds of use cases where Teramind can proactively defend your data from malicious or accidental leaks or misuse
+						StaffCop helps you put exfiltration and egress controls in place to monitor and prevent illicit sharing of information. For example, File Transfer rules to block use of removable media. Or use dedicated Application rules to limit or completely disable social media and IMs to prevent potential data leak by social engineering. There are hundreds of use cases where StaffCop can proactively defend your data from malicious or accidental leaks or misuse
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1614,7 +1614,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Define what constitutes dangerous or harmful user behavior and StaffCop’s sophisticated anomaly engine will automatically detect when a user, department or group deviates from their normal parameters or exceeds acceptable risk levels. For example, get notified if a user sends too many attachments or prints more pages than normal. StaffCop can detect anomalies in applications, emails, network, file activities, printing and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made.
+						Define what constitutes dangerous or harmful user behavior and StaffCop’s sophisticated anomaly engine will automatically detect when a user, department or group deviates from their normal parameters or exceeds acceptable risk levels. For example, see if a user sends too many attachments or prints more pages than normal. StaffCop can detect anomalies in applications, emails, network, file activities, printing and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1664,7 +1664,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop allows organizations to create profiles for privileged users, contractors and other third-parties and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be created to notify the authorities of any suspicious privileged user activity, such as unauthorized changes to system configuration, creation of backdoor accounts, unscheduled logins, a contractor trying to access restricted databases etc.
+						StaffCop allows organizations to create profiles for privileged users, contractors and other third-parties and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy. Rules can also be created to notify the authorities of any suspicious privileged user activity, such as unauthorized changes to system configuration, creation of backdoor accounts, unscheduled logins, a contractor trying to access restricted databases etc.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1731,7 +1731,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Security Sandbox
+						Risk Assessment and Treatment
 					</Text>
 					<Text
 						font="--lead"
@@ -1742,7 +1742,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop allows you to create virtual servers on Windows, VMware Horizon etc. Utilizing this capability, you can for example, setup a Terminal Server for your partners, contractors or vendors . These external users can then login to the server using RDP keeping out of your internal network and repositories. At the same time, you can record their activates separately, restrict access or take control of the server in case of an incident keeping rest of your business immune to disruption.
+						StaffCop has a dedicated Risk dashboard where the CSO and security analysts can conduct organization-wide risk assessment. Risk can be profiled by users, departments or by system objects. Reports can be derived by severity of risks or by how many times security violations occurred.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1859,55 +1859,6 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Risk Assessment and Treatment
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						StaffCop has a dedicated Risk dashboard where the CSO and security analysts can conduct organization-wide risk assessment. Risk can be profiled by users, departments or by system objects. Reports can be derived by severity of risks or by how many times security violations occurred. Unique Risk Scores helps you identify high-risk users or policies so that plans can be developed for treating the risks.
-					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-end"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
 						Compliance Management
 					</Text>
 					<Text
@@ -1916,27 +1867,11 @@ export default (() => {
 						display="inline-block"
 						color="#555"
 						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop comes with support for implementing compliance and standards like NERC CIP Standards for Electric Utilities, FISMA, FERC, ISO 27001, GDPR etc. Our flexible Policy and Rules Editor and powerful analytics and reporting features can help you develop your own organization-specific security and privacy, etiquette and acceptable use policies or conform with any regional data privacy and notification laws applicable to your organization.
+						StaffCop comes with support for implementing compliance and standards like NERC CIP Standards for Electric Utilities, FISMA, FERC, ISO 27001, GDPR etc. Our flexible Policy and Rules Editor and powerful analytics and reporting features can help you develop your own organization-specific security and privacy, etiquette and acceptable use policies or conform with any regional data privacy and notification laws applicable to your organization.{"\n\n"}
 					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
 					{"    "}
 				</StackItem>
 				{"        "}
@@ -1944,10 +1879,22 @@ export default (() => {
 		</Section>
 		<Components.BlockNeed>
 			<Override slot="text1">
-				Employee Monitoring
+				Information Security{"\n\n"}
 			</Override>
 			<Override slot="text2">
-				StaffCop Enterprise logs the beginning and the end of each employee’s workday, including lunch and coffee breaks, etc. It enables executives and employees, themselves, to improve discipline at the workplace and reduce idle periods.{"\n\n"}
+				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest.{"\n\n"}
+			</Override>
+			<Override slot="text3">
+				Remote Administration{"\n\n"}
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring{"\n\n"}
+			</Override>
+			<Override slot="text4">
+				View remote desktop without being notices. Take control over a workstation. Full picture of software and hardware usage. Intensity of usage and registry of states.{"\n\n"}
+			</Override>
+			<Override slot="text7">
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results. ..{"\n\n"}
 				<Span
 					color="rgba(255, 255, 255, 0)"
 					overflow-wrap="normal"
@@ -1956,16 +1903,9 @@ export default (() => {
 					text-indent="0"
 					text-overflow="clip"
 					hyphens="manual"
-					data-q-widget-type="PRIMITIVE"
 				>
 					.
 				</Span>
-			</Override>
-			<Override slot="text3">
-				Information Security
-			</Override>
-			<Override slot="text6">
-				Remote Administration
 			</Override>
 		</Components.BlockNeed>
 		<Section
@@ -2041,7 +1981,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Windows
+							Bare Metal{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -2050,7 +1990,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							control the implementation in its entirety, stay off-cloud if that’s your firm’s operational model, leverage LDAP groups and users to identify which users and groups to apply which policies and rules to
+							Install on bare metal from our ISO image containing Ubuntu 18.04 and StaffCop or install StaffCop packages on existing Ubuntu 18.04.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -2091,7 +2031,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{" "}
+							Virtual Machine{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -2100,7 +2040,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.
 						</Text>
 					</Box>
 					{"    "}
@@ -2141,7 +2081,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Linux
+							Private Cloud{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -2150,7 +2090,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							trust us the management of the deployment and infrastructure. Only install Agents on the machines you want to monitor and set up your users, policies and rules and let us take care of the rest.
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -2163,18 +2103,7 @@ export default (() => {
 			<Override slot="SectionContent" max-width="none" width="100%" />
 			<Components.Feature>
 				<Override slot="text">
-					<Span
-						color="--primary"
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-					>
-						Feature-rich
-					</Span>
-					, affordable with perpetual and annual licensing goptions
+					Feature-rich, affordable with annual and perpetual licensing options{"\n\n"}
 				</Override>
 			</Components.Feature>
 			<Components.Footer />

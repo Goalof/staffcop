@@ -124,7 +124,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Teramind is designed to assist the public sector address data loss, cybersecurity and insider threats with its insider threat detection and data loss prevention solutions. With Teramind, government entities can implement effective endpoint monitoring to ensure adherence to regulatory compliance and standards including NIST, FAR/DFARS, FDCC, FedRamp, FISMA, Insider Threat Executive Order and more.{"\n\n"}
+						StaffCop is designed to assist the public sector address data loss, cybersecurity and insider threats with its insider threat detection and data loss prevention solutions. With StaffCop, government entities can implement effective endpoint monitoring to ensure adherence to regulatory compliance and standards including NIST, FAR/DFARS, FDCC, FedRamp, FISMA, Insider Threat Executive Order and more.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -194,7 +194,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Auto discovery of cardholder data{"\n\n"}
+							Auto discovery of card number data{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -203,7 +203,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Built-in templates for cardholder data, including: Personally Identifiable Information (PII), Personal Financial Information (PFI), CC numbers, bank a/c, ABN/swift codes and more. ‘On the fly’ content discovery with advanced OCR and digital fingerprinting.
+							Built-in templates for card numbers developed with the implementation of Luhn algorithm. ‘On the fly’ content discovery with advanced OCR and digital fingerprinting.
 							<br />
 							<br />
 							{"\n\n"}
@@ -280,7 +280,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-time user activity monitoring prevents accidental or malicious insider threats and data breaches. Enforce classified financial data rules for websites, apps, emails, social media etc. Automatically warn, block or lock-out user if unauthorized access is detected. Dynamic blackout feature protects accidental exposure of unprotected cardholder data.{"\n\n"}
+							Real-time user activity monitoring prevents accidental or malicious insider threats and data breaches. Enforce classified financial data rules for websites, apps, emails, social media etc. Automatically warn if unauthorized access is detected.
 						</Text>
 					</Box>
 					{"    "}
@@ -784,7 +784,7 @@ export default (() => {
 				text-align="center"
 				width="75%"
 			>
-				Teramind provides essential security monitoring capabilities to help you detect, investigate, and report on data breaches within retail/e-commerce or other card processing environments.{"\n\n"}
+				StaffCop provides essential security monitoring capabilities to help you detect, investigate, and report on data breaches within retail/e-commerce or other card processing environments.{"\n\n"}
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -830,7 +830,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Identify
+							“Restricting access to cardholder data to only authorized personnel. Systems and processes must be used to restrict access to cardholder data on a “need to know” basis.”{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -839,7 +839,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Leveraging advanced fingerprinting, OCR and tagging technology, Teramind identifies personal and sensitive data in structured and unstructured information across organization data stores.
+							StaffCop can be used for diversifying access to the cardholders’ data, which means that only authorized users will be able to work with files containing this kind of information.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -886,7 +886,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Protect
+							“Identifying and authenticating access to system components. Each person with access to system components should be assigned a unique identification (ID) that allows accountability of access to critical data systems.”{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -895,7 +895,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind leverages its activity monitoring and data loss prevention capabilities to defend confidential and private information from unauthorized access, sharing, attack and misuse.
+							Each user with authorized access to cardholders’ data will have a unique identification represented by its name. This is also true for the users of StaffCop – they can be assigned unique IDs and unique range of permissions.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -942,7 +942,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Detect{"   "}
+							“Restricting physical access to cardholder data. Physical access to cardholder data or systems that hold this data must be secure to prevent the unauthorized access or removal of data. Prevention by blocking channels.”{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -951,7 +951,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind’s powerful behavior-based policy and rules engine casts a strong detection net over the entire organization, allowing for quick detection of insider threats and data breach incidents before it happens.
+							StaffCop can protect cardholder data against leakage by blocking information channels through which it may leak. For example, the PC containing this type of information can have USB and CD drives or e-mail applications blocked.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -998,7 +998,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Responde
+							“Tracking and monitoring all access to cardholder data and network resources. Logging mechanisms should be in place to track user activities that are critical to prevent, detect or minimize impact of data compromises.”{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1007,63 +1007,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-time notification and immediate actions proactively defend against data exfiltration, malicious or accidental insider threats and data breaches. In case of an incident, pinpoint the exact cause and source of the incident with readily available audit and forensic data.
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="100%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="30px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Image width="64px" height="64px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/folder-circle.1%201%20(1).svg?v=2020-10-30T02:15:40.681Z" />
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Report
-						</Text>
-						<Text
-							font="normal 400 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Meet GDPR record keeping requirements with detailed incident reports, alerts and session recordings. Exportable reports can be shared with the Controller, DPO, auditors and other members of the compliance team.
+							StaffCop keeps track of all information associated with cardholder data and network resources and possesses all the instruments which may be used to prevent this data leakage, including the ability to instantly block the targeted PC. The card numbers are identified with the implementation of Luhn algorithm, so the administrator of the system will be timely notified about the actions with this data which gives him time to take preventive measures.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1085,135 +1029,6 @@ export default (() => {
 				box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 				border-color="#ffffff"
 			/>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="82%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%201.png?v=2020-10-19T22:24:26.269Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Instant activation of PCI DSS specific policies & rules{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Teramind comes with PCI DSS specific policies and rules addressing many of the steps necessary to maintain the Data Security Standard for Merchants & Processors. More policies and rules can be created with powerful Policy Editor.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 20px 0px 60px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-						md-order="1"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Built-in data discovery and classification{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						100s of templates for cardholder data, sensitive Personally Identifiable Information (PII) and Personally identifiable Financial Information (PIFI). Automated discover of content on the fly with advanced OCR and digital fingerprinting.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="100%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%204.png?v=2020-10-19T22:32:34.380Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
 			<Stack
 				margin="0px 0px 0px 0px"
 				width="100%"
@@ -1271,7 +1086,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Granular user activity monitoring, unique IDs, layered access control for local, network and Cloud resources are just a few examples how Teramind gives you full visibility and control over sensitive data.{"\n\n"}
+						Granular user activity monitoring, file tagging DLP module, layered access control for local, network and Cloud resources are just a few examples how StaffCop gives you full visibility and control over sensitive data.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1406,7 +1221,26 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.BlockNeed />
+		<Components.BlockNeed>
+			<Override slot="text1">
+				Information Security{"\n\n"}
+			</Override>
+			<Override slot="text2">
+				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest.
+			</Override>
+			<Override slot="text3">
+				Remote Administration
+			</Override>
+			<Override slot="text4">
+				View remote desktop without being notices. Take control over a workstation.  Full picture of software and hardware usage. Intensity of usage and registry of states.
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring{" "}
+			</Override>
+			<Override slot="text7">
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.
+			</Override>
+		</Components.BlockNeed>
 		<Section
 			background="#ffffff"
 			padding="70px 0 20px 0"
@@ -1479,7 +1313,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							On-premise
+							Bare Metal{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1488,7 +1322,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							control the implementation in its entirety, stay off-cloud if that’s your firm’s operational model, leverage LDAP groups and users to identify which users and groups to apply which policies and rules to
+							Install on bare metal from our ISO image containing Ubuntu 18.04 and StaffCop or install StaffCop packages on existing Ubuntu 18.04.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1529,7 +1363,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{" "}
+							Virtual Machine{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1538,7 +1372,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.
 						</Text>
 					</Box>
 					{"    "}
@@ -1579,7 +1413,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Cloud
+							Private Cloud
 						</Text>
 						<Text
 							font="--lead"
@@ -1588,7 +1422,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							trust us the management of the deployment and infrastructure. Only install Agents on the machines you want to monitor and set up your users, policies and rules and let us take care of the rest.
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
 						</Text>
 					</Box>
 					{"    "}
@@ -1599,7 +1433,11 @@ export default (() => {
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					Feature-rich, affordable with annual and perpetual licensing options
+				</Override>
+			</Components.Feature>
 			<Components.Footer />
 		</Section>
 		<Section

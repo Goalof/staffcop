@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Span, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Span, Strong, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -87,7 +87,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Teramind for Government & Public Sectors{"\n\n"}
+						StaffCop for Government & Public Sectors{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -119,7 +119,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Teramind is designed to assist the public sector address data loss, cybersecurity and insider threats with its insider threat detection and data loss prevention solutions. With Teramind, government entities can implement effective endpoint monitoring to ensure adherence to regulatory compliance and standards including NIST, FAR/DFARS, FDCC, FedRamp, FISMA, Insider Threat Executive Order and more.{"\n\n"}
+						StaffCop is designed to assist the public sector address data loss, cybersecurity and insider threats with its insider threat detection and data loss prevention solutions. With StaffCop, government entities can implement effective endpoint monitoring to ensure adherence to regulatory compliance and standards including NIST, FAR/DFARS, FDCC, FedRamp, FISMA, Insider Threat Executive Order and more.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -198,7 +198,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Intelligent behavior engine monitors all user activity covering 12+ system objects including files, apps, websites, network, Cloud and keystrokes.
+							Intelligent behavior engine monitors all user activity covering files, apps, websites, network, Cloud and keystrokes.
 							<br />
 							<br />
 							<br />
@@ -358,7 +358,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Find and categorize classified and sensitive data to apply exfiltration prevention rules. Use identity based authentication, privileged user monitoring and segregated access control to prevent unauthorized access or tampering. Automated policy enforcement lets you block or lockout system access when rule violations are detected.{"\n\n"}
+							Find and categorize classified and sensitive data to apply exfiltration prevention rules.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -432,7 +432,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind has built-in support for many regulatory compliance and standards. Flexible Policy & Rules Editor allows for creation of new rules for the evolving compliance landscape.
+							StaffCop Enterprise can significantly help you meet ISO 27001 demands. The flexibility of settings makes it perfect to fit any Information Security Management System (ISMS).{" \n\n"}
 							<br />
 							{"\n\n"}
 						</Text>
@@ -585,85 +585,6 @@ export default (() => {
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
 							User activity, incident and risk reports, alert and session logs are readily available for viewing and exporting from the dashboard.
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="42px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="700 18px/22px --fontFamily-googleInter"
-							color="#ffffff"
-							background="--color-primary"
-							padding="13px 0px 13px 0px"
-							border-radius="40px"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							border-width="1px"
-							border-style="solid"
-							border-color="rgba(255, 255, 255, 0.05)"
-							align-items="center"
-							display="block"
-							justify-content="center"
-							text-align="center"
-							width="48px"
-						>
-							7
-						</Text>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Security orchestration{"\n\n"}
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Teramind with IDS/IPS and SIEM systems to create a cyber security perimeter, share threat intelligence and coordinate response.
-							<br />
 							<br />
 							<br />
 							<br />
@@ -914,11 +835,9 @@ export default (() => {
 				width="75%"
 				sm-width="98%"
 			>
-				Teramind Insider Threat Prevention Solution is Built on the NIST{" "}
-				<Span color="--primary">
-					Cybersecurity Framework
-				</Span>
-				{"\n\n"}
+				StaffCop helps to comply with{" "}
+				<br />
+				ISO 27001{"\n\n"}
 			</Text>
 			<Text
 				font="normal 400 18px/160% --fontFamily-googleInter"
@@ -930,7 +849,21 @@ export default (() => {
 				width="75%"
 				sm-width="95%"
 			>
-				Teramind utilizes the National Institute of Standards and Technology (NIST) cybersecurity framework to Identify, Protect, Detect, Respond and Recover on data breaches. Combining its powerful user activity monitoring and data loss prevention (DLP) capabilities, Teramind is able to help organizations prevent insider threats and data breach incidents with ease.{"\n\n"}
+				StaffCop Enterprise can significantly help you meet{" "}
+				<Strong
+					data-q-widget-type="PRIMITIVE"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					ISO 27001
+				</Strong>
+				{" "}demands. The flexibility of settings makes it perfect to fit any Information Security Management System (ISMS). PDCA (Plan-Do-Check-Act) cycle lies in the core of the standard, so let’s take it with StaffCop step-by-step.
+				<br />
+				{"\n\n\n\n"}
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -976,7 +909,18 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Identify
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Plan
+							</Strong>
+							{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -985,7 +929,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Leveraging advanced fingerprinting, OCR and tagging technology, Teramind identifies personal and sensitive data in structured and unstructured information across organization data stores.
+							At this stage you should establish the internal policy of the company regulating creation and distribution of information (ISMS) within and beyond the company. The corporate information and access to it should be classified and divided with different access rights for different groups of employees. For example, your employees should work only with a limited number of web-sites and applications, the PC of the secretary is the only one which can print documents and the sales department is the only department with access to the customers’ database.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1032,7 +976,18 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Protect
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Do
+							</Strong>
+							{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1041,7 +996,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind leverages its activity monitoring and data loss prevention capabilities to defend confidential and private information from unauthorized access, sharing, attack and misuse.
+							The implementation is done through creating a number of fully customized filters and policies. It’s all carried out in the administrative interface of StaffCop to be applied on the workstations. The policies and filters can be easily modified at any moment. StaffCop is deployed in your corporate network and it doesn’t send any data outside providing high level of information security. It can work in closed networks, the ones that don’t have internet connection.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1088,7 +1043,18 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Detect{"   "}
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Check
+							</Strong>
+							{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1097,7 +1063,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind’s powerful behavior-based policy and rules engine casts a strong detection net over the entire organization, allowing for quick detection of insider threats and data breach incidents before it happens.
+							The monitoring is carried out in the same administrative interface. A number of administrators can be assigned access right corresponding to the level of the responsibility they carry. For example, each head of a department can monitor information on PCs belonging to his or her department. The alerts on violations of ISMS will be sent to the specified e-mail addresses, be it a security officer or the company owner. Documents can be easily searched for classified information, and if it’s contained in images or PDF, the text will be recognized.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1144,7 +1110,18 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Responde
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Act
+							</Strong>
+							{"\n\n"}
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1153,63 +1130,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-time notification and immediate actions proactively defend against data exfiltration, malicious or accidental insider threats and data breaches. In case of an incident, pinpoint the exact cause and source of the incident with readily available audit and forensic data.
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="100%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="30px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Image width="64px" height="64px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/folder-circle.1%201%20(1).svg?v=2020-10-30T02:15:40.681Z" />
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Report
-						</Text>
-						<Text
-							font="normal 400 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Meet GDPR record keeping requirements with detailed incident reports, alerts and session recordings. Exportable reports can be shared with the Controller, DPO, auditors and other members of the compliance team.
+							StaffCop Enterprise can track huge amount of information that can be used to analyze user behavior and estimate. Use pre-set and customized reports to analyze data and visualize the resulting output. There are quite handy embedded tools, such as heat map and anomalies detector that could help you track behavior trends and deviations. With experience gained and data collected the ISMS should be corrected in a corresponding way, which means both organizational means and configuring of StaffCop polices.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1288,7 +1209,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind visually records every action that a user makes for over 12 objects including screen, apps, websites, files, emails, etc. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. You can control who you want to monitor, how much you want to monitor, when and for how long. This allows for instant administrative oversight in respect to privacy requirements.{"\n\n"}
+						StaffCop visually records every action that a user makes including screen, apps, websites, files, emails, etc. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. You can control who you want to monitor, how much you want to monitor, when and for how long. This allows for instant administrative oversight in respect to privacy requirements.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1339,7 +1260,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when users violate the rules. Utilize sophisticated anomaly rules to identify user activity outside the normal behavior. Immediately get notified about harmful user activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
+						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when employees violate the rules. Utilize sophisticated anomaly rules to identify employee activity outside the normal behavior. Immediately get notified about harmful employee activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1417,7 +1338,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						If you need a complete data loss prevention solution, you can take a look at Teramind DLP. However, Teramind UAM comes with some useful data protection features too. For example, you can utilize the Activity and Schedule-based rules to prevent external drive usage, detect unusual or unauthorized network login or file transfers. Or, write rules that react to any observable user activity like blocking an email from being sent outside the company domain, get notified when certain sensitive document gets printed etc. All these features can help minimize information exfiltration and data leaks.{"\n\n"}
+						Write rules that react to any observable user activity like get notified when certain sensitive document gets printed or any specific search query gets input, etc. Tag sensitive files and specify who has acess to them and which applications can be used to work with them. All these features can help minimize information exfiltration and data leaks.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1467,7 +1388,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Detailed alerts for all users can be viewed including any breach events and what actions were taken. Warning messages can be configured to inform the users about nonconformity as it pertains to handling sensitive data. Influence corrective behavior with on-time feedback and notifications. Session recordings and history playback can be used to view user’s desktop for audit and evidence gathering purposes.{"\n\n"}
+						Detailed alerts for all users can be viewed including any breach events and what actions were taken. Session recordings and history playback can be used to view user’s desktop for audit and evidence gathering purposes. StaffCop is a wayback machine! At any moment, you can go back in time and see what a particular employee was doing in a specified period in the past.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1545,7 +1466,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind allows organizations to create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be created to notify the authorities of any suspicious privileged user activity, such as unscheduled and/or unauthorized changes to system configuration, creation of backdoor accounts etc.{"\n\n"}
+						Allows organizations to stop potential employee-employee or employee-third party collusion attempts. Create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1595,7 +1516,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind for GDPR can provide full forensics with respect to a data incident, and a video recording of the event. Detailed alert reports can be exported including any security incidents and what actions were taken in minutes superseding the 72 hour limit set by GDPR. Session recordings and history playback can be used to provide proof for further forensic investigation.{"\n\n"}
+						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when employees violate the rules. Utilize sophisticated anomaly rules to identify employee activity outside the normal behavior. Immediately get notified about harmful employee activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1662,7 +1583,10 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Conduct Security Orchestration with SIEM and Threat Analytics Systems{"\n\n"}
+						<Strong>
+							Block access to websites
+						</Strong>
+						{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1673,14 +1597,70 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Event triggers and logs from Teramind can be sent to SIEM and other analytics tools like HP ArcSight, Splunk, IBM QRadar, McAfee Enterprise Security Manager, LogRhythm, NetIQ Sentinel etc. allowing you to share reports and threat intelligence with your security team or other departments. Teramind also has a set of RESTful APIs utilizing a simple token/endpoint framework that can be easily utilized by an application supporting web service connections.{"\n\n"}
+						You can use StaffCop to block particular web-sites that can be distracting or harmful for working process.
+						<br />
+						Black list. Add domains or URLs of web-sites that will be blocked. All other web-sites can still be accessed.
+						<br />
+						White list. Add domains or URLs of web-sites that will be allowed. In this example, we allowed access to StaffCop.com, Bitrix24 and Capterra. ALL other web-sites will be bloked. White lists are useful in case corporate policy allows working ONLY with a narrow range of web-sites.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.BlockNeed />
+		<Components.BlockNeed>
+			<Override slot="text1">
+				Information Security{"\n\n"}
+			</Override>
+			<Override slot="text2">
+				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest. .{"\n\n"}
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text3">
+				Remote Administration{"\n\n"}
+			</Override>
+			<Override slot="text4">
+				View remote desktop without being notices. Take control over a workstation.  Full picture of software and hardware usage. Intensity of usage and registry of states.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+			<Override slot="text6">
+				Employee Monitoring{"\n\n\n\n"}
+			</Override>
+			<Override slot="text7">
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
+			</Override>
+		</Components.BlockNeed>
 		<Section
 			background="#ffffff"
 			padding="70px 0 20px 0"
@@ -1753,7 +1733,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							On-premise
+							Bare Metal{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1762,7 +1742,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							control the implementation in its entirety, stay off-cloud if that’s your firm’s operational model, leverage LDAP groups and users to identify which users and groups to apply which policies and rules to
+							Install on bare metal from our ISO image containing Ubuntu 18.04 and StaffCop or install StaffCop packages on existing Ubuntu 18.04.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1803,7 +1783,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{" "}
+							Virtual Machine{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1812,7 +1792,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1853,7 +1833,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Cloud
+							Private Cloud{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1862,7 +1842,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							trust us the management of the deployment and infrastructure. Only install Agents on the machines you want to monitor and set up your users, policies and rules and let us take care of the rest.
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more.
 						</Text>
 					</Box>
 					{"    "}
@@ -1873,7 +1853,11 @@ export default (() => {
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Components.Feature />
+			<Components.Feature>
+				<Override slot="text">
+					Feature-rich, affordable with annual and perpetual licensing options{"\n\n"}
+				</Override>
+			</Components.Feature>
 			<Components.Footer />
 		</Section>
 		<Section
