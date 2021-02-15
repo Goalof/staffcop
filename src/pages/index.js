@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Image, Box, Span, Hr, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Section, StackItem, Stack, SocialMedia } from "@quarkly/components";
+import { RawHtml, Override, Section, StackItem, Stack, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
 import { FaRegLifeRing } from "react-icons/fa";
 export default (() => {
@@ -2251,5 +2251,10 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 		>
 			Made on Quarkly
 		</Link>
+		<RawHtml>
+			<script place={"endOfBody"} rawKey={"602addb1c8a45a16c77f897e"}>
+				{"\t(function (i, s, o, g, r, a, m) {\n\t\ti['GoogleAnalyticsObject'] = r;\n\t\ti[r] = i[r] || function () {\n\t\t\t(i[r].q = i[r].q || []).push(arguments);\n\t\t}, i[r].l = 1 * new Date();\n\t\t\n\t\ta = s.createElement(o),\n\t\t\tm = s.getElementsByTagName(o)[0];\n\t\ta.async = 1;\n\t\ta.src = g;\n\t\tm.parentNode.insertBefore(a, m);\n\t})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');\n\tga('create', 'UA-6450776-3', 'auto');\n\tga('send', 'pageview');"}
+			</script>
+		</RawHtml>
 	</Theme>;
 });
