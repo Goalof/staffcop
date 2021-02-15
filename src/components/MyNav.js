@@ -25,7 +25,7 @@ const MyNav = props => {
 	return <nav onMouseEnter={handlerOpen} onMouseLeave={handlerClose}>
 		            
 		<a href="#" className="menu-trigger">
-			Products 
+			Solutions 
 			<Icon size="24px" category="md" icon={MdKeyboardArrowDown} color="#000" />
 		</a>
 		            
@@ -37,19 +37,19 @@ const MyNav = props => {
 					                    
 					<li>
 						<a href="/starter">
-							Starter
+							Remote Administration
 						</a>
 					</li>
 					                    
 					<li>
 						<a href="/UAM">
-							User Activity Monitoring
+							Employee Monitoring
 						</a>
 					</li>
 					                    
 					<li>
 						<a href="/DLP">
-							Data loss prevention
+							Information Security
 						</a>
 					</li>
 					                

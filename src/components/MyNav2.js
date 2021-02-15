@@ -42,12 +42,6 @@ const MyNav = props => {
 					</li>
 					                    
 					<li>
-						<a href="/">
-							Leadership
-						</a>
-					</li>
-					                    
-					<li>
 						<a href="/why-us/">
 							Why Us?
 						</a>

@@ -102,7 +102,7 @@ const overrides = {
 			"color": "#020202",
 			"padding": "30px 15px 30px 15px",
 			"hover-color": "--primary",
-			"children": "Solutions"
+			"children": "Cases"
 		}
 	},
 	"link3": {
