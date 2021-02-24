@@ -1,19 +1,28 @@
 import React from "react";
-import { useOverrides, Override, Formspree, StackItem, Stack } from "@quarkly/components";
+import { useOverrides, Override, Formspree, StackItem, Stack, Section } from "@quarkly/components";
 import { Text, Input, Button, Image } from "@quarkly/widgets";
 const defaultProps = {
-	"width": "100%",
-	"margin": "0px 0px 0px 0px",
-	"position": "relative",
-	"align-items": "center",
-	"justify-content": "center",
-	"overflow-y": "hidden",
-	"flex-direction": "row",
-	"background": "#F7F7F7",
-	"gap": "0px",
-	"border-radius": "6px"
+	"padding": "70px 0 124px 0",
+	"lg-padding": "70px 0 70px 0",
+	"font": "600 18px/22px --fontFamily-googleInter",
+	"sm-padding": "30px 0 30px 0"
 };
 const overrides = {
+	"stack": {
+		"kind": "Stack",
+		"props": {
+			"width": "100%",
+			"margin": "0px 0px 0px 0px",
+			"position": "relative",
+			"align-items": "center",
+			"justify-content": "center",
+			"overflow-y": "hidden",
+			"flex-direction": "row",
+			"background": "#F7F7F7",
+			"gap": "0px",
+			"border-radius": "6px"
+		}
+	},
 	"stackItem": {
 		"kind": "StackItem",
 		"props": {
@@ -52,7 +61,9 @@ const overrides = {
 			"md-font": "normal 700 30px/40px Inter, sans-serif",
 			"sm-font": "normal 700 20px/30px Inter, sans-serif",
 			"lg-font": "normal 700 36px/40px Inter, sans-serif",
-			"children": "Start free trial"
+			"children": <>
+				Start free trial{"\n\n"}
+			</>
 		}
 	},
 	"formspree": {
@@ -145,12 +156,13 @@ const overrides = {
 	"button": {
 		"kind": "Button",
 		"props": {
-			"className": "buttom-form",
 			"border-radius": "40px",
 			"box-shadow": "inset 0px 5px 17px rgba(255, 255, 255, 0.23)",
 			"padding": "16px 38px 16px 38px",
 			"font": "600 18px/22px --fontFamily-googleInter",
-			"children": "Send"
+			"children": <>
+				Send{"\n\n"}
+			</>
 		}
 	},
 	"stackItem1": {
@@ -206,41 +218,44 @@ const overrides = {
 	}
 };
 
-const FormClass = props => {
+const FormaNew = props => {
 	const {
 		override,
 		children,
 		rest
 	} = useOverrides(props, overrides, defaultProps);
-	return <Stack {...rest}>
-		{"    "}
-		<StackItem {...override("stackItem")}>
-			<Override {...override("stackItemOverride")} />
-			{"        "}
-			<Text {...override("text")} />
-			<Formspree {...override("formspree")}>
-				<Input {...override("input")} />
-				<Input {...override("input1")} />
-				<Input {...override("input2")} />
-				<Input {...override("input3")} />
-				<Input {...override("input4")} />
-				<Button {...override("button")} />
-			</Formspree>
+	return <Section {...rest}>
+		<Override slot="SectionContent" max-width="1165px" align-items="center" />
+		<Stack {...override("stack")}>
 			{"    "}
-		</StackItem>
-		<StackItem {...override("stackItem1")}>
-			<Override {...override("stackItemOverride1")} />
-			{"        "}
-			<Image {...override("image")} />
+			<StackItem {...override("stackItem")}>
+				<Override {...override("stackItemOverride")} />
+				{"        "}
+				<Text {...override("text")} />
+				<Formspree {...override("formspree")}>
+					<Input {...override("input")} />
+					<Input {...override("input1")} />
+					<Input {...override("input2")} />
+					<Input {...override("input3")} />
+					<Input {...override("input4")} />
+					<Button {...override("button")} />
+				</Formspree>
+				{"    "}
+			</StackItem>
+			<StackItem {...override("stackItem1")}>
+				<Override {...override("stackItemOverride1")} />
+				{"        "}
+				<Image {...override("image")} />
+				{"    "}
+			</StackItem>
 			{"    "}
-		</StackItem>
-		{"    "}
+		</Stack>
 		{children}
-	</Stack>;
+	</Section>;
 };
 
-Object.assign(FormClass, { ...Stack,
+Object.assign(FormaNew, { ...Section,
 	defaultProps,
 	overrides
 });
-export default FormClass;
+export default FormaNew;
