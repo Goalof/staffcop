@@ -157,6 +157,7 @@ const overrides = {
 		"kind": "Button",
 		"props": {
 			"className": "buttom-form",
+			"onclick": "ga('send', 'event', 'preorder');",
 			"border-radius": "40px",
 			"box-shadow": "inset 0px 5px 17px rgba(255, 255, 255, 0.23)",
 			"padding": "16px 38px 16px 38px",
