@@ -62,7 +62,8 @@ const pageStyles = {
     "features/citrix-session-recording111": {},
     "features/citrix-session-recording1111": {},
     "features/citrix-session-recording11111": {},
-    "features/citrix-session-recording111111": {}
+    "features/citrix-session-recording111111": {},
+    "demo-request": {}
 };
 
 const PageStyles = createGlobalStyle`

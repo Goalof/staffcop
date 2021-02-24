@@ -35,7 +35,8 @@ export default {
 				"5fa2155f7b805a001eaa4571",
 				"5fab84df08b41a001fec0093",
 				"5fab9147badc03001fb10c7f",
-				"5fc0a8d279530b001fd2cf0d"
+				"5fc0a8d279530b001fd2cf0d",
+				"6036b25b7defbd001eed4e08"
 			]
 		},
 		"5f844e532e3a2a001faf55bb": {
@@ -575,6 +576,11 @@ export default {
 			"id": "601a90d4372cb7001f0e11c6",
 			"pageUrl": "citrix-session-recording111111",
 			"name": "Software and Hardware Inventory"
+		},
+		"6036b25b7defbd001eed4e08": {
+			"id": "6036b25b7defbd001eed4e08",
+			"pageUrl": "demo-request",
+			"name": "Demo request"
 		}
 	},
 	"mode": "production",
