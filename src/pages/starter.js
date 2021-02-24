@@ -1498,6 +1498,7 @@ control over his keyboard and mouse, and resolves the issues.
 			<script place={"endOfBody"} rawKey={"6036af4a8bcc719b09a29177"}>
 				{"    document.addEventListener( 'buttom-form', function( event ) {\n        gtag('event','submit', {'event_category' : 'preorder'});\n    }, false );"}
 			</script>
+			<link href={"http://kalyan-tay.ukit.me/js/lib/requirejs.min.js"} place={"endOfBody"} rawKey={"6036c4ad41cac81d90782665"} />
 		</RawHtml>
 	</Theme>;
 });
