@@ -2075,6 +2075,7 @@ export default (() => {
 					text-indent="0"
 					text-overflow="clip"
 					hyphens="manual"
+					data-q-widget-type="PRIMITIVE"
 				>
 					.
 				</Span>
@@ -2092,6 +2093,7 @@ export default (() => {
 					text-indent="0"
 					text-overflow="clip"
 					hyphens="manual"
+					data-q-widget-type="PRIMITIVE"
 				>
 					.
 				</Span>
@@ -2100,18 +2102,7 @@ export default (() => {
 				Employee Monitoring
 			</Override>
 			<Override slot="text7">
-				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results. ..
-				<Span
-					color="rgba(255, 255, 255, 0)"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-				>
-					.
-				</Span>
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.
 			</Override>
 		</Components.BlockNeed>
 		<Section
