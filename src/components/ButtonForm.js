@@ -19,14 +19,14 @@ const ButtonForm = props => {
 		children,
 		rest
 	} = useOverrides(props, overrides, defaultProps);
-	return <Button {...rest} onClick={() => GAevent('send', 'event', 'preorder')}>
+	return <Button {...rest} onSubmit={() => GAevent('send', 'event', 'preorder')}>
 		{children}
 	</Button>;
 };
 
 export const GAevent = (categoryName, eventName) => {
 	ReactGA.event({
-		category: categoryName,
+		category: preorder,
 		action: eventName,
 		label: 'labelName',
 		value: 10,
