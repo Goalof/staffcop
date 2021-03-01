@@ -8,10 +8,10 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/file-activity-monitoring-software"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/application-usage-monitoring"} />
 		<Helmet>
 			<title>
-				File Activity Monitoring Software
+				Network User Activity Monitoring
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
@@ -24,7 +24,7 @@ export default (() => {
 		</Helmet>
 		<Components.Header />
 		<Section
-			padding="200px 0 120px 0"
+			padding="180px 0 140px 0"
 			background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)"
 			lg-padding="100px 0 30px 0"
 			md-padding="100px 0 0px 0"
@@ -56,7 +56,9 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						lg-text-align="center"
 					>
-						File Activity Monitoring Software{"\n\n"}
+						App usage/application{" "}
+						<br />
+						monitoring{" "}
 					</Text>
 					<Box display="flex" align-items="center" margin="0px 0px 0px 0px">
 						<Icon
@@ -66,8 +68,8 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Alert or block any upload to the cloud{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Track application usage
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -78,8 +80,8 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track files on local drive or network shares{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Whitelist or blacklist apps
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -90,8 +92,8 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Enforce removable storage policy{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Automated alerts & policy enforcement
 						</Text>
 					</Box>
 					{"    "}
@@ -130,18 +132,21 @@ export default (() => {
 						position="absolute"
 						right="-115px"
 						left="auto"
-						top="-55px"
+						top="-50px"
 						bottom="auto"
 						lg-width="500px"
 						lg-position="static"
 						lg-top="-35px"
 						lg-right="-50px"
 						md-top="0px"
-						md-right="-70px"
+						md-right="auto"
 						sm-position="relative"
+						md-left="auto"
+						md-position="relative"
+						md-bottom="auto"
+						sm-bottom="auto"
 						sm-left="auto"
 						sm-right="auto"
-						sm-bottom="auto"
 						sm-top="0px"
 					/>
 					{"    "}
@@ -153,7 +158,104 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						Application Monitoring
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						StaffCop tracks user activity in applications including time and duration. This collected data is then used for building time tracking reports for evaluation of employee productivity. Applications can graded according to their level of their usefullness for performing working tasks. They are divided into thematical resource lists, such as "Office applcations", "E-mail applications", "Graphic editors", "Games", etc. Each list of applications has a corresponding productivity category, for example "Office applications" are productive, "Games" - unproductive, "Graphic editors" - neutral. StaffCop can also block launching of prohibited applications.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+							padding="19px 0px 0px 0px"
+						/>
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							Records include time spent within an application, individual keystrokes, files accessed, and content viewed, among a plethora of other data
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+							padding="19px 0px 0px 0px"
+						/>
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							Application-specific alerts can be set to have StaffCop notify administrators of the development of potential security risks
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+							padding="19px 0px 0px 0px"
+						/>
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							Monitor application usage across an organization to determine needed upgrades and security protocol updates
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+							padding="19px 0px 0px 0px"
+						/>
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							Applications can be separated based on usages to provide a clear picture of general and individual employee productivity levels{"\n\n"}
+						</Text>
+					</Box>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -166,29 +268,24 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong>
-							File operations
+							Activity time and duration
 						</Strong>
 						{"\n\n"}
 					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						StaffCop tracks all user activities in applications, with detailed information of each event including its duration and the window title to make it clear what a particular user was doing at a particular moment.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/71.png?v=2021-02-02T09:58:49.998Z" />
 					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop track all file operations with the ability to get a report based on a particular file operation type performed in a particular application. For example, we can gert a list of all files that were opened in MS Word or all files created in Notepad. This can be useful in case we have to monitor any sensitive data that is processed in a specific application.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/62.png?v=2021-02-01T11:27:44.894Z" max-width="100%" />
-					</Box>
-					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -197,7 +294,261 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Special monitoring with screenshots
+						</Strong>
+						<br />
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						If knowing the window title of the application is not enough andd more information is required for investigation, screenshots taking can be used. Besides common options of taking screenshots as a specified interval and at the moment the active window is changed there is an option called "Special monitoring". If we specify an aplication for special momnitoring, screenshots will be taken with a higher frequency all the time when this application is running.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/72.png?v=2021-02-02T10:22:03.575Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Application category
+						</Strong>
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						StaffCop divides the data collected on activity in applications according to thematical groups, each group with its own productivity category. This data is used for building time tracking reports. The list of categories can be manually edited, including adding/remove applications for a list, and changing its productivity catgory (e.g. change Instant Messengers category from unproductive to productive for sales department.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/73.png?v=2021-02-02T10:32:23.243Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong>
+								Files that were opened in applications
+							</Strong>
+							<br />
+							{"\n\n"}
+						</Strong>
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						With StaffCop you can get a list of files that were opened in a particular application. This may be useful in case corporate sensitive information is mainly processed in a specific application (e.g. AutoCad) or there is a limited amount files that are allowed for a specific user group. Or if we need to understand what files were opened in a cloud service application (e.g. Dropbox). The info will include the file path and the details on the file storage.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/74.png?v=2021-02-02T10:38:07.016Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Applications installations/removals
+						</Strong>
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						StaffCop will alert you in case a user installs an application that is not approved by corporate polices. StaffCop will show the facts of installations and uninstallations including update packages.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/75.png?v=2021-02-02T10:44:54.552Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Applications inventory report
+						</Strong>
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						Comparing to the previous report, applications inventory report shows information about the software available on workstations AT THE MOMENT of building the report.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/76.png?v=2021-02-02T11:04:36.823Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Windows processes working in the background
+						</Strong>
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						StaffCop tracks not only user activity performed in applications but also processes working in the background. This function can be used by system administrators who needs to diagnose and fix issues on remote workstations.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/77.png?v=2021-02-02T11:15:09.675Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -220,192 +571,26 @@ export default (() => {
 						>
 							{"\n"}
 							<Strong>
-								Files sent/received by e-mail or messengers
+								Block prohibited applications
 							</Strong>
 							{"\n\n"}
 						</Strong>
 						{"\n\n"}
 					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							With StaffCop you can get the list of files sent/received in instant messengers or by e-mail. Files can be downloaded for further investigation.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/64.png?v=2021-02-01T11:34:46.529Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/63.png?v=2021-02-01T11:35:18.854Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
-					{"        "}
 					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
 						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
+						color="#555"
 						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
 						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						<Strong>
-							Files copied from/to USB drives
-						</Strong>
+						StaffCop can not only track application activity but also prevent specified applications from launching. For example, corporate policy forbids usage of torrent clients on workstations. We can add uTorrent to the black list of applications. In this case, if a user tries clicking the shortcut or the .exe file itself nothing will happen. On the other hand, we can specify a list of applications that can be accessed, while ALL that are not in the white list will not work. For example, we add Word, Excel and Thunderbird to the list - the user will be able to launch ONLY them.
+						<br />
 						{"\n\n"}
 					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/78.png?v=2021-02-02T11:17:20.395Z" />
 					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							You can get reports on all the files that were coipied from/to USB devices. You can download the file for further ivestigation if it was shadow-copied. Moreover, you can shadow-copy ALL the files on a connected USB drive, if this option is enabled.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/112.png?v=2021-02-01T11:46:51.859Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" />
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							{"\n"}
-							<Strong>
-								Documents sent to print
-							</Strong>
-							{"\n\n"}
-						</Strong>
-						{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop will show you what documents were sent to print. The info includes the name of the printers, a preview of the file and the copy of file itself (in case shadow-copying option was enabled). You can download the file for further investigation.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/65.png?v=2021-02-01T11:59:44.703Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" />
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							OCR (Text recognition in PDF and images)
-						</Strong>
-						{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop has OCR module for extracting text from images and PDF documents. It has 2 options: embedded OCR (English, Russian and Kazakh languages) and usage of existing ABBYY accounts. The file types in which text is recognized can be specified.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/66.png?v=2021-02-01T12:09:02.005Z" max-width="100%" />
-					</Box>
-					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>

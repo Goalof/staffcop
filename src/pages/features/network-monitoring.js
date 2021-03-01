@@ -8,10 +8,10 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/file-activity-monitoring-software"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/network-monitoring"} />
 		<Helmet>
 			<title>
-				File Activity Monitoring Software
+				App usage/application  monitoring 
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
@@ -24,7 +24,7 @@ export default (() => {
 		</Helmet>
 		<Components.Header />
 		<Section
-			padding="200px 0 120px 0"
+			padding="180px 0 140px 0"
 			background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)"
 			lg-padding="100px 0 30px 0"
 			md-padding="100px 0 0px 0"
@@ -56,7 +56,7 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						lg-text-align="center"
 					>
-						File Activity Monitoring Software{"\n\n"}
+						Network activity monitoring
 					</Text>
 					<Box display="flex" align-items="center" margin="0px 0px 0px 0px">
 						<Icon
@@ -66,8 +66,10 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Alert or block any upload to the cloud{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Usage of protocols (https, http)
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -78,8 +80,8 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track files on local drive or network shares{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Connections to certain IP addresses{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -90,8 +92,10 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Enforce removable storage policy{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							FTP connections
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -130,7 +134,7 @@ export default (() => {
 						position="absolute"
 						right="-115px"
 						left="auto"
-						top="-55px"
+						top="-50px"
 						bottom="auto"
 						lg-width="500px"
 						lg-position="static"
@@ -139,9 +143,9 @@ export default (() => {
 						md-top="0px"
 						md-right="-70px"
 						sm-position="relative"
+						sm-bottom="auto"
 						sm-left="auto"
 						sm-right="auto"
-						sm-bottom="auto"
 						sm-top="0px"
 					/>
 					{"    "}
@@ -153,7 +157,45 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						Application Monitoring{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+						sm-margin="30px 0px 0px 0px"
+					>
+						StaffCop can get info on network connections, with such fitering criteria as IP and ports. This ability can be useful for system administrators in case corporate policy has a specification for using certain ports. FTP connections are tracked with the ability to see the sent/recieved files. Activity in cloud storages (e.g. Google Drive) is monitored.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -166,29 +208,25 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong>
-							File operations
+							Usage of ports
 						</Strong>
 						{"\n\n"}
 					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+						sm-margin="30px 0px 0px 0px"
+					>
+						For example, we need to understand which ports are used by which applications and check if all of them are allowed by the corporate policy. The piechart presented in screenshot below will show us the share of each applications in total amount of usage of ports.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/51.png?v=2021-02-02T11:41:38.831Z" />
 					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop track all file operations with the ability to get a report based on a particular file operation type performed in a particular application. For example, we can gert a list of all files that were opened in MS Word or all files created in Notepad. This can be useful in case we have to monitor any sensitive data that is processed in a specific application.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/62.png?v=2021-02-01T11:27:44.894Z" max-width="100%" />
-					</Box>
-					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -197,7 +235,8 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -220,87 +259,27 @@ export default (() => {
 						>
 							{"\n"}
 							<Strong>
-								Files sent/received by e-mail or messengers
+								Usage of protocols
 							</Strong>
 							{"\n\n"}
 						</Strong>
 						{"\n\n"}
 					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							With StaffCop you can get the list of files sent/received in instant messengers or by e-mail. Files can be downloaded for further investigation.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/64.png?v=2021-02-01T11:34:46.529Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/63.png?v=2021-02-01T11:35:18.854Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
-					{"        "}
 					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
 						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
+						color="#555"
 						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
 						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
+						sm-margin="30px 0px 0px 0px"
 					>
-						<Strong>
-							Files copied from/to USB drives
-						</Strong>
+						StaffCop tracks traffic sent/recieved throught encrypted https connections. We can see what websites were visited through encrypted https protocol, and if any of them seems suspecious we can see all the web visiting details by clicking the corresponding item of the pie chart.
+						<br />
 						{"\n\n"}
 					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/52.png?v=2021-02-02T11:44:46.639Z" />
 					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							You can get reports on all the files that were coipied from/to USB devices. You can download the file for further ivestigation if it was shadow-copied. Moreover, you can shadow-copy ALL the files on a connected USB drive, if this option is enabled.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/112.png?v=2021-02-01T11:46:51.859Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" />
-					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -309,7 +288,8 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -331,37 +311,40 @@ export default (() => {
 							hyphens="manual"
 						>
 							{"\n"}
-							<Strong>
-								Documents sent to print
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								{"\n"}
+								<Strong>
+									FTP connections
+								</Strong>
+								{"\n\n"}
 							</Strong>
 							{"\n\n"}
 						</Strong>
 						{"\n\n"}
 					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+						sm-margin="30px 0px 0px 0px"
+					>
+						With StaffCop you can track FTP connections including info on the IP address, login/pasword pair and the applications used for connection. In case shadow-copying option is enabled StaffCop allows to see all the files sent/receive through FTP.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/53.png?v=2021-02-02T11:51:26.604Z" />
 					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop will show you what documents were sent to print. The info includes the name of the printers, a preview of the file and the copy of file itself (in case shadow-copying option was enabled). You can download the file for further investigation.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/65.png?v=2021-02-01T11:59:44.703Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" />
-					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -370,7 +353,8 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -382,30 +366,152 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						<Strong>
-							OCR (Text recognition in PDF and images)
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							{"\n"}
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								{"\n"}
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong>
+										Cloud storages
+									</Strong>
+									{"\n\n"}
+								</Strong>
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
 						</Strong>
 						{"\n\n"}
 					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+						sm-margin="30px 0px 0px 0px"
+					>
+						With StaffCop you can track connections to cloud storages (e.g Google Drive) as well as to your corporate network discs. If the shadow-copying option is enabled you will be able to see the files uploaded to cloud storages.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/56.png?v=2021-02-02T11:54:34.018Z" />
 					{"    "}
 				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
+				{"    "}
+			</Stack>
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop has OCR module for extracting text from images and PDF documents. It has 2 options: embedded OCR (English, Russian and Kazakh languages) and usage of existing ABBYY accounts. The file types in which text is recognized can be specified.
-							<br />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							{"\n"}
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								{"\n"}
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										{"\n"}
+										<Strong>
+											Wi-Fi connections
+										</Strong>
+										{"\n\n"}
+									</Strong>
+									{"\n\n"}
+								</Strong>
+								{"\n\n"}
+							</Strong>
 							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/66.png?v=2021-02-01T12:09:02.005Z" max-width="100%" />
-					</Box>
-					{"            "}
+						</Strong>
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 20px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+						sm-margin="30px 0px 0px 0px"
+					>
+						StaffCop will show you the Wi-Fi connection with SSID (network name). Wi-Fi networks can be blocked on the basis on white and black lists. It's useful in case employees are allowed to use only corporate networks due to the security issues.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/58.png?v=2021-02-02T11:59:35.482Z" width="322px" height="210px" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/59.png?v=2021-02-02T12:01:41.026Z" />
+					{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>

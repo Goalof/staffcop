@@ -96,7 +96,6 @@ export default {
 				"5f933203a37bff001ef69425",
 				"5f933586a37bff001ef69441",
 				"5f9336dec7fb89001e92490d",
-				"5f933fdbe5a236001eeb5dfa",
 				"5f934743b40b56001e951d21",
 				"5f93698fa37bff001ef694f1",
 				"5f936a53e5a236001eeb5e68",
@@ -104,10 +103,8 @@ export default {
 				"5f936bace5a236001eeb5e7e",
 				"5f934446e5a236001eeb5e12",
 				"5f936beeb40b56001e951d85",
-				"5f97718ba37bff001ef69a6c",
 				"5f936ce4c7fb89001e9249d5",
 				"5f937068a37bff001ef6952d",
-				"5f9770c3c7fb89001e924f4a",
 				"5f977112b40b56001e952304",
 				"601a47eb372cb7001f0e0fda",
 				"601a555471e66d001efb10cf",
@@ -195,15 +192,6 @@ export default {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"
 			}
 		},
-		"5f933fdbe5a236001eeb5dfa": {
-			"id": "5f933fdbe5a236001eeb5dfa",
-			"pageUrl": "productivity-monitoring",
-			"name": "Productivity monitoring",
-			"seo": {
-				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
-				"title": "Productivity monitoring"
-			}
-		},
 		"5f934446e5a236001eeb5e12": {
 			"id": "5f934446e5a236001eeb5e12",
 			"pageUrl": "employee-productivity-tracking",
@@ -215,7 +203,7 @@ export default {
 		},
 		"5f934743b40b56001e951d21": {
 			"id": "5f934743b40b56001e951d21",
-			"pageUrl": "app-usageapplication-monitoring",
+			"pageUrl": "network-monitoring",
 			"name": "Network activity monitoring",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
@@ -224,7 +212,7 @@ export default {
 		},
 		"5f93698fa37bff001ef694f1": {
 			"id": "5f93698fa37bff001ef694f1",
-			"pageUrl": "network-user-activitymonitoring",
+			"pageUrl": "application-usage-monitoring",
 			"name": "App usage/application monitoring",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
@@ -260,7 +248,7 @@ export default {
 		},
 		"5f936beeb40b56001e951d85": {
 			"id": "5f936beeb40b56001e951d85",
-			"pageUrl": "citrix-session-recording",
+			"pageUrl": "linux-terminal-capture",
 			"name": "Linux terminal capture",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
@@ -278,20 +266,11 @@ export default {
 		},
 		"5f937068a37bff001ef6952d": {
 			"id": "5f937068a37bff001ef6952d",
-			"pageUrl": "configurable-monitoring-profiles",
+			"pageUrl": "custom-reports",
 			"name": "Custom reports",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "Configurable Monitoring Profiles"
-			}
-		},
-		"5f9770c3c7fb89001e924f4a": {
-			"id": "5f9770c3c7fb89001e924f4a",
-			"pageUrl": "template-based-scheduling",
-			"name": "Template based scheduling",
-			"seo": {
-				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
-				"title": "Template based scheduling"
 			}
 		},
 		"5f977112b40b56001e952304": {
@@ -301,15 +280,6 @@ export default {
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "Session Recording & Metadata"
-			}
-		},
-		"5f97718ba37bff001ef69a6c": {
-			"id": "5f97718ba37bff001ef69a6c",
-			"pageUrl": "employee-monitoring-software",
-			"name": "Employee Monitoring Software",
-			"seo": {
-				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
-				"title": "Employee Monitoring Software"
 			}
 		},
 		"5f978977b40b56001e952426": {
@@ -539,27 +509,27 @@ export default {
 		},
 		"601a47eb372cb7001f0e0fda": {
 			"id": "601a47eb372cb7001f0e0fda",
-			"pageUrl": "nonproductive-activity-reporting1",
+			"pageUrl": "user-card",
 			"name": "User Card"
 		},
 		"601a555471e66d001efb10cf": {
 			"id": "601a555471e66d001efb10cf",
-			"pageUrl": "nonproductive-activity-reporting11",
+			"pageUrl": "screen-capture",
 			"name": "Screen Capture"
 		},
 		"601a602e372cb7001f0e1079": {
 			"id": "601a602e372cb7001f0e1079",
-			"pageUrl": "citrix-session-recording1",
+			"pageUrl": "webcam-snapshots",
 			"name": "Web-cam snapshots"
 		},
 		"601a66196c1e89001ea0aec6": {
 			"id": "601a66196c1e89001ea0aec6",
-			"pageUrl": "citrix-session-recording11",
+			"pageUrl": "usb-device-control",
 			"name": "USB device control"
 		},
 		"601a7077bfd603001f71b572": {
 			"id": "601a7077bfd603001f71b572",
-			"pageUrl": "citrix-session-recording111",
+			"pageUrl": "dlp-features",
 			"name": "Data Leak Prevention (DLP)"
 		},
 		"601a81bb179f5c00220681e2": {

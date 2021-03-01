@@ -8,7 +8,7 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/citrix-session-recording11111"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/dlp-features"} />
 		<Helmet>
 			<title>
 				Quarkly export
@@ -75,9 +75,7 @@ export default (() => {
 								text-overflow="clip"
 								hyphens="manual"
 							>
-								Scan file system or workstations
-								<br />
-								{"\n\n"}
+								DLP features
 								<br />
 								{"\n\n"}
 							</Strong>
@@ -92,7 +90,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Microsoft Office documnents
+							Block USB and CD drives
 							<br />
 							{"\n\n"}
 						</Text>
@@ -106,7 +104,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Open Office documents
+							Block applications
 							<br />
 							{"\n\n"}
 						</Text>
@@ -120,7 +118,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Portable Document Format (PDF)
+							Block web-sites
 							<br />
 							{"\n\n"}
 						</Text>
@@ -134,7 +132,21 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							XML Paper Specification files (XPS)
+							Block connection to Wi-Fi networks
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+						/>
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Block PC
 							<br />
 							{"\n\n"}
 						</Text>
@@ -238,28 +250,10 @@ export default (() => {
 									hyphens="manual"
 								>
 									{"\n"}
-									<Strong
-										data-q-widget-type="PRIMITIVE"
-										overflow-wrap="normal"
-										word-break="normal"
-										white-space="normal"
-										text-indent="0"
-										text-overflow="clip"
-										hyphens="manual"
-									>
-										{"\n"}
-										<Strong
-											data-q-widget-type="PRIMITIVE"
-											overflow-wrap="normal"
-											word-break="normal"
-											white-space="normal"
-											text-indent="0"
-											text-overflow="clip"
-											hyphens="manual"
-										>
-											File scanner
-										</Strong>
+									<Strong>
+										Block USB devices by IDs or classes
 									</Strong>
+									{"\n\n"}
 								</Strong>
 								<br />
 								{"\n\n"}
@@ -276,7 +270,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						Starting from the version 4.8, StaffCop Enterprise provides users with new capabilities of controlling files on workstations. This function is called File Scanner (file crawler). File scanner scans files on the endpoints and shows the list of the found files as the hierarchy. If we click a file that is of interest we wil get the list of recorded events related to this file that can be used for further analysis.
+						StaffCop provides flexible options for blocking USB devices on the basis of black and white lists. If you need to block particular devices, add their IDs to the "Block" list. All the other devices can be accessed. If you need to use only particular USB devices, add their IDs to the "Allow" list. ALL other devices will be blocked. The same principle can be applied for devices classes, for example, we can forbid usage of all external video/audio devices or to allow usage only of printers, keyboards and mouses.
 						<br />
 						{"\n\n"}
 					</Text>
@@ -285,7 +279,7 @@ export default (() => {
 				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/161.png?v=2021-02-03T11:29:34.983Z" width="564px" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/113.png?v=2021-02-03T09:55:34.370Z" />
 					{"    "}
 				</StackItem>
 				{"    "}
@@ -343,22 +337,12 @@ export default (() => {
 										hyphens="manual"
 									>
 										{"\n"}
-										<Strong
-											data-q-widget-type="PRIMITIVE"
-											overflow-wrap="normal"
-											word-break="normal"
-											white-space="normal"
-											text-indent="0"
-											text-overflow="clip"
-											hyphens="manual"
-										>
-											{"\n"}
-											<Strong>
-												When does StaffCop scan for files?
-											</Strong>
-											{"\n\n"}
+										<Strong>
+											Read-only mode for USB devices
 										</Strong>
+										{"\n\n"}
 									</Strong>
+									{"\n\n"}
 								</Strong>
 								<br />
 								{"\n\n"}
@@ -375,7 +359,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						Usage of this module can affect performance on workstations, that's why we strongly recommend to run file scanning when employes are not working, e.g. during launch breaks or at night after working hours. Module configuration allows to run scamming instantly or at a scheduled time.
+						Besides full blocking of USB devices, you can allow usage them in the Read-only mode. In this case, users will be able to open files on USB drives, but will not be able to change anything there or write any information.
 						<br />
 						{"\n\n"}
 					</Text>
@@ -384,7 +368,7 @@ export default (() => {
 				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/164.png?v=2021-02-03T11:41:14.858Z" width="578px" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/114.png?v=2021-02-03T09:58:04.949Z" />
 					{"    "}
 				</StackItem>
 				{"    "}
@@ -431,7 +415,6 @@ export default (() => {
 									text-overflow="clip"
 									hyphens="manual"
 								>
-									{"\n"}
 									<Strong
 										data-q-widget-type="PRIMITIVE"
 										overflow-wrap="normal"
@@ -441,7 +424,6 @@ export default (() => {
 										text-overflow="clip"
 										hyphens="manual"
 									>
-										{"\n"}
 										<Strong
 											data-q-widget-type="PRIMITIVE"
 											overflow-wrap="normal"
@@ -453,7 +435,7 @@ export default (() => {
 										>
 											{"\n"}
 											<Strong>
-												When does StaffCop scan for files?
+												Block CD-drives
 											</Strong>
 											{"\n\n"}
 										</Strong>
@@ -474,7 +456,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						By default, StaffCop scans the entire file system on each worksation. However, you can specify black and white lists of locations where scanning will be performed. If you don't want to scan for files in some sensitive directory - you can list it in the "Disallow" list. You can do it visa-versa and specify the directories for file scanning by adding them to the "Allow" list, in this case you will get the list of files only from those directories.
+						StaffCop can block usage of all CD-drives
 						<br />
 						{"\n\n"}
 					</Text>
@@ -483,7 +465,471 @@ export default (() => {
 				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/163.png?v=2021-02-03T11:47:07.969Z" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/115.png?v=2021-02-03T09:23:39.033Z" width="448px" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												{"\n"}
+												<Strong
+													data-q-widget-type="PRIMITIVE"
+													overflow-wrap="normal"
+													word-break="normal"
+													white-space="normal"
+													text-indent="0"
+													text-overflow="clip"
+													hyphens="manual"
+												>
+													{"\n"}
+													<Strong>
+														Block prohibited applications
+													</Strong>
+													{"\n\n"}
+												</Strong>
+												{"\n\n"}
+											</Strong>
+											{"\n\n"}
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						StaffCop can not only track application activity but also prevent specified applications from launching. For example, corporate policy forbids usage of torrent clients on workstations. We can add uTorrent to the black list of applications. In this case, if a user tries clicking the shortcut or the .exe file itself nothing will happen. On the other hand, we can specify a list of applications that can be accessed, while ALL that are not in the white list will not work. For example, we add Word, Excel and Thunderbird to the list - the user will be able to launch ONLY them.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/78.png?v=2021-02-03T10:05:28.377Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												<Strong
+													data-q-widget-type="PRIMITIVE"
+													overflow-wrap="normal"
+													word-break="normal"
+													white-space="normal"
+													text-indent="0"
+													text-overflow="clip"
+													hyphens="manual"
+												>
+													<Strong
+														data-q-widget-type="PRIMITIVE"
+														overflow-wrap="normal"
+														word-break="normal"
+														white-space="normal"
+														text-indent="0"
+														text-overflow="clip"
+														hyphens="manual"
+													>
+														<Strong
+															data-q-widget-type="PRIMITIVE"
+															overflow-wrap="normal"
+															word-break="normal"
+															white-space="normal"
+															text-indent="0"
+															text-overflow="clip"
+															hyphens="manual"
+														>
+															<Strong>
+																Block particular websites
+															</Strong>
+														</Strong>
+													</Strong>
+												</Strong>
+											</Strong>
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						Black list. Add domains or URLs of web-sites that will be blocked. In this example we blocked aceess to Facebook, Pornhub and Casino-online. All other web-sites can still be accessed.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/31.png?v=2021-02-03T10:16:46.865Z" width="571px" />
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												<Strong
+													data-q-widget-type="PRIMITIVE"
+													overflow-wrap="normal"
+													word-break="normal"
+													white-space="normal"
+													text-indent="0"
+													text-overflow="clip"
+													hyphens="manual"
+												>
+													<Strong
+														data-q-widget-type="PRIMITIVE"
+														overflow-wrap="normal"
+														word-break="normal"
+														white-space="normal"
+														text-indent="0"
+														text-overflow="clip"
+														hyphens="manual"
+													>
+														<Strong
+															data-q-widget-type="PRIMITIVE"
+															overflow-wrap="normal"
+															word-break="normal"
+															white-space="normal"
+															text-indent="0"
+															text-overflow="clip"
+															hyphens="manual"
+														>
+															<Strong
+																data-q-widget-type="PRIMITIVE"
+																overflow-wrap="normal"
+																word-break="normal"
+																white-space="normal"
+																text-indent="0"
+																text-overflow="clip"
+																hyphens="manual"
+															>
+																<Strong>
+																	Allow only particular websites
+																</Strong>
+															</Strong>
+														</Strong>
+													</Strong>
+												</Strong>
+											</Strong>
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						White list. Add domains or URLs of web-sites that will be allowed. In this example, we allowed access to StaffCop.com, Bitrix24 and Capterra. ALL other web-sites will be blocked. White lists are useful in case corporate policy allows working ONLY with a narrow range of web-sites.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/32.png?v=2021-02-03T10:20:39.473Z" width="575px" />
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong>
+							Block Wi-Fi connections
+						</Strong>
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						StaffCop will show you the Wi-Fi connection with SSID (network name). Wi-Fi networks can be blocked on the basis on white and black lists. It's useful in case employees are allowed to use only corporate networks due to the security issues.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/59.png?v=2021-02-03T10:25:14.808Z" />
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							{"\n"}
+							<Strong>
+								Block PC
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						With StaffCop you can block PC with an agent installed. It means that the user gets logged out and can’t log in, as the system prevents this automatically. All the unsaved data can be lost.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/132.png?v=2021-02-03T10:28:27.749Z" />
 					{"    "}
 				</StackItem>
 				{"    "}

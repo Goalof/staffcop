@@ -8,13 +8,13 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/file-activity-monitoring-software"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/screen-capture"} />
 		<Helmet>
 			<title>
-				File Activity Monitoring Software
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} />
 			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} />
@@ -24,7 +24,7 @@ export default (() => {
 		</Helmet>
 		<Components.Header />
 		<Section
-			padding="200px 0 120px 0"
+			padding="180px 0 120px 0"
 			background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)"
 			lg-padding="100px 0 30px 0"
 			md-padding="100px 0 0px 0"
@@ -47,6 +47,7 @@ export default (() => {
 						align-items="flex-start"
 						sm-align-items="center"
 						lg-align-items="center"
+						padding="0px 10px 0px 0px"
 					/>
 					{"        "}
 					<Text
@@ -56,7 +57,9 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						lg-text-align="center"
 					>
-						File Activity Monitoring Software{"\n\n"}
+						Screen capture
+						<br />
+						{"\n\n\n\n"}
 					</Text>
 					<Box display="flex" align-items="center" margin="0px 0px 0px 0px">
 						<Icon
@@ -66,8 +69,10 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Alert or block any upload to the cloud{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Take screnshots at a specified interval
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -78,8 +83,10 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track files on local drive or network shares{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Take screenshot at changing active window or web page
+							<br />
+							{"\n\n\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -90,8 +97,24 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Enforce removable storage policy{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Special monitoring: take screenshots when a specific application (web-site) is running{"\n\n"}
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+						/>
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							See all screenshots taken by users with "PrtSc" button.{"\n\n\n\n"}
+							<br />
+							{"\n\n\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -130,18 +153,22 @@ export default (() => {
 						position="absolute"
 						right="-115px"
 						left="auto"
-						top="-55px"
+						top="-60px"
 						bottom="auto"
 						lg-width="500px"
-						lg-position="static"
-						lg-top="-35px"
-						lg-right="-50px"
+						lg-position="relative"
+						lg-top="0px"
+						lg-right="auto"
 						md-top="0px"
-						md-right="-70px"
+						md-right="auto"
 						sm-position="relative"
+						lg-bottom="auto"
+						lg-left="auto"
+						md-left="auto"
+						md-bottom="auto"
+						sm-bottom="auto"
 						sm-left="auto"
 						sm-right="auto"
-						sm-bottom="auto"
 						sm-top="0px"
 					/>
 					{"    "}
@@ -153,51 +180,8 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							File operations
-						</Strong>
-						{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop track all file operations with the ability to get a report based on a particular file operation type performed in a particular application. For example, we can gert a list of all files that were opened in MS Word or all files created in Notepad. This can be useful in case we have to monitor any sensitive data that is processed in a specific application.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/62.png?v=2021-02-01T11:27:44.894Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -218,38 +202,64 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							{"\n"}
-							<Strong>
-								Files sent/received by e-mail or messengers
-							</Strong>
-							{"\n\n"}
+							Take screenshots
 						</Strong>
-						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
 				<StackItem display="flex" sm-width="100%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							With StaffCop you can get the list of files sent/received in instant messengers or by e-mail. Files can be downloaded for further investigation.
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							StaffCop can take screenshots at the specified interval or by changing active window (web page). If the second option us enabled, a screenshot is taken each time when a user switches between applications or web-pages, for example from MS Word to Thunderbird or from one Firefox tab to another.
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/82.png?v=2021-02-03T07:59:19.244Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							You can get a list of screenshots taken for a specific application, user, PC, web-site or department. If a user has two screens, for a example a notepad with connected extetnal monitor, screenshots will be taken from both screens and merged to a single file.
+							<br />
+							{"\n\n\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/81.png?v=2021-02-03T08:03:38.898Z" />
+					</Box>
+					{"            "}
+				</StackItem>
+				<StackItem display="flex" sm-width="100%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							You can download a specific screenshot or all screenshots packed in a single ZIP-archive. Or you can view them in StaffCop admin panel with either manual or automatic scrolling.
 							<br />
 							{"\n\n"}
 						</Text>
 					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/64.png?v=2021-02-01T11:34:46.529Z" max-width="100%" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/83.png?v=2021-02-03T08:07:43.208Z" />
 					</Box>
 					{"            "}
 				</StackItem>
 				<StackItem display="flex" sm-width="100%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/63.png?v=2021-02-01T11:35:18.854Z" max-width="100%" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							Besides common options of taking screenshots as a specified interval and at the moment the active window is changed there is an option called "Special monitoring". If we specify an aplication or website for special momnitoring, screenshots will be taken with a higher frequency all the time when this application is running or this web-site is open.{"\n\n"}
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/84.png?v=2021-02-03T08:08:50.390Z" />
 					</Box>
 					{"            "}
 				</StackItem>
@@ -260,7 +270,8 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -273,7 +284,7 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong>
-							Files copied from/to USB drives
+							See all screenshots taken by users with "PrtSc" button
 						</Strong>
 						{"\n\n"}
 					</Text>
@@ -281,129 +292,15 @@ export default (() => {
 				</StackItem>
 				<StackItem display="flex" sm-width="100%" md-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							You can get reports on all the files that were coipied from/to USB devices. You can download the file for further ivestigation if it was shadow-copied. Moreover, you can shadow-copy ALL the files on a connected USB drive, if this option is enabled.
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							StaffCop allows to get a list of screenshots that were taken by a user on a workstation. This function is very useful when it comes to information security issues, as users may take screenshot of sensitive data in order to get it outside of the corporate network as an attached image (or as an image inside a document). Administrator can get notifications each time a user takes a screenshot.
 							<br />
-							{"\n\n"}
+							{"\n\n\n\n"}
 						</Text>
 					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/112.png?v=2021-02-01T11:46:51.859Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" />
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							{"\n"}
-							<Strong>
-								Documents sent to print
-							</Strong>
-							{"\n\n"}
-						</Strong>
-						{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop will show you what documents were sent to print. The info includes the name of the printers, a preview of the file and the copy of file itself (in case shadow-copying option was enabled). You can download the file for further investigation.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/65.png?v=2021-02-01T11:59:44.703Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" />
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							OCR (Text recognition in PDF and images)
-						</Strong>
-						{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop has OCR module for extracting text from images and PDF documents. It has 2 options: embedded OCR (English, Russian and Kazakh languages) and usage of existing ABBYY accounts. The file types in which text is recognized can be specified.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/66.png?v=2021-02-01T12:09:02.005Z" max-width="100%" />
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/85.png?v=2021-02-03T08:12:09.991Z" />
 					</Box>
 					{"            "}
 				</StackItem>

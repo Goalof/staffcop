@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box, Image, Strong } from "@quarkly/widgets";
+import { Theme, Link, Strong, Text, Icon, Box, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -8,13 +8,13 @@ import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"features/file-activity-monitoring-software"} />
+		<GlobalQuarklyPageStyles pageUrl={"features/usb-device-control"} />
 		<Helmet>
 			<title>
-				File Activity Monitoring Software
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} />
 			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} />
@@ -24,7 +24,7 @@ export default (() => {
 		</Helmet>
 		<Components.Header />
 		<Section
-			padding="200px 0 120px 0"
+			padding="180px 0 140px 0"
 			background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)"
 			lg-padding="100px 0 30px 0"
 			md-padding="100px 0 0px 0"
@@ -47,6 +47,7 @@ export default (() => {
 						align-items="flex-start"
 						sm-align-items="center"
 						lg-align-items="center"
+						padding="0px 10px 0px 0px"
 					/>
 					{"        "}
 					<Text
@@ -56,7 +57,28 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						lg-text-align="center"
 					>
-						File Activity Monitoring Software{"\n\n"}
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							{"\n"}
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								USB device control
+							</Strong>
+						</Strong>
 					</Text>
 					<Box display="flex" align-items="center" margin="0px 0px 0px 0px">
 						<Icon
@@ -66,8 +88,10 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Alert or block any upload to the cloud{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Get information on external devices that were connected or disconnected
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -78,8 +102,10 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track files on local drive or network shares{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Get information of files copied from/to USB drives
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -90,8 +116,38 @@ export default (() => {
 							color="rgba(20, 101, 255, 1)"
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Enforce removable storage policy{"\n\n"}
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Block USB devices by IDs or classes
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+						/>
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Read-only mode for USB devices
+							<br />
+							{"\n\n"}
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+						/>
+						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
+							Block CD-drives
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -130,19 +186,18 @@ export default (() => {
 						position="absolute"
 						right="-115px"
 						left="auto"
-						top="-55px"
+						top="-60px"
 						bottom="auto"
 						lg-width="500px"
-						lg-position="static"
-						lg-top="-35px"
-						lg-right="-50px"
+						lg-position="relative"
+						lg-top="0px"
+						lg-right="auto"
 						md-top="0px"
-						md-right="-70px"
-						sm-position="relative"
-						sm-left="auto"
-						sm-right="auto"
-						sm-bottom="auto"
-						sm-top="0px"
+						md-right="auto"
+						lg-bottom="auto"
+						lg-left="auto"
+						md-bottom="auto"
+						md-left="auto"
 					/>
 					{"    "}
 				</StackItem>
@@ -153,51 +208,8 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
-					{"        "}
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						<Strong>
-							File operations
-						</Strong>
-						{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop track all file operations with the ability to get a report based on a particular file operation type performed in a particular application. For example, we can gert a list of all files that were opened in MS Word or all files created in Notepad. This can be useful in case we have to monitor any sensitive data that is processed in a specific application.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/62.png?v=2021-02-01T11:27:44.894Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -218,98 +230,51 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							{"\n"}
-							<Strong>
-								Files sent/received by e-mail or messengers
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong>
+									Get information on external devices that were connected or disconnected
+								</Strong>
+								<br />
+								{"\n\n"}
 							</Strong>
 							{"\n\n"}
 						</Strong>
-						{"\n\n"}
+						{"\n\n\n\n"}
 					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							With StaffCop you can get the list of files sent/received in instant messengers or by e-mail. Files can be downloaded for further investigation.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/64.png?v=2021-02-01T11:34:46.529Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/63.png?v=2021-02-01T11:35:18.854Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
-				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
-					{"        "}
 					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
 						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
+						color="#555"
 						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
 						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						<Strong>
-							Files copied from/to USB drives
-						</Strong>
+						With StaffCop it's easy to get the list of all external drives that were connected or disconnected to a workstation. The list will have such information as device name, ID, name of the workstation and the account on which this operation was performed. The IDs of the devices can be then used to create a white or black list.
+						<br />
 						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							You can get reports on all the files that were coipied from/to USB devices. You can download the file for further ivestigation if it was shadow-copied. Moreover, you can shadow-copy ALL the files on a connected USB drive, if this option is enabled.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/112.png?v=2021-02-01T11:46:51.859Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" />
-					{"            "}
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/111.png?v=2021-02-03T09:10:39.466Z" />
+					{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -330,47 +295,63 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							{"\n"}
-							<Strong>
-								Documents sent to print
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									{"\n"}
+									<Strong>
+										Get information of files copied from/to USB drives
+									</Strong>
+									{"\n\n"}
+								</Strong>
+								<br />
+								{"\n\n"}
 							</Strong>
 							{"\n\n"}
 						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						You can get reports on all the files that were coipied from/to USB devices. You can download the file for further ivestigation if it was shadow-copied. Moreover, you can shadow-copy ALL the files on a connected USB drive, if this option is enabled.
+						<br />
 						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop will show you what documents were sent to print. The info includes the name of the printers, a preview of the file and the copy of file itself (in case shadow-copying option was enabled). You can download the file for further investigation.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/65.png?v=2021-02-01T11:59:44.703Z" max-width="100%" />
-					</Box>
-					{"            "}
-				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex" />
-					{"            "}
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/112.png?v=2021-02-03T09:14:10.339Z" />
+					{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>
-		</Section>
-		<Section background="#FFFFFF" padding="24px 0 24px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					{"        "}
 					<Text
 						font="normal 700 32px/140% --fontFamily-googleInter"
@@ -382,30 +363,285 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						<Strong>
-							OCR (Text recognition in PDF and images)
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										<Strong>
+											Block USB devices by IDs or classes
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
 						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						StaffCop provides flexible options for blocking USB devices on the basis of black and white lists. If you need to block particular devices, add their IDs to the "Block" list. All the other devices can be accessed. If you need to use only particular USB devices, add their IDs to the "Allow" list. ALL other devices will be blocked. The same principle can be applied for devices classes, for example, we can forbid usage of all external video/audio devices or to allow usage only of printers, keyboards and mouses.
+						<br />
 						{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							StaffCop has OCR module for extracting text from images and PDF documents. It has 2 options: embedded OCR (English, Russian and Kazakh languages) and usage of existing ABBYY accounts. The file types in which text is recognized can be specified.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"            "}
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/113.png?v=2021-02-03T09:19:14.953Z" />
+					{"    "}
 				</StackItem>
-				<StackItem display="flex" sm-width="100%" md-width="100%">
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box display="flex">
-						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/66.png?v=2021-02-01T12:09:02.005Z" max-width="100%" />
-					</Box>
-					{"            "}
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												Read-only mode for USB devices
+											</Strong>
+											{"\n\n"}
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						Besides full blocking of USB devices, you can allow usage them in the Read-only mode. In this case, users will be able to open files on USB drives, but will not be able to change anything there or write any information.
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/114.png?v=2021-02-03T09:21:27.432Z" />
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+				{"    "}
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							<Strong
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								<Strong
+									data-q-widget-type="PRIMITIVE"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
+									<Strong
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										<Strong
+											data-q-widget-type="PRIMITIVE"
+											overflow-wrap="normal"
+											word-break="normal"
+											white-space="normal"
+											text-indent="0"
+											text-overflow="clip"
+											hyphens="manual"
+										>
+											<Strong
+												data-q-widget-type="PRIMITIVE"
+												overflow-wrap="normal"
+												word-break="normal"
+												white-space="normal"
+												text-indent="0"
+												text-overflow="clip"
+												hyphens="manual"
+											>
+												{"\n"}
+												<Strong>
+													Block CD-drives
+												</Strong>
+												{"\n\n"}
+											</Strong>
+											{"\n\n"}
+										</Strong>
+									</Strong>
+								</Strong>
+								<br />
+								{"\n\n"}
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						{"\n\n\n\n"}
+					</Text>
+					<Text
+						font="400 18px/160% --fontFamily-googleInter"
+						margin="30px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						letter-spacing="-1%"
+						sm-text-align="center"
+					>
+						StaffCop can block usage of all CD-drives
+						<br />
+						{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="80%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/115.png?v=2021-02-03T09:23:39.033Z" width="448px" />
+					{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>
