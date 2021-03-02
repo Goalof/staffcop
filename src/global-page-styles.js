@@ -57,9 +57,9 @@ const pageStyles = {
     "features/webcam-snapshots": {},
     "features/usb-device-control": {},
     "features/dlp-features": {},
-    "features/citrix-session-recording1111": {},
-    "features/citrix-session-recording11111": {},
-    "features/citrix-session-recording111111": {},
+    "features/voice-communication-recording": {},
+    "features/file-scanner": {},
+    "features/software-and-hardware-inventory": {},
     "demo-request": {}
 };
 

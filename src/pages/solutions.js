@@ -56,60 +56,6 @@ export default (() => {
 					/>
 					{"        "}
 					<Link
-						href="/features/app-usageapplication-monitoring/"
-						width="100%"
-						height="100%"
-						text-decoration-line="initial"
-						display="flex"
-					>
-						<Box
-							border-radius="6px"
-							padding="27px 37px 42px 37px"
-							border-width="1px"
-							border-style="solid"
-							background="#FFFFFF"
-							transition=" -webkit-transition: all .6s;  transition: all .6s"
-							hover-transform="translateY(-10px)"
-							md-display="flex"
-							md-flex-direction="column"
-							sm-padding="15px 20px 25px 20px"
-							border-color="rgba(255, 255, 255, 0.05)"
-							box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-							display="flex"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-						>
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/eyes.svg?v=2020-10-27T01:34:33.060Z" margin="20px 0px 30px 0px" />
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 12px 0px"
-								display="inline-block"
-								color="--primary"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								App usage/application monitoring
-							</Text>
-						</Box>
-						{"    "}
-					</Link>
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Link
 						href="/remote-employee-monitoring/"
 						width="100%"
 						height="100%"
@@ -198,61 +144,6 @@ export default (() => {
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
 								Insider threat detection{"\n\n"}
-							</Text>
-						</Box>
-						{"    "}
-					</Link>
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Link
-						href="/features/employee-monitoring-software/"
-						width="100%"
-						height="100%"
-						text-decoration-line="initial"
-						display="flex"
-					>
-						<Box
-							border-radius="6px"
-							padding="27px 37px 42px 37px"
-							border-width="1px"
-							border-style="solid"
-							background="#FFFFFF"
-							transition=" -webkit-transition: all .6s;  transition: all .6s"
-							hover-transform="translateY(-10px)"
-							md-display="flex"
-							md-flex-direction="column"
-							sm-padding="15px 20px 25px 20px"
-							border-color="rgba(255, 255, 255, 0.05)"
-							box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-							display="flex"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-							width="100%"
-						>
-							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Lock.4%201%20(1).svg?v=2020-10-28T19:39:04.939Z" margin="0px 0px 20px 0px" />
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 12px 0px"
-								display="inline-block"
-								color="--primary"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								Employee monitoring software{"\n\n\n\n"}
 							</Text>
 						</Box>
 						{"    "}

@@ -564,7 +564,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Restrict privileged users access to cardholder/transaction servers and databases.Monitor third party vendors, contractors and consultants who have access to your critical systems to prevent sabotage or data theft.
+							Restrict privileged users access to cardholder/transaction servers and databases. Monitor third party vendors, contractors and consultants who have access to your critical systems to prevent sabotage or data theft.
 							<br />
 							<br />
 							<br />
@@ -719,7 +719,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Integrate Teramind with Intrusion Detection/Prevention Systems (IDS/ IPS), Access Control, Threat Analytics and SIEM systems. Create a cyber security perimeter across your stores, supply chain network and corporate offices. Share threat intelligence and coordinate response with analysts, CSO, MSSP and security teams.
+							Integrate StaffCop with Intrusion Detection/Prevention Systems (IDS/ IPS), Access Control, Threat Analytics and SIEM systems. Create a cyber security perimeter across your stores, supply chain network and corporate offices. Share threat intelligence and coordinate response with analysts, CSO, MSSP and security teams.
 							<br />
 							{"\n\n"}
 						</Text>

@@ -534,17 +534,17 @@ export default {
 		},
 		"601a81bb179f5c00220681e2": {
 			"id": "601a81bb179f5c00220681e2",
-			"pageUrl": "citrix-session-recording1111",
+			"pageUrl": "voice-communication-recording",
 			"name": "Voice communication recording"
 		},
 		"601a88688e7be4001e978019": {
 			"id": "601a88688e7be4001e978019",
-			"pageUrl": "citrix-session-recording11111",
+			"pageUrl": "file-scanner",
 			"name": "File Scanner"
 		},
 		"601a90d4372cb7001f0e11c6": {
 			"id": "601a90d4372cb7001f0e11c6",
-			"pageUrl": "citrix-session-recording111111",
+			"pageUrl": "software-and-hardware-inventory",
 			"name": "Software and Hardware Inventory"
 		},
 		"6036b25b7defbd001eed4e08": {

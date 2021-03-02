@@ -1457,9 +1457,6 @@ export default (() => {
 					</StackItem>
 					{"    "}
 				</Stack>
-			</Section>
-			<Section padding="24px 0 124px 0" sm-padding="24px 0 50px 0">
-				<Override slot="SectionContent" max-width="1200px" />
 				<Stack margin="0px 0px 0px 0px">
 					{"    "}
 					<StackItem
@@ -1861,7 +1858,7 @@ export default (() => {
 						/>
 						{"        "}
 						<Link
-							href="optical-character-recognition-ocr"
+							href="voice-communication-recording"
 							width="100%"
 							height="100%"
 							text-decoration-line="initial"
@@ -1894,7 +1891,7 @@ export default (() => {
 									color="--primary"
 									sm-font="normal 600 20px/140% Inter, sans-serif"
 								>
-									Optical character recognition
+									Voice communication recording
 								</Text>
 								<Text
 									font="--lead"
@@ -1903,7 +1900,7 @@ export default (() => {
 									color="rgba(85, 85, 85, 1)"
 									sm-font="normal 400 16px/140% Inter, sans-serif"
 								>
-									Search with simple text, keyword, wildcard or RegEx to find the exact information you need.
+									Record sound from speakers and microphones
 								</Text>
 							</Box>
 							{"    "}
@@ -1925,7 +1922,7 @@ export default (() => {
 						/>
 						{"        "}
 						<Link
-							href="smart-rules-and-alerts"
+							href="file-scanner"
 							width="100%"
 							height="100%"
 							text-decoration-line="initial"
@@ -1958,7 +1955,7 @@ export default (() => {
 									color="--primary"
 									sm-font="normal 600 20px/140% Inter, sans-serif"
 								>
-									Smart rules & alerts
+									File scanner
 								</Text>
 								<Text
 									font="--lead"
@@ -1967,7 +1964,7 @@ export default (() => {
 									color="rgba(85, 85, 85, 1)"
 									sm-font="normal 400 16px/140% Inter, sans-serif"
 								>
-									Configure an alert on any user behavior, including web, email, keystrokes, file transfers, instant messaging, and more
+									Scan file system on the monitored PCs to get it in the tree form
 								</Text>
 							</Box>
 							{"    "}
@@ -1989,7 +1986,7 @@ export default (() => {
 						/>
 						{"        "}
 						<Link
-							href="employee-productivity-tracking"
+							href="software-and-hardware-inventory"
 							width="100%"
 							height="100%"
 							text-decoration-line="initial"
@@ -2022,7 +2019,7 @@ export default (() => {
 									color="--primary"
 									sm-font="normal 600 20px/140% Inter, sans-serif"
 								>
-									Employee productivity tracking
+									Software and Hardware inventory
 								</Text>
 								<Text
 									font="--lead"
@@ -2031,199 +2028,7 @@ export default (() => {
 									color="rgba(85, 85, 85, 1)"
 									sm-font="normal 400 16px/140% Inter, sans-serif"
 								>
-									Employee Monitoring Software with Powerful Insider Threat Detection and Productivity Analysis Features
-								</Text>
-							</Box>
-							{"    "}
-						</Link>
-					</StackItem>
-					<StackItem
-						width="33.3333%"
-						display="flex"
-						lg-width="50%"
-						md-width="100%"
-						nout-width="50%"
-					>
-						<Override
-							slot="StackItemContent"
-							border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-						/>
-						{"        "}
-						<Link
-							href="network-monitoring"
-							width="100%"
-							height="100%"
-							text-decoration-line="initial"
-							display="flex"
-						>
-							<Box
-								border-radius="6px"
-								padding="27px 37px 42px 37px"
-								border-width="1px"
-								border-style="solid"
-								background="#FFFFFF"
-								transition=" -webkit-transition: all .6s;  transition: all .6s"
-								hover-transform="translateY(-10px)"
-								md-display="flex"
-								md-flex-direction="column"
-								sm-padding="15px 20px 25px 20px"
-								border-color="rgba(255, 255, 255, 0.05)"
-								box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-								display="flex"
-								flex-direction="column"
-								align-items="flex-start"
-								justify-content="flex-start"
-								md-width="100%"
-							>
-								<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/notebook-laptop-circle%201%20(1).svg?v=2020-11-14T12:10:38.775Z" margin="0px 0px 20px 0px" />
-								<Text
-									font="normal 700 24px/140% --fontFamily-googleInter"
-									margin="0px 0px 12px 0px"
-									display="inline-block"
-									color="--primary"
-									sm-font="normal 600 20px/140% Inter, sans-serif"
-								>
-									Network activity monitoring
-								</Text>
-								<Text
-									font="--lead"
-									margin="0px 0px 0px 0px"
-									display="inline-block"
-									color="rgba(85, 85, 85, 1)"
-									sm-font="normal 400 16px/140% Inter, sans-serif"
-								>
-									Monitor all network activity and view all connected computers, destinatio IP address, etc
-								</Text>
-							</Box>
-							{"    "}
-						</Link>
-					</StackItem>
-					<StackItem
-						width="33.3333%"
-						display="flex"
-						lg-width="50%"
-						md-width="100%"
-						nout-width="50%"
-					>
-						<Override
-							slot="StackItemContent"
-							border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-						/>
-						{"        "}
-						<Link
-							href="application-usage-monitoring"
-							width="100%"
-							height="100%"
-							text-decoration-line="initial"
-							display="flex"
-						>
-							<Box
-								border-radius="6px"
-								padding="27px 37px 42px 37px"
-								border-width="1px"
-								border-style="solid"
-								background="#FFFFFF"
-								transition=" -webkit-transition: all .6s;  transition: all .6s"
-								hover-transform="translateY(-10px)"
-								md-display="flex"
-								md-flex-direction="column"
-								sm-padding="15px 20px 25px 20px"
-								border-color="rgba(255, 255, 255, 0.05)"
-								box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-								display="flex"
-								flex-direction="column"
-								align-items="flex-start"
-								justify-content="flex-start"
-								md-width="100%"
-							>
-								<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/cursor-click-select-circle%202.svg?v=2020-11-14T12:10:38.785Z" margin="0px 0px 20px 0px" />
-								<Text
-									font="normal 700 24px/140% --fontFamily-googleInter"
-									margin="0px 0px 12px 0px"
-									display="inline-block"
-									color="--primary"
-									sm-font="normal 600 20px/140% Inter, sans-serif"
-								>
-									Applications usage monitoring
-								</Text>
-								<Text
-									font="--lead"
-									margin="0px 0px 0px 0px"
-									display="inline-block"
-									color="rgba(85, 85, 85, 1)"
-									sm-font="normal 400 16px/140% Inter, sans-serif"
-								>
-									Track time of applications usage, block apps by white and black lists
-								</Text>
-							</Box>
-							{"    "}
-						</Link>
-					</StackItem>
-					<StackItem
-						width="33.3333%"
-						display="flex"
-						lg-width="50%"
-						md-width="100%"
-						nout-width="50%"
-					>
-						<Override
-							slot="StackItemContent"
-							border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-						/>
-						{"        "}
-						<Link
-							href="instant-message-monitoring"
-							width="100%"
-							height="100%"
-							text-decoration-line="initial"
-							display="flex"
-						>
-							<Box
-								border-radius="6px"
-								padding="27px 37px 42px 37px"
-								border-width="1px"
-								border-style="solid"
-								background="#FFFFFF"
-								transition=" -webkit-transition: all .6s;  transition: all .6s"
-								hover-transform="translateY(-10px)"
-								md-display="flex"
-								md-flex-direction="column"
-								sm-padding="15px 20px 25px 20px"
-								border-color="rgba(255, 255, 255, 0.05)"
-								box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-								display="flex"
-								flex-direction="column"
-								align-items="flex-start"
-								justify-content="flex-start"
-								md-width="100%"
-							>
-								<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/user-circle%201.svg?v=2020-11-14T12:10:38.776Z" margin="0px 0px 20px 0px" />
-								<Text
-									font="normal 700 24px/140% --fontFamily-googleInter"
-									margin="0px 0px 12px 0px"
-									display="inline-block"
-									color="--primary"
-									sm-font="normal 600 20px/140% Inter, sans-serif"
-								>
-									Instant message monitoring
-								</Text>
-								<Text
-									font="--lead"
-									margin="0px 0px 0px 0px"
-									display="inline-block"
-									color="rgba(85, 85, 85, 1)"
-									sm-font="normal 400 16px/140% Inter, sans-serif"
-								>
-									Monitor and react to any chat conversation, whether on a web or application-based platform.
+									What applications and devices are installed/uninstalled
 								</Text>
 							</Box>
 							{"    "}
@@ -2416,390 +2221,6 @@ export default (() => {
 									sm-font="normal 400 16px/140% Inter, sans-serif"
 								>
 									Real-time behavior anomaly and threat detection, privileged user monitoring, data loss prevention
-								</Text>
-							</Box>
-							{"    "}
-						</Link>
-					</StackItem>
-					<StackItem
-						width="33.3333%"
-						display="flex"
-						lg-width="50%"
-						md-width="100%"
-						nout-width="50%"
-					>
-						<Override
-							slot="StackItemContent"
-							border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-						/>
-						{"        "}
-						<Link
-							href="remote-desktop-control"
-							width="100%"
-							height="100%"
-							text-decoration-line="initial"
-							display="flex"
-						>
-							<Box
-								border-radius="6px"
-								padding="27px 37px 42px 37px"
-								border-width="1px"
-								border-style="solid"
-								background="#FFFFFF"
-								transition=" -webkit-transition: all .6s;  transition: all .6s"
-								hover-transform="translateY(-10px)"
-								md-display="flex"
-								md-flex-direction="column"
-								sm-padding="15px 20px 25px 20px"
-								border-color="rgba(255, 255, 255, 0.05)"
-								box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-								display="flex"
-								flex-direction="column"
-								align-items="flex-start"
-								justify-content="flex-start"
-								md-width="100%"
-							>
-								<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/wifi-network-signal%201.svg?v=2020-11-14T12:10:38.775Z" margin="0px 0px 20px 0px" />
-								<Text
-									font="normal 700 24px/140% --fontFamily-googleInter"
-									margin="0px 0px 12px 0px"
-									display="inline-block"
-									color="--primary"
-									sm-font="normal 600 20px/140% Inter, sans-serif"
-								>
-									Remote Desktop Control
-								</Text>
-								<Text
-									font="--lead"
-									margin="0px 0px 0px 0px"
-									display="inline-block"
-									color="rgba(85, 85, 85, 1)"
-									sm-font="normal 400 16px/140% Inter, sans-serif"
-								>
-									Take control over remote mouse and keaboard
-								</Text>
-							</Box>
-							{"    "}
-						</Link>
-					</StackItem>
-					<StackItem
-						width="33.3333%"
-						display="flex"
-						lg-width="50%"
-						md-width="100%"
-						nout-width="50%"
-					>
-						<Override
-							slot="StackItemContent"
-							border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-						/>
-						{"        "}
-						<Link
-							href="linux-terminal-capture"
-							width="100%"
-							height="100%"
-							text-decoration-line="initial"
-							display="flex"
-						>
-							<Box
-								border-radius="6px"
-								padding="27px 37px 42px 37px"
-								border-width="1px"
-								border-style="solid"
-								background="#FFFFFF"
-								transition=" -webkit-transition: all .6s;  transition: all .6s"
-								hover-transform="translateY(-10px)"
-								md-display="flex"
-								md-flex-direction="column"
-								sm-padding="15px 20px 25px 20px"
-								border-color="rgba(255, 255, 255, 0.05)"
-								box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-								display="flex"
-								flex-direction="column"
-								align-items="flex-start"
-								justify-content="flex-start"
-								md-width="100%"
-							>
-								<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/star-favorite-circle.1%201.svg?v=2020-11-14T12:10:38.774Z" margin="0px 0px 20px 0px" />
-								<Text
-									font="normal 700 24px/140% --fontFamily-googleInter"
-									margin="0px 0px 12px 0px"
-									display="inline-block"
-									color="--primary"
-									sm-font="normal 600 20px/140% Inter, sans-serif"
-								>
-									Linux terminal capture
-								</Text>
-								<Text
-									font="--lead"
-									margin="0px 0px 0px 0px"
-									display="inline-block"
-									color="rgba(85, 85, 85, 1)"
-									sm-font="normal 400 16px/140% Inter, sans-serif"
-								>
-									Privileged users have access to your core IT systems, network, applications and data.
-								</Text>
-							</Box>
-							{"    "}
-						</Link>
-					</StackItem>
-					<StackItem
-						width="33.3333%"
-						display="flex"
-						lg-width="50%"
-						md-width="100%"
-						nout-width="50%"
-					>
-						<Override
-							slot="StackItemContent"
-							border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-						/>
-						{"        "}
-						<Link
-							href="active-vs-idle-time-analysis"
-							width="100%"
-							height="100%"
-							text-decoration-line="initial"
-							display="flex"
-						>
-							<Box
-								border-radius="6px"
-								padding="27px 37px 42px 37px"
-								border-width="1px"
-								border-style="solid"
-								background="#FFFFFF"
-								transition=" -webkit-transition: all .6s;  transition: all .6s"
-								hover-transform="translateY(-10px)"
-								md-display="flex"
-								md-flex-direction="column"
-								sm-padding="15px 20px 25px 20px"
-								border-color="rgba(255, 255, 255, 0.05)"
-								box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-								display="flex"
-								flex-direction="column"
-								align-items="flex-start"
-								justify-content="flex-start"
-								md-width="100%"
-							>
-								<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/search.1%202.svg?v=2020-11-14T12:10:38.775Z" margin="0px 0px 20px 0px" />
-								<Text
-									font="normal 700 24px/140% --fontFamily-googleInter"
-									margin="0px 0px 12px 0px"
-									display="inline-block"
-									color="--primary"
-									sm-font="normal 600 20px/140% Inter, sans-serif"
-								>
-									Activity vs. Idle Time analysis
-								</Text>
-								<Text
-									font="--lead"
-									margin="0px 0px 0px 0px"
-									display="inline-block"
-									color="rgba(85, 85, 85, 1)"
-									sm-font="normal 400 16px/140% Inter, sans-serif"
-								>
-									See top performers and top laggards in your company
-								</Text>
-							</Box>
-							{"    "}
-						</Link>
-					</StackItem>
-					<StackItem
-						width="33.3333%"
-						display="flex"
-						lg-width="50%"
-						md-width="100%"
-						nout-width="50%"
-					>
-						<Override
-							slot="StackItemContent"
-							border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-						/>
-						{"        "}
-						<Link
-							href="nonproductive-activity-reporting"
-							width="100%"
-							height="100%"
-							text-decoration-line="initial"
-							display="flex"
-						>
-							<Box
-								border-radius="6px"
-								padding="27px 37px 42px 37px"
-								border-width="1px"
-								border-style="solid"
-								background="#FFFFFF"
-								transition=" -webkit-transition: all .6s;  transition: all .6s"
-								hover-transform="translateY(-10px)"
-								md-display="flex"
-								md-flex-direction="column"
-								sm-padding="15px 20px 25px 20px"
-								border-color="rgba(255, 255, 255, 0.05)"
-								box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-								display="flex"
-								flex-direction="column"
-								align-items="flex-start"
-								justify-content="flex-start"
-								md-width="100%"
-							>
-								<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/power-turn-on%201.svg?v=2020-11-14T12:10:38.771Z" margin="0px 0px 20px 0px" />
-								<Text
-									font="normal 700 24px/140% --fontFamily-googleInter"
-									margin="0px 0px 12px 0px"
-									display="inline-block"
-									color="--primary"
-									sm-font="normal 600 20px/140% Inter, sans-serif"
-								>
-									Nonproductive activity reporting
-								</Text>
-								<Text
-									font="--lead"
-									margin="0px 0px 0px 0px"
-									display="inline-block"
-									color="rgba(85, 85, 85, 1)"
-									sm-font="normal 400 16px/140% Inter, sans-serif"
-								>
-									Customized lists of websites, activities, applications that fit into both productive and nonproductive categories.
-								</Text>
-							</Box>
-							{"    "}
-						</Link>
-					</StackItem>
-					<StackItem
-						width="33.3333%"
-						display="flex"
-						lg-width="50%"
-						md-width="100%"
-						nout-width="50%"
-					>
-						<Override
-							slot="StackItemContent"
-							border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-						/>
-						{"        "}
-						<Link
-							href="custom-reports"
-							width="100%"
-							height="100%"
-							text-decoration-line="initial"
-							display="flex"
-						>
-							<Box
-								border-radius="6px"
-								padding="27px 37px 42px 37px"
-								border-width="1px"
-								border-style="solid"
-								background="#FFFFFF"
-								transition=" -webkit-transition: all .6s;  transition: all .6s"
-								hover-transform="translateY(-10px)"
-								md-display="flex"
-								md-flex-direction="column"
-								sm-padding="15px 20px 25px 20px"
-								border-color="rgba(255, 255, 255, 0.05)"
-								box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-								display="flex"
-								flex-direction="column"
-								align-items="flex-start"
-								justify-content="flex-start"
-								md-width="100%"
-							>
-								<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/setting-circle.4%201.svg?v=2020-11-14T12:10:38.773Z" margin="0px 0px 20px 0px" />
-								<Text
-									font="normal 700 24px/140% --fontFamily-googleInter"
-									margin="0px 0px 12px 0px"
-									display="inline-block"
-									color="--primary"
-									sm-font="normal 600 20px/140% Inter, sans-serif"
-								>
-									Custom reports
-								</Text>
-								<Text
-									font="--lead"
-									margin="0px 0px 0px 0px"
-									display="inline-block"
-									color="rgba(85, 85, 85, 1)"
-									sm-font="normal 400 16px/140% Inter, sans-serif"
-								>
-									Create your own reports with the help of report Constructor
-								</Text>
-							</Box>
-							{"    "}
-						</Link>
-					</StackItem>
-					<StackItem
-						width="33.3333%"
-						display="flex"
-						lg-width="50%"
-						md-width="100%"
-						nout-width="50%"
-					>
-						<Override
-							slot="StackItemContent"
-							border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-							flex-direction="column"
-							align-items="flex-start"
-							justify-content="flex-start"
-						/>
-						{"        "}
-						<Link
-							href="session-recording-and-metadata"
-							width="100%"
-							height="100%"
-							text-decoration-line="initial"
-							display="flex"
-						>
-							<Box
-								border-radius="6px"
-								padding="27px 37px 42px 37px"
-								border-width="1px"
-								border-style="solid"
-								background="#FFFFFF"
-								transition=" -webkit-transition: all .6s;  transition: all .6s"
-								hover-transform="translateY(-10px)"
-								md-display="flex"
-								md-flex-direction="column"
-								sm-padding="15px 20px 25px 20px"
-								border-color="rgba(255, 255, 255, 0.05)"
-								box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-								display="flex"
-								flex-direction="column"
-								align-items="flex-start"
-								justify-content="flex-start"
-								md-width="100%"
-							>
-								<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/eye-circle%201.svg?v=2020-11-14T12:10:38.771Z" margin="0px 0px 20px 0px" />
-								<Text
-									font="normal 700 24px/140% --fontFamily-googleInter"
-									margin="0px 0px 12px 0px"
-									display="inline-block"
-									color="--primary"
-									sm-font="normal 600 20px/140% Inter, sans-serif"
-								>
-									Session recording & metadata
-								</Text>
-								<Text
-									font="--lead"
-									margin="0px 0px 0px 0px"
-									display="inline-block"
-									color="rgba(85, 85, 85, 1)"
-									sm-font="normal 400 16px/140% Inter, sans-serif"
-								>
-									In addition to recording desktops as a video stream, Teramind records and indexes applications used, websites visited, file activity, keystrokes, e-mails, and more
 								</Text>
 							</Box>
 							{"    "}
