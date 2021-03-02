@@ -42,7 +42,7 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Insider Threat  Detection & Prevention{"\n\n"}
+						Insider Threat Detection & Prevention{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/160% --fontFamily-googleInter"
