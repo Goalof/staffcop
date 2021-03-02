@@ -148,49 +148,44 @@ const Item = ({
 	let subProps = override('Sub', `Sub-${pageUrl}`);
 	let onSubOpen, onSubClose, onSubToggleMobile, onSubToggleDesktop;
 	const os = getOS();
-	const isMobile = os === 'Android' || os === 'iOS';
-
-	if (hasSub) {
-		const [isOpen, setOpen] = useState({
-			open: false,
-			touch: false
-		});
-
-		onSubOpen = () => {
-			if (isMobile) return;
-			setOpen({
-				open: true,
-				touch: false
-			});
-		};
-
-		onSubClose = () => {
-			if (isMobile || isOpen.touch) return;
-			setOpen({
-				open: false,
-				touch: isOpen.touch
-			});
-		};
-
-		onSubToggleMobile = useCallback(() => {
-			if (!isMobile) return;
-			setOpen({
-				open: !isOpen.open,
-				touch: true
-			});
-		}, [isOpen]);
-		onSubToggleDesktop = useCallback(() => {
-			if (isMobile) return;
-			setOpen({
-				open: !isOpen.open,
-				touch: true
-			});
-		}, [isOpen]);
-		itemProps = override('Item', `Item-${pageUrl}`, match && 'Item :active', `Item ${isOpen.open ? ':open' : ':closed'}`);
-		linkProps = override('Link', `Link-${pageUrl}`, match && 'Link :active', `Link ${isOpen.open ? ':open' : ':closed'}`);
-		iconProps = override('Icon', `Icon-${pageUrl}`, match && 'Icon :active', `Icon ${isOpen.open ? ':open' : ':closed'}`);
-		subProps = override('Sub', `Sub-${pageUrl}`, `Sub ${collapse && ':collapse'}`, `Sub ${isOpen.open ? ':open' : ':closed'}`);
-	}
+	const isMobile = os === 'Android' || os === 'iOS'; // if (hasSub) {
+	// 	const [isOpen, setOpen] = useState({
+	// 		open: false,
+	// 		touch: false
+	// 	});
+	// 	onSubOpen = () => {
+	// 		if (isMobile) return;
+	// 		setOpen({
+	// 			open: true,
+	// 			touch: false
+	// 		});
+	// 	};
+	// 	onSubClose = () => {
+	// 		if (isMobile || isOpen.touch) return;
+	// 		setOpen({
+	// 			open: false,
+	// 			touch: isOpen.touch
+	// 		});
+	// 	};
+	// 	onSubToggleMobile = useCallback(() => {
+	// 		if (!isMobile) return;
+	// 		setOpen({
+	// 			open: !isOpen.open,
+	// 			touch: true
+	// 		});
+	// 	}, [isOpen]);
+	// 	onSubToggleDesktop = useCallback(() => {
+	// 		if (isMobile) return;
+	// 		setOpen({
+	// 			open: !isOpen.open,
+	// 			touch: true
+	// 		});
+	// 	}, [isOpen]);
+	// 	itemProps = override('Item', `Item-${pageUrl}`, match && 'Item :active', `Item ${isOpen.open ? ':open' : ':closed'}`);
+	// 	linkProps = override('Link', `Link-${pageUrl}`, match && 'Link :active', `Link ${isOpen.open ? ':open' : ':closed'}`);
+	// 	iconProps = override('Icon', `Icon-${pageUrl}`, match && 'Icon :active', `Icon ${isOpen.open ? ':open' : ':closed'}`);
+	// 	subProps = override('Sub', `Sub-${pageUrl}`, `Sub ${collapse && ':collapse'}`, `Sub ${isOpen.open ? ':open' : ':closed'}`);
+	// }
 
 	return <Li
 		margin="0px"

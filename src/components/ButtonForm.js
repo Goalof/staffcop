@@ -24,14 +24,13 @@ const ButtonForm = props => {
 	</Button>;
 };
 
-export const GAevent = (categoryName, eventName) => {
-	ReactGA.event({
-		category: preorder,
-		action: eventName,
-		label: 'labelName',
-		value: 10,
-		nonInteraction: false
-	});
+export const GAevent = (categoryName, eventName) => {// ReactGA.event({       
+	//     category: preorder,  
+	//     action: eventName,      
+	//     label: 'labelName',       
+	//     value: 10,       
+	//     nonInteraction: false     
+	// });   
 };
 Object.assign(ButtonForm, { ...Button,
 	defaultProps,

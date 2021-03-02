@@ -9,12 +9,12 @@ const EmbedJS = ({
 	children,
 	...props
 }) => {
-	const ref = useRef(null);
-	useLayoutEffect(() => {
-		const script = document.createElement("script");
-		script.innerHTML = customJs;
-		ref.current.appendChild(script);
-	}, []);
+	const ref = useRef(null); // useLayoutEffect(() => {
+	// 	const script = document.createElement("script");
+	// 	script.innerHTML = customJs;
+	// 	ref.current.appendChild(script);
+	// }, []);
+
 	return <div {...props} ref={ref} />;
 };
 
